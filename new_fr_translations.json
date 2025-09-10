@@ -1,0 +1,83 @@
+{
+  "maintenance_page": {
+    "hero": {
+        "back_to_home": "Retour à l'accueil",
+        "title_part1": "Guide d'",
+        "title_part2": "entretien",
+        "subtitle": "Préservez la beauté et la durabilité de votre sol époxy avec nos conseils d'experts"
+    },
+    "steps_section": {
+        "title_part1": "Les 3 étapes",
+        "title_part2": "essentielles"
+    },
+    "steps": {
+        "step1_title": "Nettoyage quotidien",
+        "step1_description": "Balayage et nettoyage à l'eau tiède avec un détergent doux",
+        "step1_detail1": "Balai microfibre recommandé",
+        "step1_detail2": "Eau tiède (30-40°C)",
+        "step1_detail3": "Détergent pH neutre",
+        "step1_detail4": "Séchage naturel",
+        "step2_title": "Protection préventive",
+        "step2_description": "Mesures pour préserver l'éclat et la durabilité de votre sol",
+        "step2_detail1": "Tapis d'entrée obligatoire",
+        "step2_detail2": "Patins sous les meubles",
+        "step2_detail3": "Éviter les objets tranchants",
+        "step2_detail4": "Contrôle régulier",
+        "step3_title": "Entretien approfondi",
+        "step3_description": "Nettoyage hebdomadaire pour maintenir l'aspect neuf",
+        "step3_detail1": "Serpillière bien essorée",
+        "step3_detail2": "Produits spécialisés époxy",
+        "step3_detail3": "Rinçage abondant",
+        "step3_detail4": "Lustrage si nécessaire"
+    },
+    "products_section": {
+        "title_part1": "Produits",
+        "title_part2": "recommandés et à éviter"
+    },
+    "products": {
+        "recommended_type": "Recommandés",
+        "recommended_item1": "Nettoyants au pH neutre",
+        "recommended_item2": "Vadrouilles en microfibre",
+        "recommended_item3": "Aspirateurs doux",
+        "recommended_item4": "Dégraissants spécifiques pour taches d'huile",
+        "recommended_item5": "Produits de polissage non-abrasifs",
+        "avoid_type": "À éviter",
+        "avoid_item1": "Nettoyants acides (vinaigre, citron)",
+        "avoid_item2": "Nettoyants à base de savon (laissent des résidus)",
+        "avoid_item3": "Brosses abrasives ou tampons à récurer",
+        "avoid_item4": "Nettoyants contenant de la cire",
+        "avoid_item5": "Produits chimiques agressifs (ammoniaque, eau de Javel non diluée)"
+    },
+    "schedule_section": {
+        "title_part1": "Calendrier d'",
+        "title_part2": "entretien suggéré"
+    },
+    "schedule_table": {
+        "header_action": "Action",
+        "header_frequency": "Fréquence",
+        "header_importance": "Importance"
+    },
+    "schedule": {
+        "action1": "Balayage/aspiration",
+        "frequency1": "Quotidien",
+        "importance1": "Essentiel",
+        "action2": "Nettoyage humide",
+        "frequency2": "Hebdomadaire",
+        "importance2": "Important",
+        "action3": "Nettoyage approfondi",
+        "frequency3": "Mensuel",
+        "importance3": "Recommandé",
+        "action4": "Inspection générale",
+        "frequency4": "Trimestriel",
+        "importance4": "Préventif",
+        "action5": "Rénovation légère",
+        "frequency5": "Annuel",
+        "importance5": "Optionnel"
+    },
+    "cta": {
+        "title": "Questions sur l'entretien ?",
+        "subtitle": "Nos experts vous accompagnent pour un entretien optimal",
+        "button": "Contactez-nous"
+    }
+  }
+}

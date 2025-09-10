@@ -1,0 +1,22 @@
+{
+  "header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "realizations": "Réalisations",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "resources": "Ressources",
+    "blog": "Blog",
+    "guides": "Guides",
+    "advice": "Conseils",
+    "maintenance": "Entretien",
+    "free_quote": "Devis gratuit",
+    "language": {
+      "fr": "FR",
+      "en": "EN",
+      "french": "Français",
+      "english": "English"
+    }
+  }
+}

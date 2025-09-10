@@ -1,0 +1,1532 @@
+{
+    "translation": {
+      "header": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "realizations": "Achievements",
+        "faq": "FAQ",
+        "contact": "Contact",
+        "resources": "Resources",
+        "blog": "Blog",
+        "guides": "Guides",
+        "advice": "Advice",
+        "maintenance": "Maintenance",
+        "free_quote": "Free Quote",
+        "language": {
+          "fr": "FR",
+          "en": "EN",
+          "french": "French",
+          "english": "English"
+        }
+      },
+      "hero_section": {
+        "title": "The Excellence of Epoxy Coating",
+        "subtitle": "Exceptional floors for unique spaces",
+        "cta_button": "Request your free quote",
+        "image_alt": "Luxurious epoxy floor",
+        "title_part1": "Epoxy Resin Flooring",
+        "title_part2": "absolute",
+        "description_line1": "Strength. Elegance. Prestige.",
+        "description_line2": "The pinnacle of custom flooring in Quebec",
+        "cta_button_1": "Free Quote",
+        "cta_button_2": "Our Achievements",
+        "scroll_indicator": "DISCOVER",
+        "dynamic_words": {
+          "elegance": "Elegance",
+          "durability": "Durability",
+          "prestige": "Prestige",
+          "innovation": "Innovation"
+        }
+      },
+      "about_section": {
+        "image_alt_1": "Rough floor before epoxy",
+        "image_alt_2": "Artisan applying epoxy",
+        "title_main": "Not just a floor. A masterpiece.",
+        "text_block_1": "At Prestige Epoxy, we push the boundaries of aesthetics and durability. Each project is a tailor-made creation that enhances your spaces, whether residential or commercial.",
+        "text_block_2": "Our mission: to transform raw concrete into an an elegant, resistant, and timeless surface.",
+        "title": "About Prestige Epoxy",
+        "text_block_3": "Our reputation is built on attention to detail, the rigor of our work, and our commitment to excellence. We use only premium materials and the most advanced techniques to guarantee impeccable results and total satisfaction. Trust Prestige Epoxy to enhance your floors and create inspiring environments."
+      },
+      "why_epoxy_section": {
+        "title": "More Than Just a Floor – A Premium Experience",
+        "item_1_title": "Unrivaled Durability",
+        "item_1_description": "Resistance to impacts, abrasion, and chemicals.",
+        "item_2_title": "Customizable Aesthetics",
+        "item_2_description": "Wide range of colors, finishes, and effects for a unique design.",
+        "item_3_title": "Easy Maintenance",
+        "item_3_description": "Smooth, non-porous surface, easy to clean and hygienic.",
+        "item_4_title": "Quick Installation",
+        "item_4_description": "Minimizes interruptions, quick drying for fast use."
+      },
+
+      "services_section": {
+        "title": "Our Services",
+        "residential": {
+          "title": "PREMIUM RESIDENTIAL",
+          "subtitle": "Premium residential solutions",
+          "description": "Custom finishes, elegance and durability for homes and condos.",
+          "cta": "Discover our achievements"
+        },
+        "commercial": {
+          "title": "COMMERCIAL & SHOWROOMS",
+          "subtitle": "Commercial excellence",
+          "description": "Contemporary coatings, easy maintenance, superior durability for businesses.",
+          "cta": "Discover our achievements"
+        },
+        "industrial_title": "Industrial",
+        "industrial_description": "Robust and secure solutions for demanding environments."
+      },
+
+      "finitions_section": {
+        "title": "Our Premium Finishes",
+        "epoxy_metalique_title": "Metallic Epoxy",
+        "epoxy_metalique_description": "Unique reflections for a sophisticated floor.",
+        "crack_filler_title": "Crack Filler",
+        "crack_filler_description": "Perfect preparation for a flawless surface.",
+        "primer_title": "Epoxy Primer",
+        "primer_description": "Optimal adhesion and durability.",
+        "image_load_error": "Failed to load image: {{path}}",
+        "scroll_debug_message": "--- Scroll Debug ---",
+        "scroll_debug_scrollY": "Scroll Y:",
+        "scroll_debug_sectionOffsetTop": "Section Offset Top:",
+        "scroll_debug_stickyElementHeight": "Sticky Element Height:",
+        "scroll_debug_animationWrapperHeight": "Animation Wrapper Height:",
+        "scroll_debug_startPinningScroll": "Start Pinning Scroll:",
+        "scroll_debug_endPinningScroll": "End Pinning Scroll:",
+        "scroll_debug_scrollProgress": "Scroll Progress:",
+        "scroll_debug_currentFrame": "Current Frame:",
+        "main_title": "Custom floors, exceptional finishes",
+        "process_title": "A rigorous process, a perfect result",
+        "process_subtitle": "Discover how we transform your floor, step by step, for an impeccable and durable result.",
+        "steps": {
+          "step1_title": "1. Concrete Preparation",
+          "step1_description": "Meticulous sanding and crack repair for a flawless surface.",
+          "step2_title": "2. High-Performance Primer",
+          "step2_description": "Application of a base coat for maximum adhesion and durability.",
+          "step3_title": "3. Decorative Layer",
+          "step3_description": "Epoxy resin application to create the desired aesthetic (metallic, marbled, solid).",
+          "step4_title": "4. Ultra-Resistant Top Coat",
+          "step4_description": "Application of a protective finishing coat for exceptional longevity and shine."
+        },
+        "animation_alt_text": "Custom floors",
+        "loading_animations": "Loading animations..."
+      },
+
+      "testimonials_section": {
+        "title_part1": "Client",
+        "title_part2": "Testimonials",
+        "subtitle": "Excellence recognized by our clients",
+        "image_alt": "Project {{company}}",
+        "testimonial_1": {
+          "quote": "Our commercial space on the Plateau was transformed by their resin coating, combining ease of maintenance with unparalleled elegance. An obvious choice for an exceptional floor, carried out with remarkable professionalism and attention to detail.",
+          "company": "360LAB",
+          "author": "Alex Moreau",
+          "position": "Interior Designer, Montreal"
+        },
+        "testimonial_2": {
+          "quote": "The epoxy resin installation in our Laval dealership exceeded all our expectations. The metallic finish perfectly reflects our prestige vehicles and impresses every client upon entry. An investment that enhances our brand image.",
+          "company": "PRESTIGE AUTO",
+          "author": "Marie Dubois",
+          "position": "General Manager, Laval"
+        },
+        "testimonial_3": {
+          "quote": "For our restaurant in Old Montreal, we needed a floor that was both hygienic and aesthetic. Epoxy resin perfectly meets these requirements with exceptional ease of maintenance and a sumptuous visual rendering that enhances our decor.",
+          "company": "LE GOURMET",
+          "author": "Jean-Pierre Tremblay",
+          "position": "Owner-Chef, Old Montreal"
+        },
+        "testimonial_4": {
+          "quote": "In our pharmaceutical laboratory in Ville Saint-Laurent, safety and hygiene are paramount. The installed epoxy coating offers a perfectly smooth, non-porous, and chemical-resistant surface. A remarkable technical and aesthetic solution.",
+          "company": "BIOTECH LAB",
+          "author": "Dr. Sarah Chen",
+          "position": "Scientific Director, VSL"
+        },
+        "testimonial_5": {
+          "quote": "The transformation of our residential garage in Brossard into a modern living space thanks to epoxy resin was spectacular. The glossy finish visually enlarges the space and stain resistance allows us to use it without constraint, even in winter.",
+          "company": "MODERN VILLA",
+          "author": "Catherine Lavoie",
+          "position": "Owner, Brossard"
+        }
+      },
+
+      "floor_types_section": {
+        "title": "Epoxy Floor Types",
+        "concrete_title": "Epoxy Floor on Concrete",
+        "concrete_description": "Ideal for garages, basements, warehouses.",
+        "wood_title": "Epoxy Floor on Wood",
+        "wood_description": "Aesthetic solution for residential interiors.",
+        "residential": {
+          "title": "Residential",
+          "subtitle": "Elegance",
+          "description": "Custom finishes for homes and condos",
+          "features": {
+            "kitchen": "Modern Kitchen",
+            "living_room": "Contemporary Living Room",
+            "garage": "Heated Garage",
+            "bathroom": "Spa & Bathroom"
+          }
+        },
+        "commercial": {
+          "title": "Commercial",
+          "subtitle": "Excellence",
+          "description": "Durable solutions for businesses",
+          "features": {
+            "dealership": "Dealership",
+            "bar_restaurant": "Bar & Restaurant",
+            "corporate_office": "Corporate Office",
+            "boutique": "Boutique"
+          }
+        },
+        "industrial": {
+          "title": "Industrial",
+          "subtitle": "Nordic Robustness",
+          "description": "Maximum resistance for industry",
+          "features": {
+            "warehouse": "Warehouse",
+            "mechanical_garage": "Mechanical Garage",
+            "laboratory": "Laboratory",
+            "factory": "Factory"
+          }
+        },
+        "main_title": "Custom Solutions",
+        "main_subtitle": "Every project is unique, our solutions adapt to your needs",
+        "discover_achievements_button": "Discover our achievements",
+        "finishes_title": "A style for every vision of life",
+        "finishes_subtitle": "From minimalist refinement to spectacular effects, Prestige Epoxy offers a range of finishes adapted to your tastes:",
+        "finishes": {
+          "solid_colors": {
+            "title": "Solid Colors",
+            "description": "sobriety and elegance"
+          },
+          "metallic_effects": {
+            "title": "Metallic Effects",
+            "description": "depth and visual movement"
+          },
+          "marble_effects": {
+            "title": "Marbled Effects",
+            "description": "timeless luxury"
+          },
+          "spiral_checkerboard": {
+            "title": "Spirals and Checkerboard",
+            "description": "asserted originality"
+          },
+          "refined_raw_concrete": {
+            "title": "Refined Raw Concrete",
+            "description": "chic industrial style"
+          },
+          "gold_mother_of_pearl_dust": {
+            "title": "Gold and Mother of Pearl Dust",
+            "description": "glamorous touch"
+          },
+          "custom_logos_patterns": {
+            "title": "Custom Logos and Patterns",
+            "description": "a floor that reflects you"
+          },
+          "matte_finish": {
+            "title": "Matte Finish",
+            "description": "modern and discreet look"
+          },
+          "glossy_finish": {
+            "title": "Glossy Finish",
+            "description": "spectacular mirror effect"
+          }
+        }
+      },
+      "faq_section": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Find quick answers to your questions",
+        "breadcrumb": {
+          "home": "Home"
+        },
+        "navigation": {
+          "back": "Back"
+        },
+        "decision_tree": {
+          "start": {
+            "title": "What is your epoxy project?",
+            "subtitle": "Choose the sector that matches your needs",
+            "options": {
+              "residential": {
+                "title": "Residential",
+                "subtitle": "House, apartment, villa",
+                "description": "Solutions for individuals"
+              },
+              "commercial": {
+                "title": "Commercial",
+                "subtitle": "Shop, restaurant, office",
+                "description": "Professional spaces"
+              },
+              "industrial": {
+                "title": "Industrial",
+                "subtitle": "Factory, warehouse, laboratory",
+                "description": "Technical environments"
+              },
+              "general_questions": {
+                "title": "General questions",
+                "subtitle": "Costs, deadlines, compatibility",
+                "description": "Basic information"
+              }
+            }
+          },
+          "residential": {
+            "title": "Which room do you want to equip?",
+            "subtitle": "Select the residential space to transform",
+            "options": {
+              "garage": {
+                "title": "Garage",
+                "subtitle": "Multifunctional transformation",
+                "description": "Resistant, easy-to-maintain floor"
+              },
+              "kitchen": {
+                "title": "Kitchen",
+                "subtitle": "Hygiene and aesthetics",
+                "description": "Stain-resistant for food"
+              },
+              "living_room": {
+                "title": "Living Room/Lounge",
+                "subtitle": "Elegance and comfort",
+                "description": "High-end finishes"
+              },
+              "bathroom": {
+                "title": "Bathroom",
+                "subtitle": "Waterproofing and style",
+                "description": "Moisture resistance"
+              }
+            }
+          },
+          "commercial": {
+            "title": "What type of establishment?",
+            "subtitle": "Specify your commercial activity",
+            "options": {
+              "showroom": {
+                "title": "Showroom",
+                "subtitle": "Automobile, furniture, luxury",
+                "description": "Premium finishes, mirror effect"
+              },
+              "restaurant": {
+                "title": "Restaurant",
+                "subtitle": "Food hygiene",
+                "description": "HACCP standards, easy cleaning"
+              },
+              "office": {
+                "title": "Office",
+                "subtitle": "Professional environment",
+                "description": "Comfort, acoustics, durability"
+              },
+              "store": {
+                "title": "Shop/Store",
+                "subtitle": "Retail and commerce",
+                "description": "Heavy traffic, aesthetic"
+              }
+            }
+          },
+          "industrial": {
+            "title": "What industrial environment?",
+            "subtitle": "Define your technical constraints",
+            "options": {
+              "warehouse": {
+                "title": "Warehouse/Logistics",
+                "subtitle": "Heavy loads, intense traffic",
+                "description": "Forklifts, pallets"
+              },
+              "laboratory": {
+                "title": "Laboratory",
+                "subtitle": "Hygiene, chemical resistance",
+                "description": "Pharmaceutical/food standards"
+              },
+              "workshop": {
+                "title": "Workshop/Factory",
+                "subtitle": "Production, mechanics",
+                "description": "Impact, oil, solvent resistance"
+              }
+            }
+          },
+          "general_questions": {
+            "title": "Which aspect interests you?",
+            "subtitle": "General information about epoxy",
+            "options": {
+              "costs_deadlines": {
+                "title": "Costs and deadlines",
+                "subtitle": "Price, quote, planning",
+                "description": "Budget and project organization"
+              },
+              "floor_compatibility": {
+                "title": "Floor compatibility",
+                "subtitle": "On which surfaces?",
+                "description": "Concrete, tile, wood..."
+              },
+              "maintenance_cleaning": {
+                "title": "Maintenance and cleaning",
+                "subtitle": "Daily maintenance",
+                "description": "Products, frequency, methods"
+              },
+              "technical_properties": {
+                "title": "Technical properties",
+                "subtitle": "Resistance, durability",
+                "description": "Material characteristics"
+              }
+            }
+          }
+        },
+        "database": {
+          "residential_garage": {
+            "q1": "What type of garage floor can epoxy be applied to?",
+            "a1_p1": "Epoxy can be applied to several types of surfaces:",
+            "a1_li1": "Concrete (new or old)",
+            "a1_li2": "Ceramic",
+            "a1_li3": "Wood (hardwood, OSB, thick plywood)",
+            "a1_p2": "The essential condition: the floor must be structurally sound (not completely broken or disintegrated).",
+            "a1_p3": "Cracks and small defects can be repaired before installation.",
+            "a1_p4": "However, a floor affected by problems such as pyrite or severely damaged concrete must first be treated or replaced, otherwise the epoxy will not hold over time.",
+            "q2": "How to clean an epoxy garage floor daily?",
+            "a2_p1": "Maintenance is simple and quick:",
+            "a2_li1": "Sweep or vacuum regularly to remove dust and debris.",
+            "a2_li2": "Mop with a mild detergent, once or twice a week depending on use.",
+            "a2_li3": "For oil or grease stains: use an appropriate automotive degreaser, then rinse with clear water.",
+            "a2_p2": "Avoid: acidic products (vinegar, lemon) or abrasives, which could dull the finish.",
+            "q3": "Does epoxy resist hot tires and automotive products?",
+            "a3_p1": "Yes. A professional-grade epoxy floor, properly prepared and sealed with a high-performance top coat, resists:",
+            "a3_li1": "hot tires (up to approx. 80 °C, i.e. the heat of a vehicle after driving or braking)",
+            "a3_li2": "hydrocarbons, engine oils, brake fluids and antifreeze",
+            "a3_li3": "most common automotive products",
+            "a3_p2": "This resistance is validated by chemical performance tests (ASTM/ISO) and is exactly what makes epoxy ideal for garages.",
+            "q4": "How much does an epoxy garage floor cost?",
+            "a4_p1": "At Prestige Epoxy, the price is approximately $23 CAD per square foot for a standard garage.",
+            "a4_p2": "This price already includes:",
+            "a4_li1": "Concrete preparation (sanding, crack repairs)",
+            "a4_li2": "High-end materials",
+            "a4_li3": "Professional installation",
+            "a4_li4": "Metallic finishes (mirror effect included)",
+            "a4_p3": "Not included:",
+            "a4_li5": "Removal of old flooring (wood, ceramic, carpet, etc.)",
+            "a4_li6": "Heavy repairs to severely damaged concrete",
+            "a4_li7": "Specific custom designs (logos, checkerboard, special patterns)",
+            "a4_p4": "Each project is unique → we offer a free and detailed quote so you know exactly what is included in your installation.",
+            "q5": "Can the garage be used during the work?",
+            "a5_p1": "No. During the work, the garage must remain completely unusable.",
+            "a5_p2": "The duration depends on the necessary steps (crack repair, primer, metallic coat, top coat, drying).",
+            "a5_p3": "We always give you a personalized estimate before starting, and we plan the work according to your parking needs to minimize inconvenience.",
+            "q6": "What to do if the epoxy scratches or gets damaged?",
+            "a6_p1": "• Light scratches: these can often be reduced or polished with specialized products.",
+            "a6_p2": "• More significant damage: on a solid or light-colored floor, a localized repair can sometimes be made.",
+            "a6_p3": "However, on a metallic or special effects floor, an invisible repair is generally not possible. In this case, a larger touch-up may be necessary to maintain design uniformity.",
+            "a6_p4": "A warranty is offered, but its duration and conditions vary according to each project and are specified in the contract."
+          },
+          "residential_kitchen": {
+            "q1": "Is epoxy in the kitchen food-safe?",
+            "a1_p1": "Yes. Once fully cured, epoxy becomes inert, non-toxic, and emission-free, making it perfectly safe for both residential and commercial kitchens.",
+            "a1_p2": "Caution: this does not mean epoxy can be used as a direct cutting surface. For countertops, we always recommend using a cutting board.",
+            "a1_p3": "However, for a kitchen floor, epoxy is an ideal solution:",
+            "a1_li1": "Easy to clean and hygienic",
+            "a1_li2": "Resistant to stains and cleaning products",
+            "a1_li3": "Smooth surface that limits bacterial growth",
+            "q2": "How to clean an epoxy kitchen floor?",
+            "a2_p1": "Maintenance is simple and quick:",
+            "a2_li1": "Sweep or vacuum regularly to remove dust and debris.",
+            "a2_li2": "Mop with a damp cloth and a mild (pH-neutral) floor cleaner.",
+            "a2_li3": "For oil or grease stains: use an appropriate automotive degreaser, then rinse with clean water.",
+            "a2_p2": "Avoid: concentrated bleach, ammonia, abrasive powders, or pads that could damage the finish.<br />With these simple steps, the epoxy floor stays clean, hygienic, and shiny even in demanding kitchen environments.",
+            "q3": "Is epoxy resistant to kitchen grease and oil stains?",
+            "a3_p1": "Absolutely! Thanks to its non-porous surface, grease cannot penetrate. Clean immediately with a mild degreaser.",
+            "a3_p2": "Resistant to both vegetable and animal oils.",
+            "q4": "Can epoxy be applied over existing kitchen tiles?",
+            "a4_p1": "Yes, if the tiles are well-bonded and level. Special preparation: degreasing, light sanding, primer coat.",
+            "a4_p2": "Saves cost compared to full tile removal.",
+            "q5": "Does epoxy withstand dropping heavy objects (pots, etc.)?",
+            "a5_p1": "Yes. An epoxy floor withstands everyday moderate impacts well, such as dropping a pot or utensils.",
+            "a5_p2": "No problem for normal kitchen use.",
+            "a5_p3": "However, a very heavy or sharp object (tool, metal piece, industrial equipment) can cause a localized impact or chip. Repairs are possible, but the mark may remain slightly visible on certain decorative finishes (e.g., metallic).",
+            "q6": "Which finish to choose for a kitchen: glossy or matte?",
+            "a6_p1": "• Matte finish: ideal for busy kitchens. Better hides footprints, water drops, and dust. Easier daily maintenance.",
+            "a6_p2": "• Glossy finish: offers a spectacular, luxurious mirror effect, but requires more upkeep since marks and dirt are more visible.",
+            "a6_p3": "The choice depends on your priorities: practicality and discretion (matte) or prestigious and dazzling look (glossy)."
+            },
+            "residential_living_room": {
+            "q1": "Is epoxy in a living room cold underfoot?",
+            "a1_p1": "No! Epoxy has a temperature similar to tile but is compatible with underfloor heating. With heating: a soft warmth and even heat distribution.",
+            "q2": "How to maintain an epoxy living room floor daily?",
+            "a2_p1": "Daily: vacuum/sweep. Weekly: damp mop with neutral cleaner. Monthly: optional polishing to revive shine. Very low maintenance!",
+            "q3": "Does glossy epoxy show all marks?",
+            "a3_p1": "Yes, a glossy finish tends to show more footprints, dust, and water drops, especially in kitchens or high-traffic areas.",
+            "a3_p2": "This is not a flaw, but a characteristic of the mirror effect.",
+            "a3_p3": "Solution:",
+            "a3_li1": "Choose a matte finish if you want to reduce mark visibility and ease maintenance.",
+            "a3_li2": "If you choose glossy, simply clean more frequently to maintain its dazzling, luxurious effect.",
+            "q4": "Can rugs be placed on epoxy?",
+            "a4_p1": "Absolutely! Rugs, carpets, floating wood floors are compatible.",
+            "a4_p2": "Beware of rugs with rubber backing (risk of discoloration). Prefer textile backing.",
+            "q5": "Is epoxy noisy (heels, shoes)?",
+            "a5_p1": "An epoxy floor is a hard surface, so it produces noise similar to concrete or tile when walking with heels or hard shoes.",
+            "a5_p2": "It is not noisier than tile, but it also doesn’t absorb sound like wood or vinyl would.",
+            "a5_p3": "For better acoustic comfort (in condos, bedrooms, or high-end residential spaces), an acoustic underlayment can be installed before epoxy. This reduces impact noise.",
+            "q6": "How long before putting furniture back?",
+            "a6_p1": "Barefoot walking: 24h. Shoes: 48h. Light furniture: 72h. Heavy furniture: 7 days. Felt pads required under all furniture."
+            },
+            "residential_bathroom": {
+            "q1": "Is epoxy in a bathroom waterproof?",
+            "a1_p1": "Yes. An epoxy floor is perfectly waterproof once applied, making it ideal for bathrooms.",
+            "a1_p2": "Water does not penetrate and the surface remains uniform, without grout lines to soil like ceramic.",
+            "q2": "Is epoxy slippery when wet?",
+            "a2_p1": "An epoxy floor is no more slippery than tile when wet.",
+            "a2_p2": "For everyday use (kitchen, bathroom, garage), it remains safe without any additives.",
+            "a2_p3": "For clients seeking maximum safety, an anti-slip additive can be incorporated.",
+            "a2_p4": "Note: this option may slightly reduce epoxy’s mirror effect and shine.<br />The simplest, most elegant solution is often adding an absorbent bath mat outside the shower or tub.",
+            "q3": "How to clean bathroom epoxy?",
+            "a3_p1": "Daily: squeegee + microfiber. Weekly: non-acid bathroom cleaner. Monthly: mild descaler. Avoid abrasive products.",
+            "q4": "Does epoxy resist hygiene and cosmetic products?",
+            "a4_p1": "Yes! Resistant to shampoos, shower gels, perfumes, nail polish, hair dyes. Non-porous surface, easy to clean even for colored products.",
+            "q5": "Can decorative patterns be made in bathroom epoxy?",
+            "a5_p1": "Yes, absolutely! With Prestige Epoxy, you have access to more than 400 colors and a wide variety of decorative effects:",
+            "a5_li1": "Marble or pearlescent effects",
+            "a5_li2": "Metallic powders and glitter",
+            "a5_li3": "Color gradients",
+            "a5_li4": "Logos or custom designs embedded in the floor",
+            "a5_p2": "Each project is unique → we create a tailor-made look that transforms your bathroom into an elegant and exclusive space.",
+            "q6": "Does epoxy withstand steam and constant humidity?",
+            "a6_p1": "Perfectly! 100% resistant to humidity, steam, condensation. Unlike wood/laminate, no risk of swelling or warping."
+            },
+            "commercial_showroom": {
+            "q1": "Why choose metallic epoxy for an automotive showroom?",
+            "a1_p1": "Striking mirror effect that enhances vehicles, luxurious metallic reflections, easy cleaning, resistant to heavy customer traffic. Guaranteed visual impact!",
+            "q2": "Does epoxy withstand tires and vehicle maneuvers?",
+            "a2_p1": "Yes. A professional-grade epoxy floor withstands hot tires, maneuvers, braking, and acceleration very well.",
+            "a2_p2": "For optimal protection in garages and showrooms, we recommend adding a special nano-protection that increases resistance to scratches and tire marks.",
+            "a2_p3": "As with any high-end coating, it is best to avoid spinning tires in place (burnouts, dry steering), especially if the tires have stones stuck in the treads, as this can leave localized marks.",
+            "q3": "How to maintain an epoxy showroom floor?",
+            "a3_p1": "Daily cleaning: floor scrubber + neutral detergent. Weekly polishing to maintain mirror shine. Optional annual renovation. Very easy!",
+            "q4": "How much does metallic epoxy cost for a showroom?",
+            "a4_p1": "At Prestige Epoxy, the price for a premium metallic floor is about CAD $23 per square foot.",
+            "a4_p2": "For a large showroom, the exact cost depends on several factors:",
+            "a4_li1": "The precise size of the surface",
+            "a4_li2": "The chosen decorative effects (metallic, gradients, pearlescent, etc.)",
+            "a4_li3": "Any additional preparation (removing old flooring, fixing concrete, etc.)",
+            "a4_p3": "The price already includes: floor preparation, professional materials, and metallic finish application.",
+            "a4_p4": "A metallic epoxy showroom is more than just a floor:",
+            "a4_li4": "Immediate visual impact on your clients",
+            "a4_li5": "Exceptional durability under heavy traffic",
+            "a4_li6": "Return on investment thanks to a strong, memorable brand image",
+            "a4_p5": "We always provide a free, detailed quote tailored to your project.",
+            "q5": "Can work continue in the showroom during installation?",
+            "a5_p1": "No. During the entire installation process, access is strictly reserved for the Prestige Epoxy team.",
+            "a5_p2": "A single speck of dust or footprint can compromise the quality of the result.",
+            "a5_p3": "To minimize impact on your operations, we always plan the project optimally:",
+            "a5_li1": "Night or weekend work possible",
+            "a5_li2": "Zone-by-zone organization when the layout allows",
+            "a5_li3": "Custom schedule adapted to your business constraints",
+            "q6": "Does epoxy improve showroom lighting?",
+            "a6_p1": "Enormously! Light reflection +40%, reduced lighting costs, optimal vehicle highlighting. The “mirror” effect creates depth and a sense of spaciousness."
+            },
+            "commercial_restaurant": {
+            "q1": "Does restaurant epoxy comply with HACCP standards?",
+            "a1_p1": "Absolutely! Certified food-safe, non-porous surface, resistant to disinfectants, facilitates cleaning/disinfection. Compliant with sanitary regulations.",
+            "q2": "How to clean epoxy in a professional kitchen?",
+            "a2_p1": "An epoxy floor is fully compatible with cleaning protocols in food environments (HACCP).",
+            "a2_p2": "Recommended routine:",
+            "a2_li1": "Degrease cooking and preparation areas.",
+            "a2_li2": "Wash with a professional floor detergent (pH neutral or mildly alkaline).",
+            "a2_li3": "Rinse with clean water to remove residues.",
+            "a2_li4": "Disinfect with an approved food-grade product.",
+            "a2_p3": "Epoxy withstands floor scrubber cleaning or high-pressure washing very well, and it dries quickly thanks to its smooth, non-porous surface.",
+            "q3": "Is epoxy resistant to grease and frying oils?",
+            "a3_p1": "Total resistance! Animal/vegetable fats, frying oils up to 180°C, splashes, spills. Immediate cleaning without absorption or odor.",
+            "q4": "Can epoxy be installed in an operating kitchen?",
+            "a4_p1": "Yes, but only with proper planning. During installation, the kitchen must remain completely closed: no movement or activity is possible in the work area.",
+            "a4_p2": "To minimize impact on your operations, we organize:",
+            "a4_li1": "Installation at night or on closing days",
+            "a4_li2": "A custom schedule adapted to your establishment’s needs",
+            "a4_li3": "Quick reopening once epoxy is fully cured and secured",
+            "a4_p3": "The exact duration depends on the project (preparation, number of coats, drying conditions). We always provide a personalized estimate before starting.",
+            "q5": "Does epoxy withstand carts and heavy equipment?",
+            "a5_p1": "Yes. A professional-grade epoxy floor is designed to resist:",
+            "a5_li1": "Heavy cart rolling (service, handling, pallets)",
+            "a5_li2": "Heavy static loads such as fridges, ovens, or industrial dishwashers",
+            "a5_p3": "Thanks to its high mechanical resistance, it remains stable and durable even in demanding environments (restaurants, hotels, retail).",
+            "q6": "Which finish prevents slips in the kitchen?",
+            "a6_p1": "A standard epoxy floor already provides good grip, comparable to classic tile.",
+            "a6_p2": "For greater safety in high-demand areas (professional kitchens, greasy or very wet zones), a discreet anti-slip finish can be added.",
+            "a6_p3": "Note: adding anti-slip slightly reduces epoxy’s mirror effect. Many of our clients prefer combining a glossy or matte finish with strategic absorbent mats, offering the perfect balance between safety and aesthetics."
+            },
+            "commercial_office": {
+            "q1": "Does epoxy improve office acoustic comfort?",
+            "a1_p1": "An epoxy floor alone is a hard surface, comparable to concrete or tile. It does not naturally reduce noise from footsteps, chairs, or heels.",
+            "a1_p2": "For office spaces where acoustic comfort is important, an acoustic underlayment can be installed before epoxy.",
+            "a1_p3": "Result: significant reduction in impact noise and a more pleasant work environment.",
+            "q2": "How to maintain epoxy in occupied offices?",
+            "a2_p1": "Minimal maintenance: daily vacuuming, weekly mopping. Monthly professional cleaning. No activity interruption required.",
+            "q3": "Is epoxy resistant to office chair wheels?",
+            "a3_p1": "Yes. A professional-grade epoxy floor withstands frequent office chair movements very well, whether they have plastic or metal wheels.",
+            "a3_p2": "To preserve the flawless look of the floor long-term, especially under heavy use, we recommend:",
+            "a3_li1": "Using soft rubber wheels (instead of hard plastic)",
+            "a3_li2": "Adding transparent protective mats under the most used workstations",
+            "a3_p3": "As with any high-end surface, epoxy may show micro-wear marks after years of heavy use without protection.",
+            "q4": "Can floor markings (signage, logo) be integrated?",
+            "a4_p1": "Absolutely! Company logos, signage, zone demarcations, corporate colors. Permanent markings integrated into epoxy. Full customization.",
+            "q5": "Is epoxy suitable for high-traffic offices?",
+            "a5_p1": "Yes, epoxy is an ideal choice for high-traffic office areas:",
+            "a5_li1": "High resistance to intense foot traffic (open spaces, hallways, reception areas)",
+            "a5_li2": "No wear marks like with carpets or vinyl",
+            "a5_li3": "Easy and quick cleaning to maintain a flawless look",
+            "a5_p2": "It’s a durable solution that keeps its elegance even with hundreds of daily users.",
+            "q6": "Which finish to choose for offices: glossy or matte?",
+            "a6_p1": "• Matte finish: most suitable for workspaces. Reduces screen reflections, minimizes glare, and offers superior visual comfort daily.",
+            "a6_p2": "• Glossy finish: provides a prestigious, high-end look, but may be less comfortable in offices with lots of artificial lighting or large windows.",
+            "a6_p3": "Most of our office clients choose matte finish for employee comfort while keeping a modern, elegant style."
+            },
+            "commercial_retail": {
+            "q1": "Is epoxy resistant to heavy customer traffic?",
+            "a1_p1": "Designed for it! Resistant to foot traffic, heels, strollers, carts. Scratch-resistant finish, easy cleaning. Shopping malls, stores: proven performance.",
+            "q2": "How does epoxy enhance product presentation?",
+            "a2_p1": "An epoxy floor acts as a true showcase for your products:",
+            "a2_li1": "Reflective finishes create a mirror effect that enhances lighting and draws attention.",
+            "a2_li2": "Custom colors can be chosen to match your brand identity or highlight specific product lines.",
+            "a2_li3": "The uniform, high-end look of epoxy enhances the perceived value of everything displayed.",
+            "a2_p2": "Result: your products appear more prestigious, your clients enjoy an immersive experience, and your space instantly gains visual impact.",
+            "q3": "Does epoxy make closing-time cleaning easier?",
+            "a3_p1": "Yes, tremendously. Thanks to its smooth, joint-free surface, an epoxy floor cleans much faster than tile or traditional flooring.",
+            "a3_p2": "Quick sweeping or vacuuming, followed by damp mopping or floor scrubber: maintenance is simple, efficient, and requires fewer products.",
+            "a3_p3": "Result:",
+            "a3_li1": "Time savings for cleaning staff",
+            "a3_li2": "Reduced cleaning product costs",
+            "a3_li3": "Impeccable hygiene with minimal effort",
+            "q4": "Can the décor be changed without redoing the floor?",
+            "a4_p1": "Yes. A well-chosen epoxy floor easily adapts to décor changes and seasonal updates.",
+            "a4_p2": "By choosing a neutral or timeless shade, you can update your space with simple accessories (furniture, rugs, decorative elements) without losing the floor’s elegance.",
+            "a4_p3": "Decorative effects embedded in epoxy (glitter, metallic, gradients) are permanent. If you wish to change them, a new finish is required.",
+            "q5": "Does epoxy support displays and heavy furniture?",
+            "a5_p1": "Yes. An epoxy floor resists heavy loads very well, such as gondolas, displays, cash registers, or safes.",
+            "a5_p2": "Its structure ensures excellent puncture resistance and perfect stability, even under massive furniture.",
+            "a5_p3": "When moving very heavy furniture or displays, it is recommended to use protections (pads, suitable wheels) to avoid localized scratches.",
+            "q6": "How long should the store remain closed for installation?",
+            "a6_p1": "The closure duration depends on the surface size and the number of necessary steps (preparation, primer coats, metallic layer, top coat, full curing).",
+            "a6_p2": "To minimize business impact, we offer:",
+            "a6_li1": "Work during closing days or annual holidays",
+            "a6_li2": "The option to work evenings or nights for large areas",
+            "a6_li3": "A custom schedule adapted to your business needs"
+            },
+
+            "industrial_warehouse": {
+            "q1": "Does epoxy withstand forklifts and pallet jacks?",
+            "a1_p1": "Yes. Industrial-grade epoxy resists without issue:",
+            "a1_li1": "regular traffic of pallet jacks and forklifts",
+            "a1_li2": "heavy loads and repeated movements",
+            "a1_li3": "intensive traffic, even in warehouses or logistics areas",
+            "a1_p2": "The key is proper floor preparation and applying a reinforced system (multiple coats, high-performance top coat).",
+            "a1_p3": "As with any flooring, it is recommended to avoid harsh empty maneuvers (sharp pivots, blocked wheels) that concentrate pressure and may mark the surface over the long term.",
+            "q2": "Can logistical floor markings be integrated?",
+            "a2_p1": "Yes. Epoxy allows direct integration of logistical and safety markings:",
+            "a2_li1": "Traffic lanes",
+            "a2_li2": "Storage areas",
+            "a2_li3": "Safety signage",
+            "a2_p2": "Unlike standard paints, these markings are embedded within the epoxy system, making them far more durable and resistant to repeated forklift and pallet jack traffic.",
+            "q3": "How to clean a warehouse epoxy floor?",
+            "a3_p1": "An epoxy floor in a warehouse is designed for simple and efficient maintenance:",
+            "a3_li1": "Industrial scrubber dryer for regular cleaning of large surfaces",
+            "a3_li2": "High-pressure cleaning possible, without risk of infiltration",
+            "a3_li3": "Suitable degreasers (neutral or mildly alkaline pH) to remove oils and residues",
+            "a3_p2": "Epoxy perfectly withstands mechanical cleaning, significantly reducing time and maintenance costs compared to raw or tiled floors.",
+            "q4": "Is epoxy resistant to hydrocarbons and industrial oils?",
+            "a4_p1": "Yes. Professional-grade epoxy offers excellent chemical resistance to:",
+            "a4_li1": "Hydrocarbons (gasoline, diesel, kerosene)",
+            "a4_li2": "Industrial and hydraulic oils",
+            "a4_li3": "Greases and common maintenance products",
+            "a4_p2": "In case of accidental leaks, simply clean quickly to avoid surface impregnation.",
+            "a4_p3": "Note: some very aggressive solvents or concentrated acids may damage the finish. In such cases, we offer reinforced epoxy systems specifically designed for heavy industry.",
+            "q5": "How much does epoxy cost for a 2000 m² warehouse?",
+            "a5_p1": "The price depends on several factors:",
+            "a5_p2": "As a guideline, our rates start at around CAD $23 per square foot for a standard professional finish, including preparation and installation.",
+            "a5_li1": "Condition of the existing concrete (grinding, cracks, repairs if needed)",
+            "a5_li2": "Type of finish chosen (standard, reinforced, metallic decorative, anti-slip, etc.)",
+            "a5_li3": "Application conditions (empty warehouse, areas to bypass, machine access)",
+            "a5_p3": "On a 2000 m² surface, the total cost will therefore vary depending on the project’s exact requirements.",
+            "q6": "Can the warehouse remain operational during installation?",
+            "a6_p1": "No. During the entire installation, access to the area is strictly prohibited except for the Prestige Epoxy team.",
+            "a6_p2": "The slightest dust, tire mark, or traffic can compromise adhesion and quality of the floor.",
+            "a6_p3": "To reduce impact on your operations, we organize:",
+            "a6_li1": "A tailored schedule (evenings, weekends, off-peak periods or shutdowns)",
+            "a6_li2": "Step-by-step intervention in large successive zones, with full clearance of each zone before application",
+            "a6_li3": "A planned restart of activity as soon as the floor is fully cured and secure"
+            },
+            "industrial_laboratory": {
+            "q1": "Does laboratory epoxy resist aggressive chemicals?",
+            "a1_p1": "A professional-grade epoxy floor provides excellent chemical resistance against most products used in laboratories:",
+            "a1_li1": "Diluted acids and common bases",
+            "a1_li2": "Standard organic solvents",
+            "a1_li3": "Professional disinfectants and cleaning agents",
+            "a1_p2": "For environments where very aggressive products (concentrated acids, strong bases, powerful solvents) are regularly used, we recommend installing a specialized and reinforced epoxy system designed to meet pharmaceutical and chemical standards.",
+            "a1_p3": "Each project is validated case by case: we conduct a prior analysis of the handled products to ensure the chosen system is perfectly suited.",
+            "q2": "Are the joints perfectly sealed?",
+            "a2_p1": "Yes. One of epoxy’s key advantages is creating a seamless surface, preventing water or dirt infiltration between tiles as with ceramic.",
+            "a2_p2": "For sensitive areas (kitchens, labs, bathrooms), we can install coving with rounded edges to reinforce sealing and facilitate cleaning.",
+            "a2_p3": "Effectiveness depends on preparation and application. Once properly applied, the floor is sealed and easy to decontaminate.",
+            "q3": "How to decontaminate a laboratory epoxy floor?",
+            "a3_p1": "Epoxy floors are non-porous and perfectly smooth, making them very easy to decontaminate.",
+            "a3_p2": "Common protocols include:",
+            "a3_li1": "Chemical disinfectants (alcohol, peroxide, professional detergents)",
+            "a3_li2": "Light steam or fogging disinfection (without direct exposure to extreme heat)",
+            "a3_li3": "UV lamps for certain sensitive environments",
+            "a3_p3": "Epoxy withstands most standard cleaning and disinfection methods used in labs, but it is not designed for very high-temperature sterilization processes (such as autoclaves).",
+            "q4": "Does epoxy support heavy laboratory equipment?",
+            "a4_p1": "Yes. A professional-grade epoxy floor is designed to withstand heavy and localized loads such as:",
+            "a4_li1": "Microscopes and fume hoods",
+            "a4_li2": "Centrifuges",
+            "a4_li3": "Large laboratory equipment",
+            "a4_p2": "Epoxy offers excellent mechanical stability: no cracking or indentation under equipment weight.",
+            "a4_p3": "It also withstands vibrations from certain machines. For extremely heavy equipment or those generating high heat (e.g., autoclaves), using a base or suitable insulation is recommended to protect the floor and ensure optimal stability.",
+            "q5": "Can epoxy be installed in an operational laboratory?",
+            "a5_p1": "No. During installation, the area must remain fully closed and inaccessible, except to the Prestige Epoxy team.",
+            "a5_p2": "The slightest dust, particle, or circulation could compromise adhesion and floor quality.",
+            "a5_p3": "For sensitive environments such as laboratories, we organize:",
+            "a5_li1": "An adapted schedule (evenings, weekends, shutdown periods)",
+            "a5_li2": "Strict containment of the work area with proper ventilation",
+            "a5_li3": "Quick restart once the floor is fully cured and secured",
+            "q6": "Does epoxy emit particles or fumes?",
+            "a6_p1": "No. Once cured, epoxy is inert, free from particle emissions and VOCs.",
+            "a6_p2": "The surface is hard, smooth, and non-friable, making it compatible with sensitive environments like kitchens, labs, or clean rooms.",
+            "a6_p3": "During application and drying, like any liquid product, there may be temporary VOC emissions. These disappear completely after polymerization.",
+            "a6_p4": "We use products compliant with the strictest environmental standards and ensure proper ventilation during installation."
+            },
+            "industrial_workshop": {
+            "q1": "Does epoxy resist tool impacts and falling parts?",
+            "a1_p1": "Yes. Epoxy floors are designed to withstand everyday impacts, such as falling tools or metal parts.",
+            "a1_p2": "In workshops or garages, moderate impacts do not damage the surface.",
+            "a1_p3": "In case of very heavy or sharp objects falling, a localized impact may occur (chip or mark). Depending on the finish type (plain or decorative), localized repair may be possible, otherwise a larger touch-up may be needed to maintain uniformity.",
+            "q2": "How to clean a workshop with lots of oil and shavings?",
+            "a2_p1": "An epoxy floor makes maintenance much easier compared to raw concrete:",
+            "a2_li1": "Easy evacuation of shavings thanks to the smooth, snag-free surface",
+            "a2_li2": "Quick degreasing with suitable industrial products (neutral or mildly alkaline pH)",
+            "a2_li3": "Mechanical cleaning possible (sweeper, scrubber dryer, brushing)",
+            "a2_li4": "High-pressure washer usable without infiltration risk",
+            "a2_p2": "Result: less effort, less time, and much better hygiene than traditional porous floors.",
+            "q3": "Does epoxy withstand welding sparks?",
+            "a3_p1": "Yes. Epoxy floors resist well to occasional welding sparks and projections.",
+            "a3_p2": "Small sparks generally cause no problem.",
+            "a3_p3": "However, during intensive welding, molten metal projections can mark or dull the surface, especially on glossy finishes. In such cases, we recommend using local protection (fireproof mats or protective plates) to preserve the floor’s aesthetics.",
+            "a3_p4": "If damage occurs, repairs are possible, but may leave slight shade differences on some decorative finishes.",
+            "q4": "Can drains and channels be integrated?",
+            "a4_p1": "Yes, but they must be installed before epoxy application.",
+            "a4_p2": "Epoxy perfectly adapts to slopes, channels, and drains already in place, creating a continuous and watertight finish around them.",
+            "q5": "Does epoxy improve workshop safety?",
+            "a5_p1": "Yes. An epoxy floor improves daily safety through several advantages:",
+            "a5_li1": "Optional anti-slip surface to reduce slipping risks",
+            "a5_li2": "Integrated markings (traffic areas, safety, storage)",
+            "a5_li3": "Light reflection that improves visibility in the workshop",
+            "a5_li4": "Simplified cleaning, reducing dangerous oil or debris buildup",
+            "a5_p2": "Result: a brighter, better-organized, and safer work environment.",
+            "q6": "How long is production downtime for installation?",
+            "a6_p1": "The duration depends on several factors:",
+            "a6_li1": "Condition of the existing floor (preparation, necessary repairs)",
+            "a6_li2": "Number of coats to apply (primer, decorative, top coat)",
+            "a6_li3": "Drying conditions and total surface area",
+            "a6_p2": "To reduce impact, we often schedule installation during maintenance shutdowns, holidays, or weekends, with a plan adapted to your production.",
+            "a6_p3": "Restart is gradual, once the floor is fully cured and secured."
+            },
+
+            "general_costs_deadlines": {
+            "q1": "How much does epoxy cost per sq. ft. depending on finishes?",
+            "a1_p1": "Our rates start at around $23 CAD per square foot for a standard garage or workshop finish.",
+            "a1_p2": "The exact price always depends on the surface, the condition of the floor, and the selected options.",
+            "a1_li1": "Glossy or matte finish → included in the base price",
+            "a1_li2": "Metallic finish → also included (premium mirror effect)",
+            "a1_li3": "Anti-slip option → available, but slightly reduces the mirror effect",
+            "a1_li4": "Special decorative designs (logos, checkerboard, custom patterns) → quoted separately, additional cost",
+            "a1_p3": "Since every project is unique, we always provide a free and detailed quote tailored to your needs.",
+            "q2": "What are the completion timelines?",
+            "a2_p1": "Timelines vary depending on several factors:",
+            "a2_li1": "The size of the surface",
+            "a2_li2": "The condition of the existing floor (cracks, old coating to remove, repairs)",
+            "a2_li3": "The number of required layers (crack filler, primer, decorative, top coat)",
+            "a2_li4": "Drying conditions",
+            "a2_p2": "For residential projects, timelines are generally short. For commercial and industrial surfaces, duration is longer, but we always arrange a customized schedule (evenings, weekends, closing periods) to minimize disruption to your activities.",
+            "q3": "Does the quote include preparation of the existing floor?",
+            "a3_p1": "Yes. Our quotes always include standard floor preparation, meaning:",
+            "a3_li1": "Mechanical sanding",
+            "a3_li2": "Repair of common cracks",
+            "a3_li3": "Application of primer, epoxy, and topcoat",
+            "a3_p2": "In case of additional work (removal of old flooring, heavily damaged concrete, excessive moisture, etc.), these items are clearly indicated in the quote before work begins.",
+            "q4": "Are there any additional costs to expect?",
+            "a4_p1": "Our quotes already include:",
+            "a4_li1": "Standard floor preparation (sanding, repair of common cracks)",
+            "a4_li2": "Premium materials",
+            "a4_li3": "Full installation and final cleanup",
+            "a4_p2": "Extra costs only apply in specific cases, for example:",
+            "a4_li4": "Removal of complex old coatings (wood, ceramic, carpet, etc.)",
+            "a4_li5": "Difficult site access (upper floors, special handling)",
+            "a4_li6": "Work scheduled at night or on weekends upon client request",
+            "a4_li7": "Heavy repairs on severely damaged concrete",
+            "a4_p3": "Everything is clearly indicated in the quote before work begins. No surprises: you know exactly what you’re paying for.",
+            "q5": "Do you offer financing or installment payment plans?",
+            "a5_p1": "Yes. We offer financing and installment solutions, tailored to each client’s profile and project type.",
+            "a5_p2": "Options may include:",
+            "a5_li1": "Payment in multiple installments",
+            "a5_li2": "Financing over several months",
+            "a5_li3": "Specific solutions for professional projects (shops, showrooms, workshops)",
+            "a5_p3": "The exact conditions are studied on a case-by-case basis to find the best solution for your budget.",
+            "q6": "Is there reduced tax (VAT) for renovation?",
+            "a6_p1": "In Quebec, there is no specific reduced tax rate for renovation work as in Europe.",
+            "a6_p2": "Our quotes always include GST (5%) and QST (9.975%), which are the standard applicable rates.",
+            "a6_p3": "However, certain renovations may be eligible for tax credits or government programs depending on your situation (residential, energy efficiency, etc.). We can inform you if your project qualifies."
+            },
+            "general_floor_compatibility": {
+            "q1": "On what types of floors can epoxy be applied?",
+            "a1_p1": "Epoxy can be applied on various surfaces:",
+            "a1_li1": "Concrete (new or existing, ideal base)",
+            "a1_li2": "Ceramic or tile (if tiles are well-adhered)",
+            "a1_li3": "Solid wood (OSB, thick plywood, stable parquet)",
+            "a1_li4": "Natural stone or existing epoxy in good condition",
+            "a1_p2": "The essential condition: the floor must be structurally solid and not crumbling.",
+            "a1_p3": "In case of major issues (e.g., pyrite, very weak concrete), preparation or replacement will be necessary before application.",
+            "a1_p4": "Prestige Epoxy always performs a free assessment to confirm compatibility and define the right preparation.",
+            "q2": "Can epoxy be applied on existing tiles?",
+            "a2_p1": "Yes, provided the tile is solid, well-adhered, and without major cracks.",
+            "a2_p2": "Preparation is essential: degreasing, sanding for adhesion, and applying a suitable primer.",
+            "a2_p3": "This avoids full tile removal, saving time and costs.",
+            "a2_p4": "If the tile is unstable or cracked, it must be repaired or removed before application to ensure durability.",
+            "q3": "Does epoxy adhere on heated floors?",
+            "a3_p1": "Yes, epoxy is perfectly compatible with radiant heated floors.",
+            "a3_p2": "Its thin layer does not block heat diffusion and ensures optimal comfort.",
+            "a3_p3": "Protocol: heating must be turned off 48h before application and restarted gradually after full curing to avoid thermal shock.",
+            "a3_p4": "Result: an aesthetic, durable floor fully adapted to radiant heating systems.",
+            "q4": "What if the floor has cracks?",
+            "a4_p1": "• Small or surface cracks → filled with special epoxy resin before application.",
+            "a4_p2": "• Larger cracks → structural assessment is required to check concrete stability.",
+            "a4_p3": "At Prestige Epoxy, common repairs are included in the quote. In more serious cases, we always propose an adapted solution to guarantee a durable and flawless floor.",
+            "q5": "Can epoxy hide existing floor defects?",
+            "a5_p1": "• Minor flaws (micro-holes, light scratches) → corrected during preparation and disappear under epoxy.",
+            "a5_p2": "• Bigger defects (cracks, unevenness, damaged zones) → require leveling or repair first.",
+            "a5_p3": "Epoxy does not hide defects; on the contrary, it may highlight them if preparation is poorly done.",
+            "a5_p4": "At Prestige Epoxy, we always perform meticulous preparation to deliver a perfectly smooth, uniform, and aesthetic floor.",
+            "q6": "Does the old flooring need to be removed?",
+            "a6_p1": "Not always. It depends on the existing surface:",
+            "a6_li1": "Solid, well-adhered tile → epoxy can be applied directly after proper preparation (sanding, primer).",
+            "a6_li2": "Parquet, lino, carpet, or soft coverings → must be removed as they don’t provide a stable base.",
+            "a6_li3": "Damaged concrete → requires repair or leveling before application.",
+            "a6_li4": "Prestige Epoxy always performs a free assessment to evaluate the situation and propose the best solution, with no surprises for the client.",
+            "a6_p2": "Prestige Epoxy always performs a free assessment to evaluate the situation and propose the best solution, with no surprises for the client."
+            },
+            "general_maintenance_cleaning": {
+            "q1": "How to clean epoxy daily?",
+            "a1_p1": "Maintenance is very simple:",
+            "a1_li1": "Regular sweeping or vacuuming to remove dust and debris",
+            "a1_li2": "Damp mop with mild (pH-neutral) detergent to keep shine",
+            "a1_li3": "Avoid acidic (vinegar, lemon) or abrasive products that may dull the finish",
+            "a1_p2": "Result: always clean, hygienic, and shiny floors with little effort.",
+            "q2": "Which products should be used for maintenance?",
+            "a2_p1": "Recommended products:",
+            "a2_li1": "Mild pH-neutral detergents",
+            "a2_li2": "Diluted black soap",
+            "a2_li3": "Specialized epoxy floor cleaners",
+            "a2_li4": "Steam cleaner (with caution)",
+            "a2_p2": "Products to avoid:",
+            "a2_li5": "Concentrated bleach",
+            "a2_li6": "Vinegar, lemon, or any acidic product",
+            "a2_li7": "Ammonia",
+            "a2_li8": "Abrasive cleaners or scouring powders",
+            "a2_li9": "Abrasive pads",
+            "a2_p3": "With the right products, your epoxy floor will maintain its shine and durability for many years.",
+            "q3": "How often should deep cleaning be done?",
+            "a3_p1": "The frequency depends on floor usage:",
+            "a3_li1": "Residential → deep cleaning about once a month",
+            "a3_li2": "Commercial (shops, offices) → generally weekly",
+            "a3_li3": "Industrial → adapted to activity intensity (e.g., oily workshops = more frequent)",
+            "a3_li4": "In all cases, we recommend professional maintenance once a year to revive shine and extend lifespan.",
+            "q4": "How to remove stubborn stains?",
+            "a4_p1": "• Fresh stains → simple cleaning with water usually works.",
+            "a4_p2": "• Old stains (oil, grease, tires) → use mild pH-neutral degreaser and gently scrub with a soft brush.",
+            "a4_p3": "• Special stains (chemicals, solvents, industrial liquids) → we provide personalized advice depending on the product and your floor finish.",
+            "a4_p4": "Thanks to its smooth and non-porous surface, epoxy does not absorb stains: proper maintenance preserves its shine for years.",
+            "q5": "Does epoxy require special maintenance treatment?",
+            "a5_p1": "No. Unlike wood flooring (varnish) or natural stone (sealant), epoxy requires no periodic special treatment.",
+            "a5_p2": "Regular cleaning (sweeping + damp mop with mild detergent) is enough to preserve its shine and durability.",
+            "q6": "Can steam cleaners be used on epoxy?",
+            "a6_p1": "Yes. An epoxy floor can be cleaned with a steam cleaner, providing effective and eco-friendly disinfection.",
+            "a6_p2": "However, use should remain moderate:",
+            "a6_li1": "Occasional cleaning recommended",
+            "a6_li2": "Do not concentrate steam too long on one spot to protect the finish (especially mirror gloss)",
+            "a6_p3": "Result: improved hygiene and a floor perfectly suited for demanding environments like kitchens, labs, or bathrooms."
+            },
+            "general_technical_properties": {
+            "q1": "What is the lifespan of an epoxy floor?",
+            "a1_p1": "An epoxy floor is designed to last for many years. Its longevity depends on several factors:",
+            "a1_li1": "Quality of preparation and installation",
+            "a1_li2": "Level of use (residential, commercial, industrial)",
+            "a1_li3": "Frequency and quality of maintenance",
+            "a1_p2": "In residential settings, a well-maintained floor can retain its shine for over a decade. In commercial and industrial settings, lifespan is shorter due to heavy traffic and stress, but still much longer than many traditional coatings.",
+            "q2": "Does epoxy resist UV and discoloration?",
+            "a2_p1": "Standard epoxy floors may show slight yellowing when exposed to direct sunlight over long periods (e.g., outdoors, large glass windows).",
+            "a2_p2": "For very bright interiors, we use specially formulated resins with UV protection to minimize this effect.",
+            "a2_p3": "However, decorative metallic finishes are not suitable for permanent outdoor use, as they are more sensitive to UV discoloration.",
+            "q3": "What is the heat resistance of epoxy?",
+            "a3_p1": "Epoxy floors withstand normal temperature variations very well:",
+            "a3_li1": "Cold down to about -20°C (e.g., garage, unheated workshop)",
+            "a3_li2": "Heat up to about +60°C in normal use (heated floors, kitchens, indirect sunlight)",
+            "a3_li3": "Specialized epoxy systems up to +100 to +120°C (industrial use)",
+            "a3_p2": "Special epoxy systems can go higher (up to +100 to +120°C), mainly used in industrial contexts.",
+            "a3_p3": "Epoxy is not designed to resist direct extreme heat sources (e.g., flames, molten metal, burner placed directly).",
+            "q4": "Is epoxy eco-friendly and safe?",
+            "a4_p1": "Yes. Once cured, epoxy is inert, non-toxic, and emission-free.",
+            "a4_p2": "It is therefore perfectly safe for residential, commercial, or industrial use.",
+            "a4_p3": "During installation, like any liquid product, it may release temporary VOCs: proper ventilation is always ensured by our teams.",
+            "a4_p4": "We use resins that meet the strictest environmental standards. Epoxy is also very durable, reducing frequent replacements and lowering long-term ecological impact.",
+            "q5": "What is the thickness of applied epoxy?",
+            "a5_p1": "At Prestige Epoxy, we work in mils (1 mil = 0.0254 mm).",
+            "a5_p2": "For premium metallic finishes, we apply about 50 mils, not including the two primer layers and top coat.",
+            "a5_p3": "The final thickness is therefore perfectly suited to provide both strength, durability, and a spectacular mirror-like result.",
+            "q6": "Can epoxy crack over time?",
+            "a6_p1": "A quality epoxy floor, properly prepared and applied, will not crack on its own.",
+            "a6_p2": "If cracks appear, they usually come from the substrate (moving concrete, structural shifts) or extreme impact.",
+            "a6_p3": "At Prestige Epoxy, we always perform a prior assessment and repair cracks before application to ensure a durable, stable result over time."
+            }
+
+
+
+
+
+        },
+        "results": {
+          "title": "Specific questions for your project",
+          "count_message": "personalized answers for your project"
+        },
+        "cta": {
+          "title": "Need personalized advice?",
+          "subtitle": "Our experts analyze your project and offer you the ideal solution",
+          "button": "Free Consultation"
+        }
+      },
+      "contact_section": {
+        "form_sending_message": "Attempting to send contact form:",
+        "email_subtitle": "Response within 24h",
+        "phone_subtitle": "Mon-Fri, 8am-5pm (EST)",
+        "address_subtitle": "By appointment",
+        "square_footage_placeholder": "Square footage",
+        "finish_type": "Type of finish",
+        "finish_options": {
+          "solid_colors": "Solid colors",
+          "metallic_effects": "Metallic effects",
+          "marble_effects": "Marble effects",
+          "spiral_checkerboard": "Spiral and checkerboard",
+          "refined_raw_concrete": "Refined raw concrete",
+          "gold_mother_of_pearl_dust": "Gold and mother of pearl dust",
+          "custom_logos_patterns": "Custom logos and patterns",
+          "matte_finish": "Matte finish",
+          "glossy_finish": "Glossy finish"
+        },
+        "message_placeholder": "Describe your project in detail...",
+        "send_message": "Send Request",
+        "form_send_error": "Error sending contact form:",
+        "alert_error_message": "An error occurred while sending. Please try again.",
+        "title": "Contact Us",
+        "subtitle": "Ready to transform your floors?",
+        "phone": "Phone",
+        "email": "Email",
+        "address": "Address",
+        "full_name": "Full Name",
+        "phone_number": "Phone Number",
+        "email_address": "Email Address",
+        "project_type": "Project Type",
+        "residential": "Residential",
+        "commercial": "Commercial",
+        "industrial": "Industrial",
+        "message": "Your Message",
+        "contact_info_text": "Feel free to contact us for any questions or quote requests. We are here to help you achieve your epoxy flooring project.",
+        "success_message": "Your message has been sent successfully! We will get back to you shortly.",
+        "error_message": "Message failed to send."
+      },
+      "floating_quote_button": {
+        "aria_label": "Request a quote",
+        "text": "Free Quote"
+      },
+      "footer": {
+        "slogan": "The excellence of epoxy coating at your service.",
+        "links": "Quick Links",
+        "services": "Services",
+        "realizations": "Achievements",
+        "faq": "FAQ",
+        "contact": "Contact",
+        "resources": "Resources",
+        "legal_mentions": "Legal Mentions",
+        "copyright": "© 2025 Prestige Epoxy. All rights reserved.",
+        "social_media": "Follow Us",
+        "prestations_title": "Services",
+        "residential_link": "Residential",
+        "commercial_link": "Commercial",
+        "industrial_link": "Industrial",
+        "finishes_link": "Finishes",
+        "informations_title": "Information",
+        "support_link": "Support",
+        "legal_mentions_link": "Legal Mentions",
+        "security_link": "Security",
+        "resources_title": "Resources",
+        "blog_link": "Blog",
+        "guides_link": "Guides",
+        "advice_link": "Advice",
+        "maintenance_link": "Maintenance"
+      },
+      "blog_page": {
+        "categories": {
+          "all_articles": "All articles",
+          "trends": "Trends",
+          "advice": "Advice",
+          "projects": "Projects",
+          "technical": "Technical"
+        },
+        "articles": {
+          "article1": {
+            "title": "2025 Trends in Epoxy Coatings",
+            "excerpt": "Discover the latest innovations and design trends for your epoxy resin floors.",
+            "author": "Sophie Martin",
+            "date": "January 15, 2025",
+            "read_time": "5 min"
+          },
+          "article2": {
+            "title": "How to Choose the Perfect Epoxy Finish",
+            "excerpt": "Complete guide to selecting the ideal finish according to your space and needs.",
+            "author": "Marc Dubois",
+            "date": "January 12, 2025",
+            "read_time": "8 min"
+          },
+          "article3": {
+            "title": "Transformation of a Montreal Loft",
+            "excerpt": "Discover the complete metamorphosis of a loft with our high-end epoxy solutions.",
+            "author": "Alex Moreau",
+            "date": "January 10, 2025",
+            "read_time": "6 min"
+          },
+          "article4": {
+            "title": "Optimal Maintenance for Your Epoxy Floor",
+            "excerpt": "Expert advice to preserve the shine and durability of your epoxy coating.",
+            "author": "Julie Leroy",
+            "date": "January 8, 2025",
+            "read_time": "4 min"
+          },
+          "article5": {
+            "title": "Epoxy Resin vs Other Coatings",
+            "excerpt": "Detailed comparison of the advantages of epoxy resin over traditional solutions.",
+            "author": "Pierre Durand",
+            "date": "January 5, 2025",
+            "read_time": "7 min"
+          },
+          "article6": {
+            "title": "Modern Commercial Showroom",
+            "excerpt": "Creation of an automotive showroom with metallic epoxy finishes.",
+            "author": "Sophie Martin",
+            "date": "January 3, 2025",
+            "read_time": "5 min"
+          }
+        },
+        "hero": {
+          "back_to_home": "Back to Home",
+          "title": "Prestige Epoxy Blog",
+          "subtitle": "Discover our expert advice, trends, and exceptional achievements"
+        },
+        "filters": {
+          "search_placeholder": "Search an article..."
+        },
+        "no_articles_found": "No articles found for your search."
+      },
+      "advice_page": {
+        "categories": {
+          "residential": "Residential",
+          "commercial": "Commercial",
+          "industrial": "Industrial"
+        },
+        "residential": {
+          "tip1_title": "Choosing the right finish for your kitchen",
+          "tip1_content": "For a kitchen, opt for a satin finish that resists stains and is easy to clean. Avoid overly glossy finishes that show marks.",
+          "tip1_tip1": "Satin finish recommended",
+          "tip1_tip2": "Resistance to food stains",
+          "tip1_tip3": "Easy to clean",
+          "tip2_title": "Garage: choose anti-slip",
+          "tip2_content": "In a garage, safety is paramount. Choose an anti-slip finish to prevent slips, especially in wet weather.",
+          "tip2_tip1": "Mandatory anti-slip finish",
+          "tip2_tip2": "Hydrocarbon resistance",
+          "tip2_tip3": "Optimal drainage",
+          "tip3_title": "Living room: elegance and comfort",
+          "tip3_content": "For a living room, focus on aesthetics with a glossy finish that reflects light and visually enlarges the space.",
+          "tip3_tip1": "Glossy finish for shine",
+          "tip3_tip2": "Neutral colors recommended",
+          "tip3_tip3": "Underfloor heating compatible"
+        },
+        "commercial": {
+          "tip1_title": "Showroom: guaranteed impression",
+          "tip1_content": "A showroom requires an impeccable finish. Opt for a metallic epoxy that impresses your clients from the moment they enter.",
+          "tip1_tip1": "Premium metallic finish",
+          "tip1_tip2": "Resistance to heavy traffic",
+          "tip1_tip3": "Striking mirror effect",
+          "tip2_title": "Restaurant: hygiene and style",
+          "tip2_content": "In restaurants, hygiene is crucial. Choose a smooth, non-porous, and easy-to-disinfect finish.",
+          "tip2_tip1": "Non-porous surface",
+          "tip2_tip2": "Chemical resistance",
+          "tip2_tip3": "Simplified cleaning",
+          "tip3_title": "Office: productivity and well-being",
+          "tip3_content": "For offices, prefer soothing colors and a matte finish that reduces visual fatigue.",
+          "tip3_tip1": "Matte finish recommended",
+          "tip3_tip2": "Neutral and soothing colors",
+          "tip3_tip3": "Improved acoustics"
+        },
+        "industrial": {
+          "tip1_title": "Warehouse: maximum robustness",
+          "tip1_content": "In industrial environments, resistance is paramount. Opt for reinforced epoxy capable of withstanding heavy loads and impacts.",
+          "tip1_tip1": "Fiber-reinforced epoxy",
+          "tip1_tip2": "Resistance to heavy loads",
+          "tip1_tip3": "Integrated floor marking",
+          "tip2_title": "Laboratory: purity and safety",
+          "tip2_content": "Laboratories require perfectly smooth, non-porous floors resistant to aggressive chemicals.",
+          "tip2_tip1": "Ultra-smooth surface",
+          "tip2_tip2": "Maximum chemical resistance",
+          "tip2_tip3": "Sealed joints",
+          "tip3_title": "Workshop: practicality and durability",
+          "tip3_content": "For a workshop, combine impact resistance, easy maintenance, and floor marking to optimize organization.",
+          "tip3_tip1": "Impact resistance",
+          "tip3_tip2": "Integrated marking",
+          "tip3_tip3": "Minimal maintenance"
+        },
+        "hero": {
+          "back_to_home": "Back to Home",
+          "title": "Expert Advice",
+          "subtitle": "Personalized recommendations for each type of project"
+        },
+        "key_points_title": "Key points:",
+        "learn_more_button": "Learn more",
+        "cta": {
+          "title_part1": "Need personalized",
+          "title_part2": "advice",
+          "subtitle": "Our experts are available to assist you with your project",
+          "button": "Consult our experts"
+        }
+      },
+      "quote_page": {
+        "form_sending_message": "Attempting to send form:",
+        "fill_all_fields_alert": "Please fill in all required fields.",
+        "success_message": "Your quote request has been sent successfully!",
+        "error_message": "Failed to send quote request.",
+        "form_send_error": "Error sending form:",
+        "alert_error_message": "An error occurred while sending. Please try again.",
+        "hero_title": "Quote Request",
+        "hero_subtitle": "Describe your project and get a free, personalized quote."
+      },
+      "why_choose_prestige": {
+        "title": "More than just a floor – a prestige experience",
+        "item1_title": "Extreme durability",
+        "item1_description": "Resists impacts, stains, chemicals and time.",
+        "item2_title": "Unique look",
+        "item2_description": "Metallic and marbled effects impossible to reproduce with other materials.",
+        "item3_title": "Easy maintenance",
+        "item3_description": "A simple mop, and your floor regains its shine.",
+        "item4_title": "Property value",
+        "item4_description": "An investment that instantly enhances the value of your property."
+      },
+      "guides_page": {
+        "guide1": {
+          "title": "Complete Guide to Epoxy Resin",
+          "description": "Everything you need to know about epoxy resin floors: types, applications, benefits.",
+          "duration": "15 min read",
+          "pages": "24 pages",
+          "category": "General",
+          "topics": {
+            "topic1": "Resin Types",
+            "topic2": "Applications",
+            "topic3": "Benefits",
+            "topic4": "Comparisons"
+          }
+        },
+        "guide2": {
+          "title": "Preparation of the support before application",
+          "description": "Essential steps to prepare your floor before applying the epoxy resin.",
+          "duration": "10 min read",
+          "pages": "16 pages",
+          "category": "Technique",
+          "topics": {
+            "topic1": "Diagnostic",
+            "topic2": "Cleaning",
+            "topic3": "Repairs",
+            "topic4": "Primer"
+          }
+        },
+        "guide3": {
+          "title": "Choose your epoxy finish",
+          "description": "Guide to select the perfect finish according to your project and constraints.",
+          "duration": "12 min read",
+          "pages": "20 pages",
+          "category": "Design",
+          "topics": {
+            "topic1": "Available finishes",
+            "topic2": "Colors",
+            "topic3": "Textures",
+            "topic4": "Special effects"
+          }
+        },
+        "guide4": {
+          "title": "Maintenance and maintenance",
+          "description": "Maintenance protocols to preserve the beauty and durability of your epoxy floor.",
+          "duration": "8 min read",
+          "pages": "12 pages",
+          "category": "Maintenance",
+          "topics": {
+            "topic1": "Daily cleaning",
+            "topic2": "Recommended products",
+            "topic3": "Renovation",
+            "topic4": "Prevention"
+          }
+        },
+        "guide5": {
+          "title": "Epoxy for commercial spaces",
+          "description": "Specificities and recommendations for commercial and industrial applications.",
+          "duration": "18 min read",
+          "pages": "28 pages",
+          "category": "Commercial",
+          "topics": {
+            "topic1": "Norms",
+            "topic2": "Security",
+            "topic3": "Intense traffic",
+            "topic4": "Regulations"
+          }
+        },
+        "guide6": {
+          "title": "Common problems resolution",
+          "description": "Solutions to the most common problems encountered with epoxy floors.",
+          "duration": "14 min read",
+          "pages": "22 pages",
+          "category": "Technical",
+          "topics": {
+            "topic1": "Bubbles",
+            "topic2": "Detachment",
+            "topic3": "Scratches",
+            "topic4": "Repairs"
+          }
+        },
+        "hero": {
+            "back_to_home": "Back to home",
+            "title": "Guides",
+            "title_span": "technics",
+            "subtitle": "Complete resources to master all aspects of epoxy resin"
+          },
+          "search": {
+            "placeholder": "Search a guide..."
+          },
+          "guide_categories": {
+            "general": "General",
+            "technical": "Technics",
+            "design": "Design",
+            "maintenance": "Maintenance",
+            "commercial": "Commercial"
+          },
+        "download_button": "Download the guide",
+        "content_title": "Content :",
+        "no_guides_found": "No guides found for your search."
+      },
+
+"maintenance_page": {
+    "hero": {
+      "back_to_home": "Back to Home",
+      "title_part1": "Maintenance",
+      "title_part2": "guide",
+      "subtitle": "Preserve the beauty and durability of your epoxy floor with our expert advice"
+    },
+    "steps_section": {
+      "title_part1": "The 3 essential",
+      "title_part2": "steps"
+    },
+    "steps": {
+      "step1_title": "Daily cleaning",
+      "step1_description": "Sweeping and cleaning with lukewarm water and a mild detergent",
+      "step1_detail1": "Microfiber mop recommended",
+      "step1_detail2": "Lukewarm water (30-40°C)",
+      "step1_detail3": "pH-neutral detergent",
+      "step1_detail4": "Natural drying",
+      "step2_title": "Preventive protection",
+      "step2_description": "Measures to preserve the shine and durability of your floor",
+      "step2_detail1": "Mandatory entrance mat",
+      "step2_detail2": "Pads under furniture",
+      "step2_detail3": "Avoid sharp objects",
+      "step2_detail4": "Regular inspection",
+      "step3_title": "Deep maintenance",
+      "step3_description": "Weekly cleaning to maintain the new look",
+      "step3_detail1": "Well-wrung mop",
+      "step3_detail2": "Specialized epoxy products",
+      "step3_detail3": "Thorough rinsing",
+      "step3_detail4": "Polishing if necessary"
+    },
+    "products_section": {
+      "title_part1": "Recommended and",
+      "title_part2": "to avoid products"
+    },
+    "products": {
+      "recommended_type": "Recommended",
+      "recommended_item1": "pH-neutral cleaners",
+      "recommended_item2": "Microfiber mops",
+      "recommended_item3": "Soft vacuum cleaners",
+      "recommended_item4": "Specific degreasers for oil stains",
+      "recommended_item5": "Non-abrasive polishing products",
+      "avoid_type": "To avoid",
+      "avoid_item1": "Acidic cleaners (vinegar, lemon)",
+      "avoid_item2": "Soap-based cleaners (leave residues)",
+      "avoid_item3": "Abrasive brushes or scouring pads",
+      "avoid_item4": "Cleaners containing wax",
+      "avoid_item5": "Aggressive chemical products (ammonia, undiluted bleach)"
+    },
+    "schedule_section": {
+      "title_part1": "Suggested maintenance",
+      "title_part2": "schedule"
+    },
+    "schedule_table": {
+      "header_action": "Action",
+      "header_frequency": "Frequency",
+      "header_importance": "Importance"
+    },
+    "schedule": {
+      "action1": "Sweeping/vacuuming",
+      "frequency1": "Daily",
+      "importance1": "Essential",
+      "action2": "Wet cleaning",
+      "frequency2": "Weekly",
+      "importance2": "Important",
+      "action3": "Deep cleaning",
+      "frequency3": "Monthly",
+      "importance3": "Recommended",
+      "action4": "General inspection",
+      "frequency4": "Quarterly",
+      "importance4": "Preventive",
+      "action5": "Light renovation",
+      "frequency5": "Annually",
+      "importance5": "Optional"
+    },
+    "cta": {
+      "title": "Questions about maintenance?",
+      "subtitle": "Our experts support you for optimal maintenance",
+      "button": "Contact us"
+    }
+    },
+    "support_page": {
+        "back_to_home": "Back to home",
+        "title_part1": "Client",
+        "title_part2": "Support",
+        "subtitle": "A dedicated team to accompany you at every stage of your project",
+        "contact_title_part1": "How to",
+        "contact_title_part2": "contact us",
+        "contact_now_button": "Contact now",
+        "options": {
+            "phone_support_title": "Phone Support",
+            "phone_support_description": "Immediate assistance by phone",
+            "phone_support_availability": "Mon-Fri, 8am-5pm (EST)",
+            "phone_support_contact": "+1 (514) 123-4567",
+            "response_time": "Response {{time}}",
+            "email_support_title": "Email Support",
+            "email_support_description": "Detailed answers to your questions",
+            "email_support_availability": "7/7, 24/24",
+            "email_support_contact": "contact@prestigeepoxy.ca",
+            "chat_support_title": "Live Chat",
+            "chat_support_description": "Instant discussion with our experts",
+            "chat_support_availability": "Mon-Fri, 9am-4pm (EST)",
+            "chat_support_contact": "Chat available on website",
+            "immediate": "Immediate",
+            "within_4h": "Within 4h",
+            "instant": "Instant"
+        },
+        "resources_title_part1": "Help",
+        "resources_title_part2": "Resources",
+        "access_resources_button": "Access resources",
+        "resources": {
+            "technical_doc_title": "Technical Documentation",
+            "technical_doc_description": "Product sheets, installation guides and specifications",
+            "technical_doc_items": {
+                "datasheets": "Datasheets",
+                "installation_guides": "Installation Guides",
+                "product_specs": "Product Specifications",
+                "quality_certs": "Quality Certificates"
+            },
+            "video_tutorials_title": "Video Tutorials",
+            "video_tutorials_description": "Explanatory videos for maintenance and upkeep",
+            "video_tutorials_items": {
+                "cleaning_techniques": "Cleaning Techniques",
+                "minor_repairs": "Minor Repairs",
+                "visual_inspection": "Visual Inspection",
+                "best_practices": "Best Practices"
+            },
+            "calculation_tools_title": "Calculation Tools",
+            "calculation_tools_description": "Calculators to estimate your needs and costs",
+            "calculation_tools_items": {
+                "surface_calculator": "Surface Calculator",
+                "cost_estimator": "Cost Estimator",
+                "quantity_guide": "Quantity Guide",
+                "project_planner": "Project Planner"
+            }
+        },
+        "faq_title_part1": "Frequently Asked",
+        "faq_title_part2": "Questions",
+        "faq_title_part3": "support",
+        "faq_items": {
+            "q1": "How to report a problem?",
+            "a1": "Contact us by phone at +1 (514) 123-4567 or by email at contact@prestigeepoxy.ca by precisely describing the problem encountered.",
+            "q2": "What is your warranty?",
+            "a2": "We offer a 10-year warranty on our installations and 2 years on labor. The warranty covers material and installation defects.",
+            "q3": "Do you intervene urgently?",
+            "a3": "Yes, we offer a 24/7 emergency intervention service for critical issues affecting safety or activity.",
+            "q4": "Do you offer training?",
+            "a4": "We offer maintenance training for your teams, including best practices and the use of adapted products."
+        },
+        "cta_title": "Need immediate help?",
+        "cta_subtitle": "Our support team is here to help you",
+        "cta_call_button": "Call now",
+        "cta_email_button": "Send an email",
+        "support_page.options.response_time": "Response {{time}}"
+    },
+    "mentions_legales_page": {
+        "back": "Back",
+        "title_part1": "Legal",
+        "title_part2": "Mentions",
+        "legal_info_section_title": "Legal Information",
+        "company_name": "Company Name :",
+        "company_value": "Prestige Époxy",
+        "head_office": "Head Office :",
+        "head_office_value": "1234 Saint-Denis Street, Montreal, QC H2X 3K2, Canada",
+        "business_number": "Business Number :",
+        "business_number_value": "123456789 RC0001",
+        "tps_number": "GST :",
+        "tps_number_value": "123456789 RT0001",
+        "tvq_number": "QST :",
+        "tvq_number_value": "1234567890 TQ0001",
+        "rbq_license": "RBQ License :",
+        "rbq_license_value": "5678-1234-01",
+        "contact_section_title": "Contact",
+        "email_label": "Email :",
+        "email_value": "contact@prestigeepoxy.ca",
+        "phone_label": "Phone :",
+        "phone_value": "+1 (514) 123-4567",
+        "publication_director": "Publication Director :",
+        "publication_director_value": ".",
+        "intellectual_property_section_title": "Intellectual Property",
+        "intellectual_property_p1": "All content on this site is subject to Canadian and international copyright and intellectual property laws. All reproduction rights are reserved, including for downloadable documents and iconographic and photographic representations.",
+        "intellectual_property_p2": "Reproduction of all or part of this site on any electronic medium whatsoever is strictly prohibited without the express authorization of the publication director.",
+        "data_protection_section_title": "Personal Data Protection",
+        "data_protection_p1": "In accordance with the Personal Information Protection and Electronic Documents Act (PIPEDA) and Quebec's Law 25, you have the right to access, rectify, delete, and object to your personal data.",
+        "data_protection_p2": "To exercise these rights, contact us at: contact@prestigeepoxy.ca",
+        "cookies_section_title": "Cookies",
+        "cookies_p1": "This site uses cookies to improve your browsing experience and to collect visitor statistics. By continuing your navigation, you accept the use of these cookies.",
+        "liability_section_title": "Limitation of Liability",
+        "liability_p1": "The information contained on this site is as accurate as possible and the site is periodically updated, but may nevertheless contain inaccuracies, omissions, or deficiencies. If you notice a deficiency, error, or what appears to be a malfunction, please report it by email."
+    },
+    "securite_page": {
+        "back_to_home": "Back to home",
+        "title_part1": "Safety &",
+        "title_part2": "Standards",
+        "subtitle": "Your safety is our absolute priority, from installation to daily use",
+        "commitments_title_part1": "Our safety",
+        "commitments_title_part2": "commitments",
+        "normes": {
+            "security_standards_title": "Security Standards",
+            "csa_certification": "CSA Certification for all our products",
+            "can_cgsb_compliance": "Compliance with CAN/CGSB standards",
+            "whmis_compliance": "Compliance with WHMIS regulations",
+            "ulc_fire_resistance_tests": "Fire resistance tests (ULC)",
+            "accredited_body_validation": "Validation by accredited organizations",
+            "site_safety_title": "Site Safety",
+            "ppe": "Personal Protective Equipment",
+            "adapted_ventilation": "Adapted premises ventilation",
+            "work_zone_signaling": "Work zone signaling",
+            "continuous_training": "Continuous training for our teams",
+            "emergency_protocols": "Defined emergency protocols",
+            "usage_safety_title": "Usage Safety",
+            "anti_slip_finishes": "Anti-slip finishes available",
+            "chemical_resistance": "Chemical resistance",
+            "non_toxic_surface": "Non-toxic surface after drying",
+            "food_compatibility": "Food compatibility (on request)",
+            "uv_resistance": "UV and discoloration resistance"
+        },
+        "precautions_title_part1": "Precautions by",
+        "precautions_title_part2": "phase",
+        "precautions": {
+            "before_installation_phase": "Before Installation",
+            "before_installation_items": {
+                "full_support_diagnostic": "Full existing support diagnostic",
+                "adhesion_humidity_test": "Adhesion and humidity test",
+                "ventilation_check": "Ventilation check",
+                "adjacent_surface_protection": "Protection of adjacent surfaces",
+                "access_exit_planning": "Access and exit planning"
+            },
+            "during_installation_phase": "During Installation",
+            "during_installation_items": {
+                "mandatory_ppe": "Mandatory full PPE wear",
+                "forced_ventilation": "Forced premises ventilation",
+                "no_smoking_open_flames": "No smoking and open flames",
+                "continuous_temperature_monitoring": "Continuous temperature monitoring",
+                "drying_time_respect": "Respect of drying times"
+            },
+            "after_installation_phase": "After Installation",
+            "after_installation_items": {
+                "full_curing_wait": "Full curing wait (72h)",
+                "prolonged_ventilation": "Prolonged premises ventilation",
+                "progressive_commissioning_test": "Progressive commissioning test",
+                "safe_maintenance_training": "Safe maintenance training",
+                "conformity_certificate_delivery": "Delivery of conformity certificates"
+            }
+        },
+        "certifications_title_part1": "Certifications &",
+        "certifications_title_part2": "Accreditations",
+        "certifications": {
+            "csa_name": "CSA",
+            "csa_description": "Canadian Standards Association",
+            "can_name": "CAN",
+            "can_description": "National Standard of Canada",
+            "ulc_name": "ULC",
+            "ulc_description": "Underwriters Laboratories of Canada",
+            "iso_9001_name": "ISO 9001",
+            "iso_9001_description": "Quality Management",
+            "iso_14001_name": "ISO 14001",
+            "iso_14001_description": "Environmental Management"
+        },
+        "security_contact_title_part1": "Safety",
+        "security_contact_title_part2": "Questions",
+        "security_contact_subtitle": "Our safety team is available to answer all your questions",
+        "contact_security_team_button": "Contact our safety team"
+    },
+    "hidden_admin_blog": {
+        "back": "Back",
+        "title_part1": "Blog Post",
+        "title_part2": "Import",
+        "category_label": "Category",
+        "select_category_placeholder": "Select a category",
+        "title_label": "Title",
+        "title_placeholder": "Enter the post title",
+        "subtitle_label": "Subtitle",
+        "subtitle_placeholder": "Enter the post subtitle",
+        "author_label": "Author",
+        "author_placeholder": "Enter the author's name",
+        "image_upload_label": "Post Image",
+        "submit_button": "Import Post",
+        "content_label": "Blog Content",
+        "content_placeholder": "Start writing your article here..."
+    },
+    "blog_details_page": {
+      "not_found": "Blog post not found.",
+      "fetch_error": "Error fetching blog post.",
+      "loading": "Loading article...",
+      "back_to_blog": "Back to blog",
+      "category_label": "Category",
+      "author_label": "Author",
+      "date_label": "Date"
+  },
+  "blog_page": {
+      "loading_articles": "Loading articles...",
+      "fetch_error": "Error fetching blog posts.",
+      "author_label": "Author",
+      "date_label": "Date",
+      "no_articles_found": "No articles found for your search.",
+      "categories": {
+          "all_articles": "All articles",
+          "trends": "Trends",
+          "advice": "Advice",
+          "projects": "Projects",
+          "technical": "Technical"
+      },
+      "hero": {
+          "back_to_home": "Back to Home",
+          "title": "Prestige Epoxy Blog",
+          "subtitle": "Discover our expert advice, trends, and exceptional achievements"
+      },
+      "filters": {
+          "search_placeholder": "Search an article..."
+      }
+  }
+    }   
+  }

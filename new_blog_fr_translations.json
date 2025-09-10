@@ -1,0 +1,70 @@
+{
+  "blog_page": {
+    "hero": {
+      "back_to_home": "Retour à l'accueil",
+      "title": "Blog Prestige Epoxy",
+      "subtitle": "Découvrez nos conseils d'experts, les tendances et nos réalisations exceptionnelles"
+    },
+    "filters": {
+      "search_placeholder": "Rechercher un article..."
+    },
+    "categories": {
+      "all_articles": "Tous les articles",
+      "trends": "Tendances",
+      "advice": "Conseils",
+      "projects": "Projets",
+      "technical": "Technique"
+    },
+    "articles": {
+      "article1": {
+        "title": "Tendances 2025 en revêtements époxy",
+        "category": "Tendances",
+        "read_time": "5 min",
+        "excerpt": "Découvrez les dernières innovations et les tendances design pour vos sols en résine époxy.",
+        "author": "Sophie Martin",
+        "date": "15 janvier 2025"
+      },
+      "article2": {
+        "title": "Comment choisir la finition époxy parfaite",
+        "category": "Conseils",
+        "read_time": "8 min",
+        "excerpt": "Guide complet pour sélectionner la finition idéale selon votre espace et vos besoins.",
+        "author": "Marc Dubois",
+        "date": "12 janvier 2025"
+      },
+      "article3": {
+        "title": "Transformation d'un loft montréalais",
+        "category": "Projets",
+        "read_time": "6 min",
+        "excerpt": "Découvrez la métamorphose complète d'un loft avec nos solutions époxy haut de gamme.",
+        "author": "Alex Moreau",
+        "date": "10 janvier 2025"
+      },
+      "article4": {
+        "title": "Entretien optimal de votre sol époxy",
+        "category": "Conseils",
+        "read_time": "4 min",
+        "excerpt": "Conseils d'experts pour préserver la brillance et la durabilité de votre revêtement époxy.",
+        "author": "Julie Leroy",
+        "date": "8 janvier 2025"
+      },
+      "article5": {
+        "title": "Résine époxy vs autres revêtements",
+        "category": "Technique",
+        "read_time": "7 min",
+        "excerpt": "Comparaison détaillée des avantages de la résine époxy par rapport aux solutions traditionnelles.",
+        "author": "Pierre Durand",
+        "date": "5 janvier 2025"
+      },
+      "article6": {
+        "title": "Showroom commercial moderne",
+        "category": "Projets",
+        "read_time": "5 min",
+        "excerpt": "Création d'un showroom automobile avec des finitions époxy métalliques.",
+        "author": "Sophie Martin",
+        "date": "3 janvier 2025"
+      }
+    },
+    "no_articles_found": "Aucun article trouvé pour votre recherche."
+  }
+}
