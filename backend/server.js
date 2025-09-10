@@ -60,6 +60,7 @@ app.post('/api/quote', async (req, res) => {
       [name, email, phone, project, squareFootage, finishType, message]
     );
 
+    console.log('Attempting to send internal quote email...');
     // 2. Send internal email to contact@prestigeepoxy.ca using the new template
     const internalMailOptions = {
       from: process.env.EMAIL_USER, 
@@ -71,6 +72,7 @@ app.post('/api/quote', async (req, res) => {
     await transporter.sendMail(internalMailOptions);
     console.log('Internal email sent successfully to:', process.env.EMAIL_TO);
 
+    console.log('Attempting to send client confirmation email...');
     // 3. Send confirmation email to client
     const clientMailOptions = {
       from: process.env.EMAIL_USER, // Utiliser la même adresse que celle pour l'authentification
@@ -106,6 +108,7 @@ app.post('/api/contact', async (req, res) => {
       html: generateInternalContactEmail(name, email, phone, project, squareFootage, finishType, message),
     };
 
+    console.log('Attempting to send contact email...');
     await transporter.sendMail(mailOptions);
     console.log('Contact email sent successfully to:', process.env.EMAIL_TO);
 
