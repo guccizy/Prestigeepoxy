@@ -130,8 +130,21 @@ const Footer = () => {
           <div className="font-manrope text-cream/60 text-sm">
             {t('footer.copyright')}
           </div>
-          <div className="flex items-center gap-6 text-sm">
-            
+          <div className="font-manrope text-cream/60 text-sm">
+            {t('footer.designed_by')}{' '}
+            <a 
+              href="https://www.whybee.agency" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-elegant-gold hover:underline"
+            >
+              Whybee Agency
+            </a>
+            <img
+              src="/logo/whybee_blc.png"
+              alt="Whybee Agency Logo"
+              className="h-5 ml-2 inline-block align-middle"
+            />
           </div>
         </div>
       </div>

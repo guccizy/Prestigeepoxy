@@ -942,7 +942,8 @@
         "blog_link": "Blog",
         "guides_link": "Guides",
         "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
+        "maintenance_link": "Entretien",
+        "designed_by": "Réalisé par"
       },
       "why_epoxy_section": {
         "title": "Bien plus qu’un sol – une expérience de prestige",
@@ -1160,31 +1161,202 @@
         "aria_label": "Demander une soumission",
         "text": "Devis Gratuit"
       },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
+      "why_choose_prestige": {
+        "title": "Bien plus qu’un sol – une expérience de prestige",
+        "item1_title": "Durabilité extrême",
+        "item1_description": "Résiste aux chocs, taches, produits chimiques et au temps.",
+        "item2_title": "Look unique",
+        "item2_description": "Des effets métalliques et marbrés impossibles à reproduire avec un autre matériau.",
+        "item3_title": "Entretien facile",
+        "item3_description": "Un simple coup de vadrouille, et votre sol retrouve son éclat.",
+        "item4_title": "Valeur immobilière",
+        "item4_description": "Un investissement qui rehausse instantanément la valeur de votre propriété."
+      },
+      "blog_page": {
+        "categories": {
+          "all_articles": "Tous les articles",
+          "trends": "Tendances",
+          "advice": "Conseils",
+          "projects": "Projets",
+          "technical": "Technique"
+        },
+        "articles": {
+          "article1": {
+            "title": "Les tendances 2025 en revêtements époxy",
+            "excerpt": "Découvrez les dernières innovations et tendances design pour vos sols en résine époxy.",
+            "author": "Sophie Martin",
+            "date": "15 janvier 2025",
+            "read_time": "5 min"
+          },
+          "article2": {
+            "title": "Comment choisir la finition époxy parfaite",
+            "excerpt": "Guide complet pour sélectionner la finition idéale selon votre espace et vos besoins.",
+            "author": "Marc Dubois",
+            "date": "12 janvier 2025",
+            "read_time": "8 min"
+          },
+          "article3": {
+            "title": "Transformation d'un loft montréalais",
+            "excerpt": "Découvrez la métamorphose complète d'un loft avec nos solutions époxy haut de gamme.",
+            "author": "Alex Moreau",
+            "date": "10 janvier 2025",
+            "read_time": "6 min"
+          },
+          "article4": {
+            "title": "Entretien optimal de votre sol époxy",
+            "excerpt": "Conseils d'experts pour préserver l'éclat et la durabilité de votre revêtement époxy.",
+            "author": "Julie Leroy",
+            "date": "8 janvier 2025",
+            "read_time": "4 min"
+          },
+          "article5": {
+            "title": "Résine époxy vs autres revêtements",
+            "excerpt": "Comparatif détaillé des avantages de la résine époxy face aux solutions traditionnelles.",
+            "author": "Pierre Durand",
+            "date": "5 janvier 2025",
+            "read_time": "7 min"
+          },
+          "article6": {
+            "title": "Showroom commercial moderne",
+            "excerpt": "Réalisation d'un showroom automobile avec finitions époxy métallisées.",
+            "author": "Sophie Martin",
+            "date": "3 janvier 2025",
+            "read_time": "5 min"
+          }
+        },
+        "hero": {
+          "back_to_home": "Retour à l'accueil",
+          "title": "Blog Prestige Epoxy",
+          "subtitle": "Découvrez nos conseils d'experts, tendances et réalisations exceptionnelles"
+        },
+        "filters": {
+          "search_placeholder": "Rechercher un article..."
+        },
+        "no_articles_found": "Aucun article trouvé pour votre recherche."
+      },
+      "advice_page": {
+        "categories": {
+          "residential": "Résidentiel",
+          "commercial": "Commercial",
+          "industrial": "Industriel"
+        },
+        "residential": {
+          "tip1_title": "Choisir la bonne finition pour votre cuisine",
+          "tip1_content": "Pour une cuisine, privilégiez une finition satinée qui résiste aux taches et facilite le nettoyage. Évitez les finitions trop brillantes qui montrent les traces.",
+          "tip1_tip1": "Finition satinée recommandée",
+          "tip1_tip2": "Résistance aux taches alimentaires",
+          "tip1_tip3": "Facilité de nettoyage",
+          "tip2_title": "Garage : optez pour l'antidérapant",
+          "tip2_content": "Dans un garage, la sécurité prime. Choisissez une finition antidérapante pour éviter les glissades, surtout par temps humide.",
+          "tip2_tip1": "Finition antidérapante obligatoire",
+          "tip2_tip2": "Résistance aux hydrocarbures",
+          "tip2_tip3": "Drainage optimal",
+          "tip3_title": "Salon : élégance et confort",
+          "tip3_content": "Pour un salon, misez sur l'esthétique avec une finition brillante qui reflète la lumière et agrandit visuellement l'espace.",
+          "tip3_tip1": "Finition brillante pour l'éclat",
+          "tip3_tip2": "Couleurs neutres conseillées",
+          "tip3_tip3": "Chauffage au sol compatible"
+        },
+        "commercial": {
+          "tip1_title": "Showroom : impression garantie",
+          "tip1_content": "Un showroom demande une finition impeccable. Optez pour un époxy métallisé qui impressionne vos clients dès leur entrée.",
+          "tip1_tip1": "Finition métallisée premium",
+          "tip1_tip2": "Résistance au trafic intense",
+          "tip1_tip3": "Effet miroir saisissant",
+          "tip2_title": "Restaurant : hygiène et style",
+          "tip2_content": "En restauration, l'hygiène est cruciale. Choisissez une finition lisse, non poreuse et facile à désinfecter.",
+          "tip2_tip1": "Surface non poreuse",
+          "tip2_tip2": "Résistance aux produits chimiques",
+          "tip2_tip3": "Nettoyage simplifié",
+          "tip3_title": "Bureau : productivité et bien-être",
+          "tip3_content": "Pour des bureaux, privilégiez des couleurs apaisantes et une finition mate qui réduit la fatigue visuelle.",
+          "tip3_tip1": "Finition mate recommandée",
+          "tip3_tip2": "Couleurs neutres et apaisantes",
+          "tip3_tip3": "Acoustique améliorée"
+        },
+        "industrial": {
+          "tip1_title": "Entrepôt : robustesse maximale",
+          "tip1_content": "En milieu industriel, la résistance prime. Optez pour un époxy renforcé capable de supporter charges lourdes et chocs.",
+          "tip1_tip1": "Époxy renforcé fibres",
+          "tip1_tip2": "Résistance aux charges lourdes",
+          "tip1_tip3": "Marquage au sol intégré",
+          "tip2_title": "Laboratoire : pureté et sécurité",
+          "tip2_content": "Les laboratoires exigent des sols parfaitement lisses, non poreux et résistants aux produits chimiques agressifs.",
+          "tip2_tip1": "Surface ultra-lisse",
+          "tip2_tip2": "Résistance chimique maximale",
+          "tip2_tip3": "Joints étanches",
+          "tip3_title": "Atelier : praticité et durabilité",
+          "tip3_content": "Pour un atelier, combinez résistance aux chocs, facilité d'entretien et marquage au sol pour optimiser l'organisation.",
+          "tip3_tip1": "Résistance aux chocs",
+          "tip3_tip2": "Marquage intégré",
+          "tip3_tip3": "Entretien minimal"
+        },
+        "hero": {
+          "back_to_home": "Retour à l'accueil",
+          "title": "Conseils d'experts",
+          "subtitle": "Recommandations personnalisées pour chaque type de projet"
+        },
+        "key_points_title": "Points clés :",
+        "learn_more_button": "En savoir plus",
+        "cta": {
+          "title_part1": "Besoin de conseils",
+          "title_part2": "personnalisés",
+          "subtitle": "Nos experts sont à votre disposition pour vous accompagner dans votre projet",
+          "button": "Consulter nos experts"
+        }
+      },
+      "quote_page": {
+        "form_sending_message": "Tentative d'envoi du formulaire :",
+        "fill_all_fields_alert": "Veuillez remplir tous les champs obligatoires.",
+        "success_message": "Votre demande de devis a été envoyée avec succès !",
+        "error_message": "Échec de l'envoi de la demande de devis.",
+        "form_send_error": "Erreur lors de l'envoi du formulaire :",
+        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+        "hero_title": "Demande de Devis",
+        "hero_subtitle": "Décrivez-nous votre projet et obtenez une soumission gratuite et personnalisée."
+      },
+      "contact_section": {
+        "form_sending_message": "Tentative d'envoi du formulaire de contact :",
+        "email_subtitle": "Réponse sous 24h",
+        "phone_subtitle": "Lun-Ven, 8h-17h (EST)",
+        "address_subtitle": "Sur rendez-vous",
+        "square_footage_placeholder": "Nombre de pieds carrés",
+        "finish_type": "Type de finitions",
+        "finish_options": {
+          "solid_colors": "Couleurs unies",
+          "metallic_effects": "Effets métalliques",
+          "marble_effects": "Effets marbrés",
+          "spiral_checkerboard": "Spirales et damier",
+          "refined_raw_concrete": "Béton brut raffiné",
+          "gold_mother_of_pearl_dust": "Poussière d'or et nacre",
+          "custom_logos_patterns": "Logos et motifs personnalisés",
+          "matte_finish": "Fini mat",
+          "glossy_finish": "Fini brillant"
+        },
+        "message_placeholder": "Décrivez votre projet en détail...",
+        "send_message": "Envoyer la demande",
+        "form_send_error": "Erreur lors de l'envoi du formulaire de contact :",
+        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+        "title": "Contactez-nous",
+        "subtitle": "Prêt à transformer vos sols ?",
+        "phone": "Téléphone",
+        "email": "Email",
+        "address": "Adresse",
+        "full_name": "Nom complet",
+        "phone_number": "Numéro de téléphone",
+        "email_address": "Adresse e-mail",
+        "project_type": "Type de projet",
+        "residential": "Résidentiel",
+        "commercial": "Commercial",
+        "industrial": "Industriel",
+        "message": "Votre message",
+        "contact_info_text": "N'hésitez pas à nous contacter pour toute question ou demande de devis. Nous sommes là pour vous aider à réaliser votre projet de revêtement de sol époxy.",
+        "success_message": "Votre message a été envoyé avec succès ! Nous vous répondrons sous peu.",
+        "error_message": "Échec de l'envoi du message."
+      },
+      "floating_quote_button": {
+        "aria_label": "Demander une soumission",
+        "text": "Devis Gratuit"
       },
       "why_choose_prestige": {
         "title": "Bien plus qu’un sol – une expérience de prestige",
@@ -1383,31 +1555,202 @@
         "aria_label": "Demander une soumission",
         "text": "Devis Gratuit"
       },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
+      "why_choose_prestige": {
+        "title": "Bien plus qu’un sol – une expérience de prestige",
+        "item1_title": "Durabilité extrême",
+        "item1_description": "Résiste aux chocs, taches, produits chimiques et au temps.",
+        "item2_title": "Look unique",
+        "item2_description": "Des effets métalliques et marbrés impossibles à reproduire avec un autre matériau.",
+        "item3_title": "Entretien facile",
+        "item3_description": "Un simple coup de vadrouille, et votre sol retrouve son éclat.",
+        "item4_title": "Valeur immobilière",
+        "item4_description": "Un investissement qui rehausse instantanément la valeur de votre propriété."
+      },
+      "blog_page": {
+        "categories": {
+          "all_articles": "Tous les articles",
+          "trends": "Tendances",
+          "advice": "Conseils",
+          "projects": "Projets",
+          "technical": "Technique"
+        },
+        "articles": {
+          "article1": {
+            "title": "Les tendances 2025 en revêtements époxy",
+            "excerpt": "Découvrez les dernières innovations et tendances design pour vos sols en résine époxy.",
+            "author": "Sophie Martin",
+            "date": "15 janvier 2025",
+            "read_time": "5 min"
+          },
+          "article2": {
+            "title": "Comment choisir la finition époxy parfaite",
+            "excerpt": "Guide complet pour sélectionner la finition idéale selon votre espace et vos besoins.",
+            "author": "Marc Dubois",
+            "date": "12 janvier 2025",
+            "read_time": "8 min"
+          },
+          "article3": {
+            "title": "Transformation d'un loft montréalais",
+            "excerpt": "Découvrez la métamorphose complète d'un loft avec nos solutions époxy haut de gamme.",
+            "author": "Alex Moreau",
+            "date": "10 janvier 2025",
+            "read_time": "6 min"
+          },
+          "article4": {
+            "title": "Entretien optimal de votre sol époxy",
+            "excerpt": "Conseils d'experts pour préserver l'éclat et la durabilité de votre revêtement époxy.",
+            "author": "Julie Leroy",
+            "date": "8 janvier 2025",
+            "read_time": "4 min"
+          },
+          "article5": {
+            "title": "Résine époxy vs autres revêtements",
+            "excerpt": "Comparatif détaillé des avantages de la résine époxy face aux solutions traditionnelles.",
+            "author": "Pierre Durand",
+            "date": "5 janvier 2025",
+            "read_time": "7 min"
+          },
+          "article6": {
+            "title": "Showroom commercial moderne",
+            "excerpt": "Réalisation d'un showroom automobile avec finitions époxy métallisées.",
+            "author": "Sophie Martin",
+            "date": "3 janvier 2025",
+            "read_time": "5 min"
+          }
+        },
+        "hero": {
+          "back_to_home": "Retour à l'accueil",
+          "title": "Blog Prestige Epoxy",
+          "subtitle": "Découvrez nos conseils d'experts, tendances et réalisations exceptionnelles"
+        },
+        "filters": {
+          "search_placeholder": "Rechercher un article..."
+        },
+        "no_articles_found": "Aucun article trouvé pour votre recherche."
+      },
+      "advice_page": {
+        "categories": {
+          "residential": "Résidentiel",
+          "commercial": "Commercial",
+          "industrial": "Industriel"
+        },
+        "residential": {
+          "tip1_title": "Choisir la bonne finition pour votre cuisine",
+          "tip1_content": "Pour une cuisine, privilégiez une finition satinée qui résiste aux taches et facilite le nettoyage. Évitez les finitions trop brillantes qui montrent les traces.",
+          "tip1_tip1": "Finition satinée recommandée",
+          "tip1_tip2": "Résistance aux taches alimentaires",
+          "tip1_tip3": "Facilité de nettoyage",
+          "tip2_title": "Garage : optez pour l'antidérapant",
+          "tip2_content": "Dans un garage, la sécurité prime. Choisissez une finition antidérapante pour éviter les glissades, surtout par temps humide.",
+          "tip2_tip1": "Finition antidérapante obligatoire",
+          "tip2_tip2": "Résistance aux hydrocarbures",
+          "tip2_tip3": "Drainage optimal",
+          "tip3_title": "Salon : élégance et confort",
+          "tip3_content": "Pour un salon, misez sur l'esthétique avec une finition brillante qui reflète la lumière et agrandit visuellement l'espace.",
+          "tip3_tip1": "Finition brillante pour l'éclat",
+          "tip3_tip2": "Couleurs neutres conseillées",
+          "tip3_tip3": "Chauffage au sol compatible"
+        },
+        "commercial": {
+          "tip1_title": "Showroom : impression garantie",
+          "tip1_content": "Un showroom demande une finition impeccable. Optez pour un époxy métallisé qui impressionne vos clients dès leur entrée.",
+          "tip1_tip1": "Finition métallisée premium",
+          "tip1_tip2": "Résistance au trafic intense",
+          "tip1_tip3": "Effet miroir saisissant",
+          "tip2_title": "Restaurant : hygiène et style",
+          "tip2_content": "En restauration, l'hygiène est cruciale. Choisissez une finition lisse, non poreuse et facile à désinfecter.",
+          "tip2_tip1": "Surface non poreuse",
+          "tip2_tip2": "Résistance aux produits chimiques",
+          "tip2_tip3": "Nettoyage simplifié",
+          "tip3_title": "Bureau : productivité et bien-être",
+          "tip3_content": "Pour des bureaux, privilégiez des couleurs apaisantes et une finition mate qui réduit la fatigue visuelle.",
+          "tip3_tip1": "Finition mate recommandée",
+          "tip3_tip2": "Couleurs neutres et apaisantes",
+          "tip3_tip3": "Acoustique améliorée"
+        },
+        "industrial": {
+          "tip1_title": "Entrepôt : robustesse maximale",
+          "tip1_content": "En milieu industriel, la résistance prime. Optez pour un époxy renforcé capable de supporter charges lourdes et chocs.",
+          "tip1_tip1": "Époxy renforcé fibres",
+          "tip1_tip2": "Résistance aux charges lourdes",
+          "tip1_tip3": "Marquage au sol intégré",
+          "tip2_title": "Laboratoire : pureté et sécurité",
+          "tip2_content": "Les laboratoires exigent des sols parfaitement lisses, non poreux et résistants aux produits chimiques agressifs.",
+          "tip2_tip1": "Surface ultra-lisse",
+          "tip2_tip2": "Résistance chimique maximale",
+          "tip2_tip3": "Joints étanches",
+          "tip3_title": "Atelier : praticité et durabilité",
+          "tip3_content": "Pour un atelier, combinez résistance aux chocs, facilité d'entretien et marquage au sol pour optimiser l'organisation.",
+          "tip3_tip1": "Résistance aux chocs",
+          "tip3_tip2": "Marquage intégré",
+          "tip3_tip3": "Entretien minimal"
+        },
+        "hero": {
+          "back_to_home": "Retour à l'accueil",
+          "title": "Conseils d'experts",
+          "subtitle": "Recommandations personnalisées pour chaque type de projet"
+        },
+        "key_points_title": "Points clés :",
+        "learn_more_button": "En savoir plus",
+        "cta": {
+          "title_part1": "Besoin de conseils",
+          "title_part2": "personnalisés",
+          "subtitle": "Nos experts sont à votre disposition pour vous accompagner dans votre projet",
+          "button": "Consulter nos experts"
+        }
+      },
+      "quote_page": {
+        "form_sending_message": "Tentative d'envoi du formulaire :",
+        "fill_all_fields_alert": "Veuillez remplir tous les champs obligatoires.",
+        "success_message": "Votre demande de devis a été envoyée avec succès !",
+        "error_message": "Échec de l'envoi de la demande de devis.",
+        "form_send_error": "Erreur lors de l'envoi du formulaire :",
+        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+        "hero_title": "Demande de Devis",
+        "hero_subtitle": "Décrivez-nous votre projet et obtenez une soumission gratuite et personnalisée."
+      },
+      "contact_section": {
+        "form_sending_message": "Tentative d'envoi du formulaire de contact :",
+        "email_subtitle": "Réponse sous 24h",
+        "phone_subtitle": "Lun-Ven, 8h-17h (EST)",
+        "address_subtitle": "Sur rendez-vous",
+        "square_footage_placeholder": "Nombre de pieds carrés",
+        "finish_type": "Type de finitions",
+        "finish_options": {
+          "solid_colors": "Couleurs unies",
+          "metallic_effects": "Effets métalliques",
+          "marble_effects": "Effets marbrés",
+          "spiral_checkerboard": "Spirales et damier",
+          "refined_raw_concrete": "Béton brut raffiné",
+          "gold_mother_of_pearl_dust": "Poussière d'or et nacre",
+          "custom_logos_patterns": "Logos et motifs personnalisés",
+          "matte_finish": "Fini mat",
+          "glossy_finish": "Fini brillant"
+        },
+        "message_placeholder": "Décrivez votre projet en détail...",
+        "send_message": "Envoyer la demande",
+        "form_send_error": "Erreur lors de l'envoi du formulaire de contact :",
+        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+        "title": "Contactez-nous",
+        "subtitle": "Prêt à transformer vos sols ?",
+        "phone": "Téléphone",
+        "email": "Email",
+        "address": "Adresse",
+        "full_name": "Nom complet",
+        "phone_number": "Numéro de téléphone",
+        "email_address": "Adresse e-mail",
+        "project_type": "Type de projet",
+        "residential": "Résidentiel",
+        "commercial": "Commercial",
+        "industrial": "Industriel",
+        "message": "Votre message",
+        "contact_info_text": "N'hésitez pas à nous contacter pour toute question ou demande de devis. Nous sommes là pour vous aider à réaliser votre projet de revêtement de sol époxy.",
+        "success_message": "Votre message a été envoyé avec succès ! Nous vous répondrons sous peu.",
+        "error_message": "Échec de l'envoi du message."
+      },
+      "floating_quote_button": {
+        "aria_label": "Demander une soumission",
+        "text": "Devis Gratuit"
       },
       "why_choose_prestige": {
         "title": "Bien plus qu’un sol – une expérience de prestige",
@@ -1606,31 +1949,202 @@
         "aria_label": "Demander une soumission",
         "text": "Devis Gratuit"
       },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
+      "why_choose_prestige": {
+        "title": "Bien plus qu’un sol – une expérience de prestige",
+        "item1_title": "Durabilité extrême",
+        "item1_description": "Résiste aux chocs, taches, produits chimiques et au temps.",
+        "item2_title": "Look unique",
+        "item2_description": "Des effets métalliques et marbrés impossibles à reproduire avec un autre matériau.",
+        "item3_title": "Entretien facile",
+        "item3_description": "Un simple coup de vadrouille, et votre sol retrouve son éclat.",
+        "item4_title": "Valeur immobilière",
+        "item4_description": "Un investissement qui rehausse instantanément la valeur de votre propriété."
+      },
+      "blog_page": {
+        "categories": {
+          "all_articles": "Tous les articles",
+          "trends": "Tendances",
+          "advice": "Conseils",
+          "projects": "Projets",
+          "technical": "Technique"
+        },
+        "articles": {
+          "article1": {
+            "title": "Les tendances 2025 en revêtements époxy",
+            "excerpt": "Découvrez les dernières innovations et tendances design pour vos sols en résine époxy.",
+            "author": "Sophie Martin",
+            "date": "15 janvier 2025",
+            "read_time": "5 min"
+          },
+          "article2": {
+            "title": "Comment choisir la finition époxy parfaite",
+            "excerpt": "Guide complet pour sélectionner la finition idéale selon votre espace et vos besoins.",
+            "author": "Marc Dubois",
+            "date": "12 janvier 2025",
+            "read_time": "8 min"
+          },
+          "article3": {
+            "title": "Transformation d'un loft montréalais",
+            "excerpt": "Découvrez la métamorphose complète d'un loft avec nos solutions époxy haut de gamme.",
+            "author": "Alex Moreau",
+            "date": "10 janvier 2025",
+            "read_time": "6 min"
+          },
+          "article4": {
+            "title": "Entretien optimal de votre sol époxy",
+            "excerpt": "Conseils d'experts pour préserver l'éclat et la durabilité de votre revêtement époxy.",
+            "author": "Julie Leroy",
+            "date": "8 janvier 2025",
+            "read_time": "4 min"
+          },
+          "article5": {
+            "title": "Résine époxy vs autres revêtements",
+            "excerpt": "Comparatif détaillé des avantages de la résine époxy face aux solutions traditionnelles.",
+            "author": "Pierre Durand",
+            "date": "5 janvier 2025",
+            "read_time": "7 min"
+          },
+          "article6": {
+            "title": "Showroom commercial moderne",
+            "excerpt": "Réalisation d'un showroom automobile avec finitions époxy métallisées.",
+            "author": "Sophie Martin",
+            "date": "3 janvier 2025",
+            "read_time": "5 min"
+          }
+        },
+        "hero": {
+          "back_to_home": "Retour à l'accueil",
+          "title": "Blog Prestige Epoxy",
+          "subtitle": "Découvrez nos conseils d'experts, tendances et réalisations exceptionnelles"
+        },
+        "filters": {
+          "search_placeholder": "Rechercher un article..."
+        },
+        "no_articles_found": "Aucun article trouvé pour votre recherche."
+      },
+      "advice_page": {
+        "categories": {
+          "residential": "Résidentiel",
+          "commercial": "Commercial",
+          "industrial": "Industriel"
+        },
+        "residential": {
+          "tip1_title": "Choisir la bonne finition pour votre cuisine",
+          "tip1_content": "Pour une cuisine, privilégiez une finition satinée qui résiste aux taches et facilite le nettoyage. Évitez les finitions trop brillantes qui montrent les traces.",
+          "tip1_tip1": "Finition satinée recommandée",
+          "tip1_tip2": "Résistance aux taches alimentaires",
+          "tip1_tip3": "Facilité de nettoyage",
+          "tip2_title": "Garage : optez pour l'antidérapant",
+          "tip2_content": "Dans un garage, la sécurité prime. Choisissez une finition antidérapante pour éviter les glissades, surtout par temps humide.",
+          "tip2_tip1": "Finition antidérapante obligatoire",
+          "tip2_tip2": "Résistance aux hydrocarbures",
+          "tip2_tip3": "Drainage optimal",
+          "tip3_title": "Salon : élégance et confort",
+          "tip3_content": "Pour un salon, misez sur l'esthétique avec une finition brillante qui reflète la lumière et agrandit visuellement l'espace.",
+          "tip3_tip1": "Finition brillante pour l'éclat",
+          "tip3_tip2": "Couleurs neutres conseillées",
+          "tip3_tip3": "Chauffage au sol compatible"
+        },
+        "commercial": {
+          "tip1_title": "Showroom : impression garantie",
+          "tip1_content": "Un showroom demande une finition impeccable. Optez pour un époxy métallisé qui impressionne vos clients dès leur entrée.",
+          "tip1_tip1": "Finition métallisée premium",
+          "tip1_tip2": "Résistance au trafic intense",
+          "tip1_tip3": "Effet miroir saisissant",
+          "tip2_title": "Restaurant : hygiène et style",
+          "tip2_content": "En restauration, l'hygiène est cruciale. Choisissez une finition lisse, non poreuse et facile à désinfecter.",
+          "tip2_tip1": "Surface non poreuse",
+          "tip2_tip2": "Résistance aux produits chimiques",
+          "tip2_tip3": "Nettoyage simplifié",
+          "tip3_title": "Bureau : productivité et bien-être",
+          "tip3_content": "Pour des bureaux, privilégiez des couleurs apaisantes et une finition mate qui réduit la fatigue visuelle.",
+          "tip3_tip1": "Finition mate recommandée",
+          "tip3_tip2": "Couleurs neutres et apaisantes",
+          "tip3_tip3": "Acoustique améliorée"
+        },
+        "industrial": {
+          "tip1_title": "Entrepôt : robustesse maximale",
+          "tip1_content": "En milieu industriel, la résistance prime. Optez pour un époxy renforcé capable de supporter charges lourdes et chocs.",
+          "tip1_tip1": "Époxy renforcé fibres",
+          "tip1_tip2": "Résistance aux charges lourdes",
+          "tip1_tip3": "Marquage au sol intégré",
+          "tip2_title": "Laboratoire : pureté et sécurité",
+          "tip2_content": "Les laboratoires exigent des sols parfaitement lisses, non poreux et résistants aux produits chimiques agressifs.",
+          "tip2_tip1": "Surface ultra-lisse",
+          "tip2_tip2": "Résistance chimique maximale",
+          "tip2_tip3": "Joints étanches",
+          "tip3_title": "Atelier : praticité et durabilité",
+          "tip3_content": "Pour un atelier, combinez résistance aux chocs, facilité d'entretien et marquage au sol pour optimiser l'organisation.",
+          "tip3_tip1": "Résistance aux chocs",
+          "tip3_tip2": "Marquage intégré",
+          "tip3_tip3": "Entretien minimal"
+        },
+        "hero": {
+          "back_to_home": "Retour à l'accueil",
+          "title": "Conseils d'experts",
+          "subtitle": "Recommandations personnalisées pour chaque type de projet"
+        },
+        "key_points_title": "Points clés :",
+        "learn_more_button": "En savoir plus",
+        "cta": {
+          "title_part1": "Besoin de conseils",
+          "title_part2": "personnalisés",
+          "subtitle": "Nos experts sont à votre disposition pour vous accompagner dans votre projet",
+          "button": "Consulter nos experts"
+        }
+      },
+      "quote_page": {
+        "form_sending_message": "Tentative d'envoi du formulaire :",
+        "fill_all_fields_alert": "Veuillez remplir tous les champs obligatoires.",
+        "success_message": "Votre demande de devis a été envoyée avec succès !",
+        "error_message": "Échec de l'envoi de la demande de devis.",
+        "form_send_error": "Erreur lors de l'envoi du formulaire :",
+        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+        "hero_title": "Demande de Devis",
+        "hero_subtitle": "Décrivez-nous votre projet et obtenez une soumission gratuite et personnalisée."
+      },
+      "contact_section": {
+        "form_sending_message": "Tentative d'envoi du formulaire de contact :",
+        "email_subtitle": "Réponse sous 24h",
+        "phone_subtitle": "Lun-Ven, 8h-17h (EST)",
+        "address_subtitle": "Sur rendez-vous",
+        "square_footage_placeholder": "Nombre de pieds carrés",
+        "finish_type": "Type de finitions",
+        "finish_options": {
+          "solid_colors": "Couleurs unies",
+          "metallic_effects": "Effets métalliques",
+          "marble_effects": "Effets marbrés",
+          "spiral_checkerboard": "Spirales et damier",
+          "refined_raw_concrete": "Béton brut raffiné",
+          "gold_mother_of_pearl_dust": "Poussière d'or et nacre",
+          "custom_logos_patterns": "Logos et motifs personnalisés",
+          "matte_finish": "Fini mat",
+          "glossy_finish": "Fini brillant"
+        },
+        "message_placeholder": "Décrivez votre projet en détail...",
+        "send_message": "Envoyer la demande",
+        "form_send_error": "Erreur lors de l'envoi du formulaire de contact :",
+        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+        "title": "Contactez-nous",
+        "subtitle": "Prêt à transformer vos sols ?",
+        "phone": "Téléphone",
+        "email": "Email",
+        "address": "Adresse",
+        "full_name": "Nom complet",
+        "phone_number": "Numéro de téléphone",
+        "email_address": "Adresse e-mail",
+        "project_type": "Type de projet",
+        "residential": "Résidentiel",
+        "commercial": "Commercial",
+        "industrial": "Industriel",
+        "message": "Votre message",
+        "contact_info_text": "N'hésitez pas à nous contacter pour toute question ou demande de devis. Nous sommes là pour vous aider à réaliser votre projet de revêtement de sol époxy.",
+        "success_message": "Votre message a été envoyé avec succès ! Nous vous répondrons sous peu.",
+        "error_message": "Échec de l'envoi du message."
+      },
+      "floating_quote_button": {
+        "aria_label": "Demander une soumission",
+        "text": "Devis Gratuit"
       },
       "why_choose_prestige": {
         "title": "Bien plus qu’un sol – une expérience de prestige",
@@ -1829,31 +2343,202 @@
         "aria_label": "Demander une soumission",
         "text": "Devis Gratuit"
       },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
+      "why_choose_prestige": {
+        "title": "Bien plus qu’un sol – une expérience de prestige",
+        "item1_title": "Durabilité extrême",
+        "item1_description": "Résiste aux chocs, taches, produits chimiques et au temps.",
+        "item2_title": "Look unique",
+        "item2_description": "Des effets métalliques et marbrés impossibles à reproduire avec un autre matériau.",
+        "item3_title": "Entretien facile",
+        "item3_description": "Un simple coup de vadrouille, et votre sol retrouve son éclat.",
+        "item4_title": "Valeur immobilière",
+        "item4_description": "Un investissement qui rehausse instantanément la valeur de votre propriété."
+      },
+      "blog_page": {
+        "categories": {
+          "all_articles": "Tous les articles",
+          "trends": "Tendances",
+          "advice": "Conseils",
+          "projects": "Projets",
+          "technical": "Technique"
+        },
+        "articles": {
+          "article1": {
+            "title": "Les tendances 2025 en revêtements époxy",
+            "excerpt": "Découvrez les dernières innovations et tendances design pour vos sols en résine époxy.",
+            "author": "Sophie Martin",
+            "date": "15 janvier 2025",
+            "read_time": "5 min"
+          },
+          "article2": {
+            "title": "Comment choisir la finition époxy parfaite",
+            "excerpt": "Guide complet pour sélectionner la finition idéale selon votre espace et vos besoins.",
+            "author": "Marc Dubois",
+            "date": "12 janvier 2025",
+            "read_time": "8 min"
+          },
+          "article3": {
+            "title": "Transformation d'un loft montréalais",
+            "excerpt": "Découvrez la métamorphose complète d'un loft avec nos solutions époxy haut de gamme.",
+            "author": "Alex Moreau",
+            "date": "10 janvier 2025",
+            "read_time": "6 min"
+          },
+          "article4": {
+            "title": "Entretien optimal de votre sol époxy",
+            "excerpt": "Conseils d'experts pour préserver l'éclat et la durabilité de votre revêtement époxy.",
+            "author": "Julie Leroy",
+            "date": "8 janvier 2025",
+            "read_time": "4 min"
+          },
+          "article5": {
+            "title": "Résine époxy vs autres revêtements",
+            "excerpt": "Comparatif détaillé des avantages de la résine époxy face aux solutions traditionnelles.",
+            "author": "Pierre Durand",
+            "date": "5 janvier 2025",
+            "read_time": "7 min"
+          },
+          "article6": {
+            "title": "Showroom commercial moderne",
+            "excerpt": "Réalisation d'un showroom automobile avec finitions époxy métallisées.",
+            "author": "Sophie Martin",
+            "date": "3 janvier 2025",
+            "read_time": "5 min"
+          }
+        },
+        "hero": {
+          "back_to_home": "Retour à l'accueil",
+          "title": "Blog Prestige Epoxy",
+          "subtitle": "Découvrez nos conseils d'experts, tendances et réalisations exceptionnelles"
+        },
+        "filters": {
+          "search_placeholder": "Rechercher un article..."
+        },
+        "no_articles_found": "Aucun article trouvé pour votre recherche."
+      },
+      "advice_page": {
+        "categories": {
+          "residential": "Résidentiel",
+          "commercial": "Commercial",
+          "industrial": "Industriel"
+        },
+        "residential": {
+          "tip1_title": "Choisir la bonne finition pour votre cuisine",
+          "tip1_content": "Pour une cuisine, privilégiez une finition satinée qui résiste aux taches et facilite le nettoyage. Évitez les finitions trop brillantes qui montrent les traces.",
+          "tip1_tip1": "Finition satinée recommandée",
+          "tip1_tip2": "Résistance aux taches alimentaires",
+          "tip1_tip3": "Facilité de nettoyage",
+          "tip2_title": "Garage : optez pour l'antidérapant",
+          "tip2_content": "Dans un garage, la sécurité prime. Choisissez une finition antidérapante pour éviter les glissades, surtout par temps humide.",
+          "tip2_tip1": "Finition antidérapante obligatoire",
+          "tip2_tip2": "Résistance aux hydrocarbures",
+          "tip2_tip3": "Drainage optimal",
+          "tip3_title": "Salon : élégance et confort",
+          "tip3_content": "Pour un salon, misez sur l'esthétique avec une finition brillante qui reflète la lumière et agrandit visuellement l'espace.",
+          "tip3_tip1": "Finition brillante pour l'éclat",
+          "tip3_tip2": "Couleurs neutres conseillées",
+          "tip3_tip3": "Chauffage au sol compatible"
+        },
+        "commercial": {
+          "tip1_title": "Showroom : impression garantie",
+          "tip1_content": "Un showroom demande une finition impeccable. Optez pour un époxy métallisé qui impressionne vos clients dès leur entrée.",
+          "tip1_tip1": "Finition métallisée premium",
+          "tip1_tip2": "Résistance au trafic intense",
+          "tip1_tip3": "Effet miroir saisissant",
+          "tip2_title": "Restaurant : hygiène et style",
+          "tip2_content": "En restauration, l'hygiène est cruciale. Choisissez une finition lisse, non poreuse et facile à désinfecter.",
+          "tip2_tip1": "Surface non poreuse",
+          "tip2_tip2": "Résistance aux produits chimiques",
+          "tip2_tip3": "Nettoyage simplifié",
+          "tip3_title": "Bureau : productivité et bien-être",
+          "tip3_content": "Pour des bureaux, privilégiez des couleurs apaisantes et une finition mate qui réduit la fatigue visuelle.",
+          "tip3_tip1": "Finition mate recommandée",
+          "tip3_tip2": "Couleurs neutres et apaisantes",
+          "tip3_tip3": "Acoustique améliorée"
+        },
+        "industrial": {
+          "tip1_title": "Entrepôt : robustesse maximale",
+          "tip1_content": "En milieu industriel, la résistance prime. Optez pour un époxy renforcé capable de supporter charges lourdes et chocs.",
+          "tip1_tip1": "Époxy renforcé fibres",
+          "tip1_tip2": "Résistance aux charges lourdes",
+          "tip1_tip3": "Marquage au sol intégré",
+          "tip2_title": "Laboratoire : pureté et sécurité",
+          "tip2_content": "Les laboratoires exigent des sols parfaitement lisses, non poreux et résistants aux produits chimiques agressifs.",
+          "tip2_tip1": "Surface ultra-lisse",
+          "tip2_tip2": "Résistance chimique maximale",
+          "tip2_tip3": "Joints étanches",
+          "tip3_title": "Atelier : praticité et durabilité",
+          "tip3_content": "Pour un atelier, combinez résistance aux chocs, facilité d'entretien et marquage au sol pour optimiser l'organisation.",
+          "tip3_tip1": "Résistance aux chocs",
+          "tip3_tip2": "Marquage intégré",
+          "tip3_tip3": "Entretien minimal"
+        },
+        "hero": {
+          "back_to_home": "Retour à l'accueil",
+          "title": "Conseils d'experts",
+          "subtitle": "Recommandations personnalisées pour chaque type de projet"
+        },
+        "key_points_title": "Points clés :",
+        "learn_more_button": "En savoir plus",
+        "cta": {
+          "title_part1": "Besoin de conseils",
+          "title_part2": "personnalisés",
+          "subtitle": "Nos experts sont à votre disposition pour vous accompagner dans votre projet",
+          "button": "Consulter nos experts"
+        }
+      },
+      "quote_page": {
+        "form_sending_message": "Tentative d'envoi du formulaire :",
+        "fill_all_fields_alert": "Veuillez remplir tous les champs obligatoires.",
+        "success_message": "Votre demande de devis a été envoyée avec succès !",
+        "error_message": "Échec de l'envoi de la demande de devis.",
+        "form_send_error": "Erreur lors de l'envoi du formulaire :",
+        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+        "hero_title": "Demande de Devis",
+        "hero_subtitle": "Décrivez-nous votre projet et obtenez une soumission gratuite et personnalisée."
+      },
+      "contact_section": {
+        "form_sending_message": "Tentative d'envoi du formulaire de contact :",
+        "email_subtitle": "Réponse sous 24h",
+        "phone_subtitle": "Lun-Ven, 8h-17h (EST)",
+        "address_subtitle": "Sur rendez-vous",
+        "square_footage_placeholder": "Nombre de pieds carrés",
+        "finish_type": "Type de finitions",
+        "finish_options": {
+          "solid_colors": "Couleurs unies",
+          "metallic_effects": "Effets métalliques",
+          "marble_effects": "Effets marbrés",
+          "spiral_checkerboard": "Spirales et damier",
+          "refined_raw_concrete": "Béton brut raffiné",
+          "gold_mother_of_pearl_dust": "Poussière d'or et nacre",
+          "custom_logos_patterns": "Logos et motifs personnalisés",
+          "matte_finish": "Fini mat",
+          "glossy_finish": "Fini brillant"
+        },
+        "message_placeholder": "Décrivez votre projet en détail...",
+        "send_message": "Envoyer la demande",
+        "form_send_error": "Erreur lors de l'envoi du formulaire de contact :",
+        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+        "title": "Contactez-nous",
+        "subtitle": "Prêt à transformer vos sols ?",
+        "phone": "Téléphone",
+        "email": "Email",
+        "address": "Adresse",
+        "full_name": "Nom complet",
+        "phone_number": "Numéro de téléphone",
+        "email_address": "Adresse e-mail",
+        "project_type": "Type de projet",
+        "residential": "Résidentiel",
+        "commercial": "Commercial",
+        "industrial": "Industriel",
+        "message": "Votre message",
+        "contact_info_text": "N'hésitez pas à nous contacter pour toute question ou demande de devis. Nous sommes là pour vous aider à réaliser votre projet de revêtement de sol époxy.",
+        "success_message": "Votre message a été envoyé avec succès ! Nous vous répondrons sous peu.",
+        "error_message": "Échec de l'envoi du message."
+      },
+      "floating_quote_button": {
+        "aria_label": "Demander une soumission",
+        "text": "Devis Gratuit"
       },
       "why_choose_prestige": {
         "title": "Bien plus qu’un sol – une expérience de prestige",
@@ -2052,31 +2737,202 @@
         "aria_label": "Demander une soumission",
         "text": "Devis Gratuit"
       },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
+      "why_choose_prestige": {
+        "title": "Bien plus qu’un sol – une expérience de prestige",
+        "item1_title": "Durabilité extrême",
+        "item1_description": "Résiste aux chocs, taches, produits chimiques et au temps.",
+        "item2_title": "Look unique",
+        "item2_description": "Des effets métalliques et marbrés impossibles à reproduire avec un autre matériau.",
+        "item3_title": "Entretien facile",
+        "item3_description": "Un simple coup de vadrouille, et votre sol retrouve son éclat.",
+        "item4_title": "Valeur immobilière",
+        "item4_description": "Un investissement qui rehausse instantanément la valeur de votre propriété."
+      },
+      "blog_page": {
+        "categories": {
+          "all_articles": "Tous les articles",
+          "trends": "Tendances",
+          "advice": "Conseils",
+          "projects": "Projets",
+          "technical": "Technique"
+        },
+        "articles": {
+          "article1": {
+            "title": "Les tendances 2025 en revêtements époxy",
+            "excerpt": "Découvrez les dernières innovations et tendances design pour vos sols en résine époxy.",
+            "author": "Sophie Martin",
+            "date": "15 janvier 2025",
+            "read_time": "5 min"
+          },
+          "article2": {
+            "title": "Comment choisir la finition époxy parfaite",
+            "excerpt": "Guide complet pour sélectionner la finition idéale selon votre espace et vos besoins.",
+            "author": "Marc Dubois",
+            "date": "12 janvier 2025",
+            "read_time": "8 min"
+          },
+          "article3": {
+            "title": "Transformation d'un loft montréalais",
+            "excerpt": "Découvrez la métamorphose complète d'un loft avec nos solutions époxy haut de gamme.",
+            "author": "Alex Moreau",
+            "date": "10 janvier 2025",
+            "read_time": "6 min"
+          },
+          "article4": {
+            "title": "Entretien optimal de votre sol époxy",
+            "excerpt": "Conseils d'experts pour préserver l'éclat et la durabilité de votre revêtement époxy.",
+            "author": "Julie Leroy",
+            "date": "8 janvier 2025",
+            "read_time": "4 min"
+          },
+          "article5": {
+            "title": "Résine époxy vs autres revêtements",
+            "excerpt": "Comparatif détaillé des avantages de la résine époxy face aux solutions traditionnelles.",
+            "author": "Pierre Durand",
+            "date": "5 janvier 2025",
+            "read_time": "7 min"
+          },
+          "article6": {
+            "title": "Showroom commercial moderne",
+            "excerpt": "Réalisation d'un showroom automobile avec finitions époxy métallisées.",
+            "author": "Sophie Martin",
+            "date": "3 janvier 2025",
+            "read_time": "5 min"
+          }
+        },
+        "hero": {
+          "back_to_home": "Retour à l'accueil",
+          "title": "Blog Prestige Epoxy",
+          "subtitle": "Découvrez nos conseils d'experts, tendances et réalisations exceptionnelles"
+        },
+        "filters": {
+          "search_placeholder": "Rechercher un article..."
+        },
+        "no_articles_found": "Aucun article trouvé pour votre recherche."
+      },
+      "advice_page": {
+        "categories": {
+          "residential": "Résidentiel",
+          "commercial": "Commercial",
+          "industrial": "Industriel"
+        },
+        "residential": {
+          "tip1_title": "Choisir la bonne finition pour votre cuisine",
+          "tip1_content": "Pour une cuisine, privilégiez une finition satinée qui résiste aux taches et facilite le nettoyage. Évitez les finitions trop brillantes qui montrent les traces.",
+          "tip1_tip1": "Finition satinée recommandée",
+          "tip1_tip2": "Résistance aux taches alimentaires",
+          "tip1_tip3": "Facilité de nettoyage",
+          "tip2_title": "Garage : optez pour l'antidérapant",
+          "tip2_content": "Dans un garage, la sécurité prime. Choisissez une finition antidérapante pour éviter les glissades, surtout par temps humide.",
+          "tip2_tip1": "Finition antidérapante obligatoire",
+          "tip2_tip2": "Résistance aux hydrocarbures",
+          "tip2_tip3": "Drainage optimal",
+          "tip3_title": "Salon : élégance et confort",
+          "tip3_content": "Pour un salon, misez sur l'esthétique avec une finition brillante qui reflète la lumière et agrandit visuellement l'espace.",
+          "tip3_tip1": "Finition brillante pour l'éclat",
+          "tip3_tip2": "Couleurs neutres conseillées",
+          "tip3_tip3": "Chauffage au sol compatible"
+        },
+        "commercial": {
+          "tip1_title": "Showroom : impression garantie",
+          "tip1_content": "Un showroom demande une finition impeccable. Optez pour un époxy métallisé qui impressionne vos clients dès leur entrée.",
+          "tip1_tip1": "Finition métallisée premium",
+          "tip1_tip2": "Résistance au trafic intense",
+          "tip1_tip3": "Effet miroir saisissant",
+          "tip2_title": "Restaurant : hygiène et style",
+          "tip2_content": "En restauration, l'hygiène est cruciale. Choisissez une finition lisse, non poreuse et facile à désinfecter.",
+          "tip2_tip1": "Surface non poreuse",
+          "tip2_tip2": "Résistance aux produits chimiques",
+          "tip2_tip3": "Nettoyage simplifié",
+          "tip3_title": "Bureau : productivité et bien-être",
+          "tip3_content": "Pour des bureaux, privilégiez des couleurs apaisantes et une finition mate qui réduit la fatigue visuelle.",
+          "tip3_tip1": "Finition mate recommandée",
+          "tip3_tip2": "Couleurs neutres et apaisantes",
+          "tip3_tip3": "Acoustique améliorée"
+        },
+        "industrial": {
+          "tip1_title": "Entrepôt : robustesse maximale",
+          "tip1_content": "En milieu industriel, la résistance prime. Optez pour un époxy renforcé capable de supporter charges lourdes et chocs.",
+          "tip1_tip1": "Époxy renforcé fibres",
+          "tip1_tip2": "Résistance aux charges lourdes",
+          "tip1_tip3": "Marquage au sol intégré",
+          "tip2_title": "Laboratoire : pureté et sécurité",
+          "tip2_content": "Les laboratoires exigent des sols parfaitement lisses, non poreux et résistants aux produits chimiques agressifs.",
+          "tip2_tip1": "Surface ultra-lisse",
+          "tip2_tip2": "Résistance chimique maximale",
+          "tip2_tip3": "Joints étanches",
+          "tip3_title": "Atelier : praticité et durabilité",
+          "tip3_content": "Pour un atelier, combinez résistance aux chocs, facilité d'entretien et marquage au sol pour optimiser l'organisation.",
+          "tip3_tip1": "Résistance aux chocs",
+          "tip3_tip2": "Marquage intégré",
+          "tip3_tip3": "Entretien minimal"
+        },
+        "hero": {
+          "back_to_home": "Retour à l'accueil",
+          "title": "Conseils d'experts",
+          "subtitle": "Recommandations personnalisées pour chaque type de projet"
+        },
+        "key_points_title": "Points clés :",
+        "learn_more_button": "En savoir plus",
+        "cta": {
+          "title_part1": "Besoin de conseils",
+          "title_part2": "personnalisés",
+          "subtitle": "Nos experts sont à votre disposition pour vous accompagner dans votre projet",
+          "button": "Consulter nos experts"
+        }
+      },
+      "quote_page": {
+        "form_sending_message": "Tentative d'envoi du formulaire :",
+        "fill_all_fields_alert": "Veuillez remplir tous les champs obligatoires.",
+        "success_message": "Votre demande de devis a été envoyée avec succès !",
+        "error_message": "Échec de l'envoi de la demande de devis.",
+        "form_send_error": "Erreur lors de l'envoi du formulaire :",
+        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+        "hero_title": "Demande de Devis",
+        "hero_subtitle": "Décrivez-nous votre projet et obtenez une soumission gratuite et personnalisée."
+      },
+      "contact_section": {
+        "form_sending_message": "Tentative d'envoi du formulaire de contact :",
+        "email_subtitle": "Réponse sous 24h",
+        "phone_subtitle": "Lun-Ven, 8h-17h (EST)",
+        "address_subtitle": "Sur rendez-vous",
+        "square_footage_placeholder": "Nombre de pieds carrés",
+        "finish_type": "Type de finitions",
+        "finish_options": {
+          "solid_colors": "Couleurs unies",
+          "metallic_effects": "Effets métalliques",
+          "marble_effects": "Effets marbrés",
+          "spiral_checkerboard": "Spirales et damier",
+          "refined_raw_concrete": "Béton brut raffiné",
+          "gold_mother_of_pearl_dust": "Poussière d'or et nacre",
+          "custom_logos_patterns": "Logos et motifs personnalisés",
+          "matte_finish": "Fini mat",
+          "glossy_finish": "Fini brillant"
+        },
+        "message_placeholder": "Décrivez votre projet en détail...",
+        "send_message": "Envoyer la demande",
+        "form_send_error": "Erreur lors de l'envoi du formulaire de contact :",
+        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+        "title": "Contactez-nous",
+        "subtitle": "Prêt à transformer vos sols ?",
+        "phone": "Téléphone",
+        "email": "Email",
+        "address": "Adresse",
+        "full_name": "Nom complet",
+        "phone_number": "Numéro de téléphone",
+        "email_address": "Adresse e-mail",
+        "project_type": "Type de projet",
+        "residential": "Résidentiel",
+        "commercial": "Commercial",
+        "industrial": "Industriel",
+        "message": "Votre message",
+        "contact_info_text": "N'hésitez pas à nous contacter pour toute question ou demande de devis. Nous sommes là pour vous aider à réaliser votre projet de revêtement de sol époxy.",
+        "success_message": "Votre message a été envoyé avec succès ! Nous vous répondrons sous peu.",
+        "error_message": "Échec de l'envoi du message."
+      },
+      "floating_quote_button": {
+        "aria_label": "Demander une soumission",
+        "text": "Devis Gratuit"
       },
       "why_choose_prestige": {
         "title": "Bien plus qu’un sol – une expérience de prestige",
@@ -2275,31 +3131,202 @@
         "aria_label": "Demander une soumission",
         "text": "Devis Gratuit"
       },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
+      "why_choose_prestige": {
+        "title": "Bien plus qu’un sol – une expérience de prestige",
+        "item1_title": "Durabilité extrême",
+        "item1_description": "Résiste aux chocs, taches, produits chimiques et au temps.",
+        "item2_title": "Look unique",
+        "item2_description": "Des effets métalliques et marbrés impossibles à reproduire avec un autre matériau.",
+        "item3_title": "Entretien facile",
+        "item3_description": "Un simple coup de vadrouille, et votre sol retrouve son éclat.",
+        "item4_title": "Valeur immobilière",
+        "item4_description": "Un investissement qui rehausse instantanément la valeur de votre propriété."
+      },
+      "blog_page": {
+        "categories": {
+          "all_articles": "Tous les articles",
+          "trends": "Tendances",
+          "advice": "Conseils",
+          "projects": "Projets",
+          "technical": "Technique"
+        },
+        "articles": {
+          "article1": {
+            "title": "Les tendances 2025 en revêtements époxy",
+            "excerpt": "Découvrez les dernières innovations et tendances design pour vos sols en résine époxy.",
+            "author": "Sophie Martin",
+            "date": "15 janvier 2025",
+            "read_time": "5 min"
+          },
+          "article2": {
+            "title": "Comment choisir la finition époxy parfaite",
+            "excerpt": "Guide complet pour sélectionner la finition idéale selon votre espace et vos besoins.",
+            "author": "Marc Dubois",
+            "date": "12 janvier 2025",
+            "read_time": "8 min"
+          },
+          "article3": {
+            "title": "Transformation d'un loft montréalais",
+            "excerpt": "Découvrez la métamorphose complète d'un loft avec nos solutions époxy haut de gamme.",
+            "author": "Alex Moreau",
+            "date": "10 janvier 2025",
+            "read_time": "6 min"
+          },
+          "article4": {
+            "title": "Entretien optimal de votre sol époxy",
+            "excerpt": "Conseils d'experts pour préserver l'éclat et la durabilité de votre revêtement époxy.",
+            "author": "Julie Leroy",
+            "date": "8 janvier 2025",
+            "read_time": "4 min"
+          },
+          "article5": {
+            "title": "Résine époxy vs autres revêtements",
+            "excerpt": "Comparatif détaillé des avantages de la résine époxy face aux solutions traditionnelles.",
+            "author": "Pierre Durand",
+            "date": "5 janvier 2025",
+            "read_time": "7 min"
+          },
+          "article6": {
+            "title": "Showroom commercial moderne",
+            "excerpt": "Réalisation d'un showroom automobile avec finitions époxy métallisées.",
+            "author": "Sophie Martin",
+            "date": "3 janvier 2025",
+            "read_time": "5 min"
+          }
+        },
+        "hero": {
+          "back_to_home": "Retour à l'accueil",
+          "title": "Blog Prestige Epoxy",
+          "subtitle": "Découvrez nos conseils d'experts, tendances et réalisations exceptionnelles"
+        },
+        "filters": {
+          "search_placeholder": "Rechercher un article..."
+        },
+        "no_articles_found": "Aucun article trouvé pour votre recherche."
+      },
+      "advice_page": {
+        "categories": {
+          "residential": "Résidentiel",
+          "commercial": "Commercial",
+          "industrial": "Industriel"
+        },
+        "residential": {
+          "tip1_title": "Choisir la bonne finition pour votre cuisine",
+          "tip1_content": "Pour une cuisine, privilégiez une finition satinée qui résiste aux taches et facilite le nettoyage. Évitez les finitions trop brillantes qui montrent les traces.",
+          "tip1_tip1": "Finition satinée recommandée",
+          "tip1_tip2": "Résistance aux taches alimentaires",
+          "tip1_tip3": "Facilité de nettoyage",
+          "tip2_title": "Garage : optez pour l'antidérapant",
+          "tip2_content": "Dans un garage, la sécurité prime. Choisissez une finition antidérapante pour éviter les glissades, surtout par temps humide.",
+          "tip2_tip1": "Finition antidérapante obligatoire",
+          "tip2_tip2": "Résistance aux hydrocarbures",
+          "tip2_tip3": "Drainage optimal",
+          "tip3_title": "Salon : élégance et confort",
+          "tip3_content": "Pour un salon, misez sur l'esthétique avec une finition brillante qui reflète la lumière et agrandit visuellement l'espace.",
+          "tip3_tip1": "Finition brillante pour l'éclat",
+          "tip3_tip2": "Couleurs neutres conseillées",
+          "tip3_tip3": "Chauffage au sol compatible"
+        },
+        "commercial": {
+          "tip1_title": "Showroom : impression garantie",
+          "tip1_content": "Un showroom demande une finition impeccable. Optez pour un époxy métallisé qui impressionne vos clients dès leur entrée.",
+          "tip1_tip1": "Finition métallisée premium",
+          "tip1_tip2": "Résistance au trafic intense",
+          "tip1_tip3": "Effet miroir saisissant",
+          "tip2_title": "Restaurant : hygiène et style",
+          "tip2_content": "En restauration, l'hygiène est cruciale. Choisissez une finition lisse, non poreuse et facile à désinfecter.",
+          "tip2_tip1": "Surface non poreuse",
+          "tip2_tip2": "Résistance aux produits chimiques",
+          "tip2_tip3": "Nettoyage simplifié",
+          "tip3_title": "Bureau : productivité et bien-être",
+          "tip3_content": "Pour des bureaux, privilégiez des couleurs apaisantes et une finition mate qui réduit la fatigue visuelle.",
+          "tip3_tip1": "Finition mate recommandée",
+          "tip3_tip2": "Couleurs neutres et apaisantes",
+          "tip3_tip3": "Acoustique améliorée"
+        },
+        "industrial": {
+          "tip1_title": "Entrepôt : robustesse maximale",
+          "tip1_content": "En milieu industriel, la résistance prime. Optez pour un époxy renforcé capable de supporter charges lourdes et chocs.",
+          "tip1_tip1": "Époxy renforcé fibres",
+          "tip1_tip2": "Résistance aux charges lourdes",
+          "tip1_tip3": "Marquage au sol intégré",
+          "tip2_title": "Laboratoire : pureté et sécurité",
+          "tip2_content": "Les laboratoires exigent des sols parfaitement lisses, non poreux et résistants aux produits chimiques agressifs.",
+          "tip2_tip1": "Surface ultra-lisse",
+          "tip2_tip2": "Résistance chimique maximale",
+          "tip2_tip3": "Joints étanches",
+          "tip3_title": "Atelier : praticité et durabilité",
+          "tip3_content": "Pour un atelier, combinez résistance aux chocs, facilité d'entretien et marquage au sol pour optimiser l'organisation.",
+          "tip3_tip1": "Résistance aux chocs",
+          "tip3_tip2": "Marquage intégré",
+          "tip3_tip3": "Entretien minimal"
+        },
+        "hero": {
+          "back_to_home": "Retour à l'accueil",
+          "title": "Conseils d'experts",
+          "subtitle": "Recommandations personnalisées pour chaque type de projet"
+        },
+        "key_points_title": "Points clés :",
+        "learn_more_button": "En savoir plus",
+        "cta": {
+          "title_part1": "Besoin de conseils",
+          "title_part2": "personnalisés",
+          "subtitle": "Nos experts sont à votre disposition pour vous accompagner dans votre projet",
+          "button": "Consulter nos experts"
+        }
+      },
+      "quote_page": {
+        "form_sending_message": "Tentative d'envoi du formulaire :",
+        "fill_all_fields_alert": "Veuillez remplir tous les champs obligatoires.",
+        "success_message": "Votre demande de devis a été envoyée avec succès !",
+        "error_message": "Échec de l'envoi de la demande de devis.",
+        "form_send_error": "Erreur lors de l'envoi du formulaire :",
+        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+        "hero_title": "Demande de Devis",
+        "hero_subtitle": "Décrivez-nous votre projet et obtenez une soumission gratuite et personnalisée."
+      },
+      "contact_section": {
+        "form_sending_message": "Tentative d'envoi du formulaire de contact :",
+        "email_subtitle": "Réponse sous 24h",
+        "phone_subtitle": "Lun-Ven, 8h-17h (EST)",
+        "address_subtitle": "Sur rendez-vous",
+        "square_footage_placeholder": "Nombre de pieds carrés",
+        "finish_type": "Type de finitions",
+        "finish_options": {
+          "solid_colors": "Couleurs unies",
+          "metallic_effects": "Effets métalliques",
+          "marble_effects": "Effets marbrés",
+          "spiral_checkerboard": "Spirales et damier",
+          "refined_raw_concrete": "Béton brut raffiné",
+          "gold_mother_of_pearl_dust": "Poussière d'or et nacre",
+          "custom_logos_patterns": "Logos et motifs personnalisés",
+          "matte_finish": "Fini mat",
+          "glossy_finish": "Fini brillant"
+        },
+        "message_placeholder": "Décrivez votre projet en détail...",
+        "send_message": "Envoyer la demande",
+        "form_send_error": "Erreur lors de l'envoi du formulaire de contact :",
+        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+        "title": "Contactez-nous",
+        "subtitle": "Prêt à transformer vos sols ?",
+        "phone": "Téléphone",
+        "email": "Email",
+        "address": "Adresse",
+        "full_name": "Nom complet",
+        "phone_number": "Numéro de téléphone",
+        "email_address": "Adresse e-mail",
+        "project_type": "Type de projet",
+        "residential": "Résidentiel",
+        "commercial": "Commercial",
+        "industrial": "Industriel",
+        "message": "Votre message",
+        "contact_info_text": "N'hésitez pas à nous contacter pour toute question ou demande de devis. Nous sommes là pour vous aider à réaliser votre projet de revêtement de sol époxy.",
+        "success_message": "Votre message a été envoyé avec succès ! Nous vous répondrons sous peu.",
+        "error_message": "Échec de l'envoi du message."
+      },
+      "floating_quote_button": {
+        "aria_label": "Demander une soumission",
+        "text": "Devis Gratuit"
       },
       "why_choose_prestige": {
         "title": "Bien plus qu’un sol – une expérience de prestige",
@@ -2498,32 +3525,6 @@
         "aria_label": "Demander une soumission",
         "text": "Devis Gratuit"
       },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
-      },
       "why_choose_prestige": {
         "title": "Bien plus qu’un sol – une expérience de prestige",
         "item1_title": "Durabilité extrême",
@@ -2721,32 +3722,6 @@
         "aria_label": "Demander une soumission",
         "text": "Devis Gratuit"
       },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
-      },
       "why_choose_prestige": {
         "title": "Bien plus qu’un sol – une expérience de prestige",
         "item1_title": "Durabilité extrême",
@@ -2943,1370 +3918,6 @@
       "floating_quote_button": {
         "aria_label": "Demander une soumission",
         "text": "Devis Gratuit"
-      },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
-      },
-      "why_choose_prestige": {
-        "title": "Bien plus qu’un sol – une expérience de prestige",
-        "item1_title": "Durabilité extrême",
-        "item1_description": "Résiste aux chocs, taches, produits chimiques et au temps.",
-        "item2_title": "Look unique",
-        "item2_description": "Des effets métalliques et marbrés impossibles à reproduire avec un autre matériau.",
-        "item3_title": "Entretien facile",
-        "item3_description": "Un simple coup de vadrouille, et votre sol retrouve son éclat.",
-        "item4_title": "Valeur immobilière",
-        "item4_description": "Un investissement qui rehausse instantanément la valeur de votre propriété."
-      },
-      "blog_page": {
-        "categories": {
-          "all_articles": "Tous les articles",
-          "trends": "Tendances",
-          "advice": "Conseils",
-          "projects": "Projets",
-          "technical": "Technique"
-        },
-        "articles": {
-          "article1": {
-            "title": "Les tendances 2025 en revêtements époxy",
-            "excerpt": "Découvrez les dernières innovations et tendances design pour vos sols en résine époxy.",
-            "author": "Sophie Martin",
-            "date": "15 janvier 2025",
-            "read_time": "5 min"
-          },
-          "article2": {
-            "title": "Comment choisir la finition époxy parfaite",
-            "excerpt": "Guide complet pour sélectionner la finition idéale selon votre espace et vos besoins.",
-            "author": "Marc Dubois",
-            "date": "12 janvier 2025",
-            "read_time": "8 min"
-          },
-          "article3": {
-            "title": "Transformation d'un loft montréalais",
-            "excerpt": "Découvrez la métamorphose complète d'un loft avec nos solutions époxy haut de gamme.",
-            "author": "Alex Moreau",
-            "date": "10 janvier 2025",
-            "read_time": "6 min"
-          },
-          "article4": {
-            "title": "Entretien optimal de votre sol époxy",
-            "excerpt": "Conseils d'experts pour préserver l'éclat et la durabilité de votre revêtement époxy.",
-            "author": "Julie Leroy",
-            "date": "8 janvier 2025",
-            "read_time": "4 min"
-          },
-          "article5": {
-            "title": "Résine époxy vs autres revêtements",
-            "excerpt": "Comparatif détaillé des avantages de la résine époxy face aux solutions traditionnelles.",
-            "author": "Pierre Durand",
-            "date": "5 janvier 2025",
-            "read_time": "7 min"
-          },
-          "article6": {
-            "title": "Showroom commercial moderne",
-            "excerpt": "Réalisation d'un showroom automobile avec finitions époxy métallisées.",
-            "author": "Sophie Martin",
-            "date": "3 janvier 2025",
-            "read_time": "5 min"
-          }
-        },
-        "hero": {
-          "back_to_home": "Retour à l'accueil",
-          "title": "Blog Prestige Epoxy",
-          "subtitle": "Découvrez nos conseils d'experts, tendances et réalisations exceptionnelles"
-        },
-        "filters": {
-          "search_placeholder": "Rechercher un article..."
-        },
-        "no_articles_found": "Aucun article trouvé pour votre recherche."
-      },
-      "advice_page": {
-        "categories": {
-          "residential": "Résidentiel",
-          "commercial": "Commercial",
-          "industrial": "Industriel"
-        },
-        "residential": {
-          "tip1_title": "Choisir la bonne finition pour votre cuisine",
-          "tip1_content": "Pour une cuisine, privilégiez une finition satinée qui résiste aux taches et facilite le nettoyage. Évitez les finitions trop brillantes qui montrent les traces.",
-          "tip1_tip1": "Finition satinée recommandée",
-          "tip1_tip2": "Résistance aux taches alimentaires",
-          "tip1_tip3": "Facilité de nettoyage",
-          "tip2_title": "Garage : optez pour l'antidérapant",
-          "tip2_content": "Dans un garage, la sécurité prime. Choisissez une finition antidérapante pour éviter les glissades, surtout par temps humide.",
-          "tip2_tip1": "Finition antidérapante obligatoire",
-          "tip2_tip2": "Résistance aux hydrocarbures",
-          "tip2_tip3": "Drainage optimal",
-          "tip3_title": "Salon : élégance et confort",
-          "tip3_content": "Pour un salon, misez sur l'esthétique avec une finition brillante qui reflète la lumière et agrandit visuellement l'espace.",
-          "tip3_tip1": "Finition brillante pour l'éclat",
-          "tip3_tip2": "Couleurs neutres conseillées",
-          "tip3_tip3": "Chauffage au sol compatible"
-        },
-        "commercial": {
-          "tip1_title": "Showroom : impression garantie",
-          "tip1_content": "Un showroom demande une finition impeccable. Optez pour un époxy métallisé qui impressionne vos clients dès leur entrée.",
-          "tip1_tip1": "Finition métallisée premium",
-          "tip1_tip2": "Résistance au trafic intense",
-          "tip1_tip3": "Effet miroir saisissant",
-          "tip2_title": "Restaurant : hygiène et style",
-          "tip2_content": "En restauration, l'hygiène est cruciale. Choisissez une finition lisse, non poreuse et facile à désinfecter.",
-          "tip2_tip1": "Surface non poreuse",
-          "tip2_tip2": "Résistance aux produits chimiques",
-          "tip2_tip3": "Nettoyage simplifié",
-          "tip3_title": "Bureau : productivité et bien-être",
-          "tip3_content": "Pour des bureaux, privilégiez des couleurs apaisantes et une finition mate qui réduit la fatigue visuelle.",
-          "tip3_tip1": "Finition mate recommandée",
-          "tip3_tip2": "Couleurs neutres et apaisantes",
-          "tip3_tip3": "Acoustique améliorée"
-        },
-        "industrial": {
-          "tip1_title": "Entrepôt : robustesse maximale",
-          "tip1_content": "En milieu industriel, la résistance prime. Optez pour un époxy renforcé capable de supporter charges lourdes et chocs.",
-          "tip1_tip1": "Époxy renforcé fibres",
-          "tip1_tip2": "Résistance aux charges lourdes",
-          "tip1_tip3": "Marquage au sol intégré",
-          "tip2_title": "Laboratoire : pureté et sécurité",
-          "tip2_content": "Les laboratoires exigent des sols parfaitement lisses, non poreux et résistants aux produits chimiques agressifs.",
-          "tip2_tip1": "Surface ultra-lisse",
-          "tip2_tip2": "Résistance chimique maximale",
-          "tip2_tip3": "Joints étanches",
-          "tip3_title": "Atelier : praticité et durabilité",
-          "tip3_content": "Pour un atelier, combinez résistance aux chocs, facilité d'entretien et marquage au sol pour optimiser l'organisation.",
-          "tip3_tip1": "Résistance aux chocs",
-          "tip3_tip2": "Marquage intégré",
-          "tip3_tip3": "Entretien minimal"
-        },
-        "hero": {
-          "back_to_home": "Retour à l'accueil",
-          "title": "Conseils d'experts",
-          "subtitle": "Recommandations personnalisées pour chaque type de projet"
-        },
-        "key_points_title": "Points clés :",
-        "learn_more_button": "En savoir plus",
-        "cta": {
-          "title_part1": "Besoin de conseils",
-          "title_part2": "personnalisés",
-          "subtitle": "Nos experts sont à votre disposition pour vous accompagner dans votre projet",
-          "button": "Consulter nos experts"
-        }
-      },
-      "quote_page": {
-        "form_sending_message": "Tentative d'envoi du formulaire :",
-        "fill_all_fields_alert": "Veuillez remplir tous les champs obligatoires.",
-        "success_message": "Votre demande de devis a été envoyée avec succès !",
-        "error_message": "Échec de l'envoi de la demande de devis.",
-        "form_send_error": "Erreur lors de l'envoi du formulaire :",
-        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
-        "hero_title": "Demande de Devis",
-        "hero_subtitle": "Décrivez-nous votre projet et obtenez une soumission gratuite et personnalisée."
-      },
-      "contact_section": {
-        "form_sending_message": "Tentative d'envoi du formulaire de contact :",
-        "email_subtitle": "Réponse sous 24h",
-        "phone_subtitle": "Lun-Ven, 8h-17h (EST)",
-        "address_subtitle": "Sur rendez-vous",
-        "square_footage_placeholder": "Nombre de pieds carrés",
-        "finish_type": "Type de finitions",
-        "finish_options": {
-          "solid_colors": "Couleurs unies",
-          "metallic_effects": "Effets métalliques",
-          "marble_effects": "Effets marbrés",
-          "spiral_checkerboard": "Spirales et damier",
-          "refined_raw_concrete": "Béton brut raffiné",
-          "gold_mother_of_pearl_dust": "Poussière d'or et nacre",
-          "custom_logos_patterns": "Logos et motifs personnalisés",
-          "matte_finish": "Fini mat",
-          "glossy_finish": "Fini brillant"
-        },
-        "message_placeholder": "Décrivez votre projet en détail...",
-        "send_message": "Envoyer la demande",
-        "form_send_error": "Erreur lors de l'envoi du formulaire de contact :",
-        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
-        "title": "Contactez-nous",
-        "subtitle": "Prêt à transformer vos sols ?",
-        "phone": "Téléphone",
-        "email": "Email",
-        "address": "Adresse",
-        "full_name": "Nom complet",
-        "phone_number": "Numéro de téléphone",
-        "email_address": "Adresse e-mail",
-        "project_type": "Type de projet",
-        "residential": "Résidentiel",
-        "commercial": "Commercial",
-        "industrial": "Industriel",
-        "message": "Votre message",
-        "contact_info_text": "N'hésitez pas à nous contacter pour toute question ou demande de devis. Nous sommes là pour vous aider à réaliser votre projet de revêtement de sol époxy.",
-        "success_message": "Votre message a été envoyé avec succès ! Nous vous répondrons sous peu.",
-        "error_message": "Échec de l'envoi du message."
-      },
-      "floating_quote_button": {
-        "aria_label": "Demander une soumission",
-        "text": "Devis Gratuit"
-      },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
-      },
-      "why_choose_prestige": {
-        "title": "Bien plus qu’un sol – une expérience de prestige",
-        "item1_title": "Durabilité extrême",
-        "item1_description": "Résiste aux chocs, taches, produits chimiques et au temps.",
-        "item2_title": "Look unique",
-        "item2_description": "Des effets métalliques et marbrés impossibles à reproduire avec un autre matériau.",
-        "item3_title": "Entretien facile",
-        "item3_description": "Un simple coup de vadrouille, et votre sol retrouve son éclat.",
-        "item4_title": "Valeur immobilière",
-        "item4_description": "Un investissement qui rehausse instantanément la valeur de votre propriété."
-      },
-      "blog_page": {
-        "categories": {
-          "all_articles": "Tous les articles",
-          "trends": "Tendances",
-          "advice": "Conseils",
-          "projects": "Projets",
-          "technical": "Technique"
-        },
-        "articles": {
-          "article1": {
-            "title": "Les tendances 2025 en revêtements époxy",
-            "excerpt": "Découvrez les dernières innovations et tendances design pour vos sols en résine époxy.",
-            "author": "Sophie Martin",
-            "date": "15 janvier 2025",
-            "read_time": "5 min"
-          },
-          "article2": {
-            "title": "Comment choisir la finition époxy parfaite",
-            "excerpt": "Guide complet pour sélectionner la finition idéale selon votre espace et vos besoins.",
-            "author": "Marc Dubois",
-            "date": "12 janvier 2025",
-            "read_time": "8 min"
-          },
-          "article3": {
-            "title": "Transformation d'un loft montréalais",
-            "excerpt": "Découvrez la métamorphose complète d'un loft avec nos solutions époxy haut de gamme.",
-            "author": "Alex Moreau",
-            "date": "10 janvier 2025",
-            "read_time": "6 min"
-          },
-          "article4": {
-            "title": "Entretien optimal de votre sol époxy",
-            "excerpt": "Conseils d'experts pour préserver l'éclat et la durabilité de votre revêtement époxy.",
-            "author": "Julie Leroy",
-            "date": "8 janvier 2025",
-            "read_time": "4 min"
-          },
-          "article5": {
-            "title": "Résine époxy vs autres revêtements",
-            "excerpt": "Comparatif détaillé des avantages de la résine époxy face aux solutions traditionnelles.",
-            "author": "Pierre Durand",
-            "date": "5 janvier 2025",
-            "read_time": "7 min"
-          },
-          "article6": {
-            "title": "Showroom commercial moderne",
-            "excerpt": "Réalisation d'un showroom automobile avec finitions époxy métallisées.",
-            "author": "Sophie Martin",
-            "date": "3 janvier 2025",
-            "read_time": "5 min"
-          }
-        },
-        "hero": {
-          "back_to_home": "Retour à l'accueil",
-          "title": "Blog Prestige Epoxy",
-          "subtitle": "Découvrez nos conseils d'experts, tendances et réalisations exceptionnelles"
-        },
-        "filters": {
-          "search_placeholder": "Rechercher un article..."
-        },
-        "no_articles_found": "Aucun article trouvé pour votre recherche."
-      },
-      "advice_page": {
-        "categories": {
-          "residential": "Résidentiel",
-          "commercial": "Commercial",
-          "industrial": "Industriel"
-        },
-        "residential": {
-          "tip1_title": "Choisir la bonne finition pour votre cuisine",
-          "tip1_content": "Pour une cuisine, privilégiez une finition satinée qui résiste aux taches et facilite le nettoyage. Évitez les finitions trop brillantes qui montrent les traces.",
-          "tip1_tip1": "Finition satinée recommandée",
-          "tip1_tip2": "Résistance aux taches alimentaires",
-          "tip1_tip3": "Facilité de nettoyage",
-          "tip2_title": "Garage : optez pour l'antidérapant",
-          "tip2_content": "Dans un garage, la sécurité prime. Choisissez une finition antidérapante pour éviter les glissades, surtout par temps humide.",
-          "tip2_tip1": "Finition antidérapante obligatoire",
-          "tip2_tip2": "Résistance aux hydrocarbures",
-          "tip2_tip3": "Drainage optimal",
-          "tip3_title": "Salon : élégance et confort",
-          "tip3_content": "Pour un salon, misez sur l'esthétique avec une finition brillante qui reflète la lumière et agrandit visuellement l'espace.",
-          "tip3_tip1": "Finition brillante pour l'éclat",
-          "tip3_tip2": "Couleurs neutres conseillées",
-          "tip3_tip3": "Chauffage au sol compatible"
-        },
-        "commercial": {
-          "tip1_title": "Showroom : impression garantie",
-          "tip1_content": "Un showroom demande une finition impeccable. Optez pour un époxy métallisé qui impressionne vos clients dès leur entrée.",
-          "tip1_tip1": "Finition métallisée premium",
-          "tip1_tip2": "Résistance au trafic intense",
-          "tip1_tip3": "Effet miroir saisissant",
-          "tip2_title": "Restaurant : hygiène et style",
-          "tip2_content": "En restauration, l'hygiène est cruciale. Choisissez une finition lisse, non poreuse et facile à désinfecter.",
-          "tip2_tip1": "Surface non poreuse",
-          "tip2_tip2": "Résistance aux produits chimiques",
-          "tip2_tip3": "Nettoyage simplifié",
-          "tip3_title": "Bureau : productivité et bien-être",
-          "tip3_content": "Pour des bureaux, privilégiez des couleurs apaisantes et une finition mate qui réduit la fatigue visuelle.",
-          "tip3_tip1": "Finition mate recommandée",
-          "tip3_tip2": "Couleurs neutres et apaisantes",
-          "tip3_tip3": "Acoustique améliorée"
-        },
-        "industrial": {
-          "tip1_title": "Entrepôt : robustesse maximale",
-          "tip1_content": "En milieu industriel, la résistance prime. Optez pour un époxy renforcé capable de supporter charges lourdes et chocs.",
-          "tip1_tip1": "Époxy renforcé fibres",
-          "tip1_tip2": "Résistance aux charges lourdes",
-          "tip1_tip3": "Marquage au sol intégré",
-          "tip2_title": "Laboratoire : pureté et sécurité",
-          "tip2_content": "Les laboratoires exigent des sols parfaitement lisses, non poreux et résistants aux produits chimiques agressifs.",
-          "tip2_tip1": "Surface ultra-lisse",
-          "tip2_tip2": "Résistance chimique maximale",
-          "tip2_tip3": "Joints étanches",
-          "tip3_title": "Atelier : praticité et durabilité",
-          "tip3_content": "Pour un atelier, combinez résistance aux chocs, facilité d'entretien et marquage au sol pour optimiser l'organisation.",
-          "tip3_tip1": "Résistance aux chocs",
-          "tip3_tip2": "Marquage intégré",
-          "tip3_tip3": "Entretien minimal"
-        },
-        "hero": {
-          "back_to_home": "Retour à l'accueil",
-          "title": "Conseils d'experts",
-          "subtitle": "Recommandations personnalisées pour chaque type de projet"
-        },
-        "key_points_title": "Points clés :",
-        "learn_more_button": "En savoir plus",
-        "cta": {
-          "title_part1": "Besoin de conseils",
-          "title_part2": "personnalisés",
-          "subtitle": "Nos experts sont à votre disposition pour vous accompagner dans votre projet",
-          "button": "Consulter nos experts"
-        }
-      },
-      "quote_page": {
-        "form_sending_message": "Tentative d'envoi du formulaire :",
-        "fill_all_fields_alert": "Veuillez remplir tous les champs obligatoires.",
-        "success_message": "Votre demande de devis a été envoyée avec succès !",
-        "error_message": "Échec de l'envoi de la demande de devis.",
-        "form_send_error": "Erreur lors de l'envoi du formulaire :",
-        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
-        "hero_title": "Demande de Devis",
-        "hero_subtitle": "Décrivez-nous votre projet et obtenez une soumission gratuite et personnalisée."
-      },
-      "contact_section": {
-        "form_sending_message": "Tentative d'envoi du formulaire de contact :",
-        "email_subtitle": "Réponse sous 24h",
-        "phone_subtitle": "Lun-Ven, 8h-17h (EST)",
-        "address_subtitle": "Sur rendez-vous",
-        "square_footage_placeholder": "Nombre de pieds carrés",
-        "finish_type": "Type de finitions",
-        "finish_options": {
-          "solid_colors": "Couleurs unies",
-          "metallic_effects": "Effets métalliques",
-          "marble_effects": "Effets marbrés",
-          "spiral_checkerboard": "Spirales et damier",
-          "refined_raw_concrete": "Béton brut raffiné",
-          "gold_mother_of_pearl_dust": "Poussière d'or et nacre",
-          "custom_logos_patterns": "Logos et motifs personnalisés",
-          "matte_finish": "Fini mat",
-          "glossy_finish": "Fini brillant"
-        },
-        "message_placeholder": "Décrivez votre projet en détail...",
-        "send_message": "Envoyer la demande",
-        "form_send_error": "Erreur lors de l'envoi du formulaire de contact :",
-        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
-        "title": "Contactez-nous",
-        "subtitle": "Prêt à transformer vos sols ?",
-        "phone": "Téléphone",
-        "email": "Email",
-        "address": "Adresse",
-        "full_name": "Nom complet",
-        "phone_number": "Numéro de téléphone",
-        "email_address": "Adresse e-mail",
-        "project_type": "Type de projet",
-        "residential": "Résidentiel",
-        "commercial": "Commercial",
-        "industrial": "Industriel",
-        "message": "Votre message",
-        "contact_info_text": "N'hésitez pas à nous contacter pour toute question ou demande de devis. Nous sommes là pour vous aider à réaliser votre projet de revêtement de sol époxy.",
-        "success_message": "Votre message a été envoyé avec succès ! Nous vous répondrons sous peu.",
-        "error_message": "Échec de l'envoi du message."
-      },
-      "floating_quote_button": {
-        "aria_label": "Demander une soumission",
-        "text": "Devis Gratuit"
-      },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
-      },
-      "why_choose_prestige": {
-        "title": "Bien plus qu’un sol – une expérience de prestige",
-        "item1_title": "Durabilité extrême",
-        "item1_description": "Résiste aux chocs, taches, produits chimiques et au temps.",
-        "item2_title": "Look unique",
-        "item2_description": "Des effets métalliques et marbrés impossibles à reproduire avec un autre matériau.",
-        "item3_title": "Entretien facile",
-        "item3_description": "Un simple coup de vadrouille, et votre sol retrouve son éclat.",
-        "item4_title": "Valeur immobilière",
-        "item4_description": "Un investissement qui rehausse instantanément la valeur de votre propriété."
-      },
-      "blog_page": {
-        "categories": {
-          "all_articles": "Tous les articles",
-          "trends": "Tendances",
-          "advice": "Conseils",
-          "projects": "Projets",
-          "technical": "Technique"
-        },
-        "articles": {
-          "article1": {
-            "title": "Les tendances 2025 en revêtements époxy",
-            "excerpt": "Découvrez les dernières innovations et tendances design pour vos sols en résine époxy.",
-            "author": "Sophie Martin",
-            "date": "15 janvier 2025",
-            "read_time": "5 min"
-          },
-          "article2": {
-            "title": "Comment choisir la finition époxy parfaite",
-            "excerpt": "Guide complet pour sélectionner la finition idéale selon votre espace et vos besoins.",
-            "author": "Marc Dubois",
-            "date": "12 janvier 2025",
-            "read_time": "8 min"
-          },
-          "article3": {
-            "title": "Transformation d'un loft montréalais",
-            "excerpt": "Découvrez la métamorphose complète d'un loft avec nos solutions époxy haut de gamme.",
-            "author": "Alex Moreau",
-            "date": "10 janvier 2025",
-            "read_time": "6 min"
-          },
-          "article4": {
-            "title": "Entretien optimal de votre sol époxy",
-            "excerpt": "Conseils d'experts pour préserver l'éclat et la durabilité de votre revêtement époxy.",
-            "author": "Julie Leroy",
-            "date": "8 janvier 2025",
-            "read_time": "4 min"
-          },
-          "article5": {
-            "title": "Résine époxy vs autres revêtements",
-            "excerpt": "Comparatif détaillé des avantages de la résine époxy face aux solutions traditionnelles.",
-            "author": "Pierre Durand",
-            "date": "5 janvier 2025",
-            "read_time": "7 min"
-          },
-          "article6": {
-            "title": "Showroom commercial moderne",
-            "excerpt": "Réalisation d'un showroom automobile avec finitions époxy métallisées.",
-            "author": "Sophie Martin",
-            "date": "3 janvier 2025",
-            "read_time": "5 min"
-          }
-        },
-        "hero": {
-          "back_to_home": "Retour à l'accueil",
-          "title": "Blog Prestige Epoxy",
-          "subtitle": "Découvrez nos conseils d'experts, tendances et réalisations exceptionnelles"
-        },
-        "filters": {
-          "search_placeholder": "Rechercher un article..."
-        },
-        "no_articles_found": "Aucun article trouvé pour votre recherche."
-      },
-      "advice_page": {
-        "categories": {
-          "residential": "Résidentiel",
-          "commercial": "Commercial",
-          "industrial": "Industriel"
-        },
-        "residential": {
-          "tip1_title": "Choisir la bonne finition pour votre cuisine",
-          "tip1_content": "Pour une cuisine, privilégiez une finition satinée qui résiste aux taches et facilite le nettoyage. Évitez les finitions trop brillantes qui montrent les traces.",
-          "tip1_tip1": "Finition satinée recommandée",
-          "tip1_tip2": "Résistance aux taches alimentaires",
-          "tip1_tip3": "Facilité de nettoyage",
-          "tip2_title": "Garage : optez pour l'antidérapant",
-          "tip2_content": "Dans un garage, la sécurité prime. Choisissez une finition antidérapante pour éviter les glissades, surtout par temps humide.",
-          "tip2_tip1": "Finition antidérapante obligatoire",
-          "tip2_tip2": "Résistance aux hydrocarbures",
-          "tip2_tip3": "Drainage optimal",
-          "tip3_title": "Salon : élégance et confort",
-          "tip3_content": "Pour un salon, misez sur l'esthétique avec une finition brillante qui reflète la lumière et agrandit visuellement l'espace.",
-          "tip3_tip1": "Finition brillante pour l'éclat",
-          "tip3_tip2": "Couleurs neutres conseillées",
-          "tip3_tip3": "Chauffage au sol compatible"
-        },
-        "commercial": {
-          "tip1_title": "Showroom : impression garantie",
-          "tip1_content": "Un showroom demande une finition impeccable. Optez pour un époxy métallisé qui impressionne vos clients dès leur entrée.",
-          "tip1_tip1": "Finition métallisée premium",
-          "tip1_tip2": "Résistance au trafic intense",
-          "tip1_tip3": "Effet miroir saisissant",
-          "tip2_title": "Restaurant : hygiène et style",
-          "tip2_content": "En restauration, l'hygiène est cruciale. Choisissez une finition lisse, non poreuse et facile à désinfecter.",
-          "tip2_tip1": "Surface non poreuse",
-          "tip2_tip2": "Résistance aux produits chimiques",
-          "tip2_tip3": "Nettoyage simplifié",
-          "tip3_title": "Bureau : productivité et bien-être",
-          "tip3_content": "Pour des bureaux, privilégiez des couleurs apaisantes et une finition mate qui réduit la fatigue visuelle.",
-          "tip3_tip1": "Finition mate recommandée",
-          "tip3_tip2": "Couleurs neutres et apaisantes",
-          "tip3_tip3": "Acoustique améliorée"
-        },
-        "industrial": {
-          "tip1_title": "Entrepôt : robustesse maximale",
-          "tip1_content": "En milieu industriel, la résistance prime. Optez pour un époxy renforcé capable de supporter charges lourdes et chocs.",
-          "tip1_tip1": "Époxy renforcé fibres",
-          "tip1_tip2": "Résistance aux charges lourdes",
-          "tip1_tip3": "Marquage au sol intégré",
-          "tip2_title": "Laboratoire : pureté et sécurité",
-          "tip2_content": "Les laboratoires exigent des sols parfaitement lisses, non poreux et résistants aux produits chimiques agressifs.",
-          "tip2_tip1": "Surface ultra-lisse",
-          "tip2_tip2": "Résistance chimique maximale",
-          "tip2_tip3": "Joints étanches",
-          "tip3_title": "Atelier : praticité et durabilité",
-          "tip3_content": "Pour un atelier, combinez résistance aux chocs, facilité d'entretien et marquage au sol pour optimiser l'organisation.",
-          "tip3_tip1": "Résistance aux chocs",
-          "tip3_tip2": "Marquage intégré",
-          "tip3_tip3": "Entretien minimal"
-        },
-        "hero": {
-          "back_to_home": "Retour à l'accueil",
-          "title": "Conseils d'experts",
-          "subtitle": "Recommandations personnalisées pour chaque type de projet"
-        },
-        "key_points_title": "Points clés :",
-        "learn_more_button": "En savoir plus",
-        "cta": {
-          "title_part1": "Besoin de conseils",
-          "title_part2": "personnalisés",
-          "subtitle": "Nos experts sont à votre disposition pour vous accompagner dans votre projet",
-          "button": "Consulter nos experts"
-        }
-      },
-      "quote_page": {
-        "form_sending_message": "Tentative d'envoi du formulaire :",
-        "fill_all_fields_alert": "Veuillez remplir tous les champs obligatoires.",
-        "success_message": "Votre demande de devis a été envoyée avec succès !",
-        "error_message": "Échec de l'envoi de la demande de devis.",
-        "form_send_error": "Erreur lors de l'envoi du formulaire :",
-        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
-        "hero_title": "Demande de Devis",
-        "hero_subtitle": "Décrivez-nous votre projet et obtenez une soumission gratuite et personnalisée."
-      },
-      "contact_section": {
-        "form_sending_message": "Tentative d'envoi du formulaire de contact :",
-        "email_subtitle": "Réponse sous 24h",
-        "phone_subtitle": "Lun-Ven, 8h-17h (EST)",
-        "address_subtitle": "Sur rendez-vous",
-        "square_footage_placeholder": "Nombre de pieds carrés",
-        "finish_type": "Type de finitions",
-        "finish_options": {
-          "solid_colors": "Couleurs unies",
-          "metallic_effects": "Effets métalliques",
-          "marble_effects": "Effets marbrés",
-          "spiral_checkerboard": "Spirales et damier",
-          "refined_raw_concrete": "Béton brut raffiné",
-          "gold_mother_of_pearl_dust": "Poussière d'or et nacre",
-          "custom_logos_patterns": "Logos et motifs personnalisés",
-          "matte_finish": "Fini mat",
-          "glossy_finish": "Fini brillant"
-        },
-        "message_placeholder": "Décrivez votre projet en détail...",
-        "send_message": "Envoyer la demande",
-        "form_send_error": "Erreur lors de l'envoi du formulaire de contact :",
-        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
-        "title": "Contactez-nous",
-        "subtitle": "Prêt à transformer vos sols ?",
-        "phone": "Téléphone",
-        "email": "Email",
-        "address": "Adresse",
-        "full_name": "Nom complet",
-        "phone_number": "Numéro de téléphone",
-        "email_address": "Adresse e-mail",
-        "project_type": "Type de projet",
-        "residential": "Résidentiel",
-        "commercial": "Commercial",
-        "industrial": "Industriel",
-        "message": "Votre message",
-        "contact_info_text": "N'hésitez pas à nous contacter pour toute question ou demande de devis. Nous sommes là pour vous aider à réaliser votre projet de revêtement de sol époxy.",
-        "success_message": "Votre message a été envoyé avec succès ! Nous vous répondrons sous peu.",
-        "error_message": "Échec de l'envoi du message."
-      },
-      "floating_quote_button": {
-        "aria_label": "Demander une soumission",
-        "text": "Devis Gratuit"
-      },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
-      },
-      "why_choose_prestige": {
-        "title": "Bien plus qu’un sol – une expérience de prestige",
-        "item1_title": "Durabilité extrême",
-        "item1_description": "Résiste aux chocs, taches, produits chimiques et au temps.",
-        "item2_title": "Look unique",
-        "item2_description": "Des effets métalliques et marbrés impossibles à reproduire avec un autre matériau.",
-        "item3_title": "Entretien facile",
-        "item3_description": "Un simple coup de vadrouille, et votre sol retrouve son éclat.",
-        "item4_title": "Valeur immobilière",
-        "item4_description": "Un investissement qui rehausse instantanément la valeur de votre propriété."
-      },
-      "blog_page": {
-        "categories": {
-          "all_articles": "Tous les articles",
-          "trends": "Tendances",
-          "advice": "Conseils",
-          "projects": "Projets",
-          "technical": "Technique"
-        },
-        "articles": {
-          "article1": {
-            "title": "Les tendances 2025 en revêtements époxy",
-            "excerpt": "Découvrez les dernières innovations et tendances design pour vos sols en résine époxy.",
-            "author": "Sophie Martin",
-            "date": "15 janvier 2025",
-            "read_time": "5 min"
-          },
-          "article2": {
-            "title": "Comment choisir la finition époxy parfaite",
-            "excerpt": "Guide complet pour sélectionner la finition idéale selon votre espace et vos besoins.",
-            "author": "Marc Dubois",
-            "date": "12 janvier 2025",
-            "read_time": "8 min"
-          },
-          "article3": {
-            "title": "Transformation d'un loft montréalais",
-            "excerpt": "Découvrez la métamorphose complète d'un loft avec nos solutions époxy haut de gamme.",
-            "author": "Alex Moreau",
-            "date": "10 janvier 2025",
-            "read_time": "6 min"
-          },
-          "article4": {
-            "title": "Entretien optimal de votre sol époxy",
-            "excerpt": "Conseils d'experts pour préserver l'éclat et la durabilité de votre revêtement époxy.",
-            "author": "Julie Leroy",
-            "date": "8 janvier 2025",
-            "read_time": "4 min"
-          },
-          "article5": {
-            "title": "Résine époxy vs autres revêtements",
-            "excerpt": "Comparatif détaillé des avantages de la résine époxy face aux solutions traditionnelles.",
-            "author": "Pierre Durand",
-            "date": "5 janvier 2025",
-            "read_time": "7 min"
-          },
-          "article6": {
-            "title": "Showroom commercial moderne",
-            "excerpt": "Réalisation d'un showroom automobile avec finitions époxy métallisées.",
-            "author": "Sophie Martin",
-            "date": "3 janvier 2025",
-            "read_time": "5 min"
-          }
-        },
-        "hero": {
-          "back_to_home": "Retour à l'accueil",
-          "title": "Blog Prestige Epoxy",
-          "subtitle": "Découvrez nos conseils d'experts, tendances et réalisations exceptionnelles"
-        },
-        "filters": {
-          "search_placeholder": "Rechercher un article..."
-        },
-        "no_articles_found": "Aucun article trouvé pour votre recherche."
-      },
-      "advice_page": {
-        "categories": {
-          "residential": "Résidentiel",
-          "commercial": "Commercial",
-          "industrial": "Industriel"
-        },
-        "residential": {
-          "tip1_title": "Choisir la bonne finition pour votre cuisine",
-          "tip1_content": "Pour une cuisine, privilégiez une finition satinée qui résiste aux taches et facilite le nettoyage. Évitez les finitions trop brillantes qui montrent les traces.",
-          "tip1_tip1": "Finition satinée recommandée",
-          "tip1_tip2": "Résistance aux taches alimentaires",
-          "tip1_tip3": "Facilité de nettoyage",
-          "tip2_title": "Garage : optez pour l'antidérapant",
-          "tip2_content": "Dans un garage, la sécurité prime. Choisissez une finition antidérapante pour éviter les glissades, surtout par temps humide.",
-          "tip2_tip1": "Finition antidérapante obligatoire",
-          "tip2_tip2": "Résistance aux hydrocarbures",
-          "tip2_tip3": "Drainage optimal",
-          "tip3_title": "Salon : élégance et confort",
-          "tip3_content": "Pour un salon, misez sur l'esthétique avec une finition brillante qui reflète la lumière et agrandit visuellement l'espace.",
-          "tip3_tip1": "Finition brillante pour l'éclat",
-          "tip3_tip2": "Couleurs neutres conseillées",
-          "tip3_tip3": "Chauffage au sol compatible"
-        },
-        "commercial": {
-          "tip1_title": "Showroom : impression garantie",
-          "tip1_content": "Un showroom demande une finition impeccable. Optez pour un époxy métallisé qui impressionne vos clients dès leur entrée.",
-          "tip1_tip1": "Finition métallisée premium",
-          "tip1_tip2": "Résistance au trafic intense",
-          "tip1_tip3": "Effet miroir saisissant",
-          "tip2_title": "Restaurant : hygiène et style",
-          "tip2_content": "En restauration, l'hygiène est cruciale. Choisissez une finition lisse, non poreuse et facile à désinfecter.",
-          "tip2_tip1": "Surface non poreuse",
-          "tip2_tip2": "Résistance aux produits chimiques",
-          "tip2_tip3": "Nettoyage simplifié",
-          "tip3_title": "Bureau : productivité et bien-être",
-          "tip3_content": "Pour des bureaux, privilégiez des couleurs apaisantes et une finition mate qui réduit la fatigue visuelle.",
-          "tip3_tip1": "Finition mate recommandée",
-          "tip3_tip2": "Couleurs neutres et apaisantes",
-          "tip3_tip3": "Acoustique améliorée"
-        },
-        "industrial": {
-          "tip1_title": "Entrepôt : robustesse maximale",
-          "tip1_content": "En milieu industriel, la résistance prime. Optez pour un époxy renforcé capable de supporter charges lourdes et chocs.",
-          "tip1_tip1": "Époxy renforcé fibres",
-          "tip1_tip2": "Résistance aux charges lourdes",
-          "tip1_tip3": "Marquage au sol intégré",
-          "tip2_title": "Laboratoire : pureté et sécurité",
-          "tip2_content": "Les laboratoires exigent des sols parfaitement lisses, non poreux et résistants aux produits chimiques agressifs.",
-          "tip2_tip1": "Surface ultra-lisse",
-          "tip2_tip2": "Résistance chimique maximale",
-          "tip2_tip3": "Joints étanches",
-          "tip3_title": "Atelier : praticité et durabilité",
-          "tip3_content": "Pour un atelier, combinez résistance aux chocs, facilité d'entretien et marquage au sol pour optimiser l'organisation.",
-          "tip3_tip1": "Résistance aux chocs",
-          "tip3_tip2": "Marquage intégré",
-          "tip3_tip3": "Entretien minimal"
-        },
-        "hero": {
-          "back_to_home": "Retour à l'accueil",
-          "title": "Conseils d'experts",
-          "subtitle": "Recommandations personnalisées pour chaque type de projet"
-        },
-        "key_points_title": "Points clés :",
-        "learn_more_button": "En savoir plus",
-        "cta": {
-          "title_part1": "Besoin de conseils",
-          "title_part2": "personnalisés",
-          "subtitle": "Nos experts sont à votre disposition pour vous accompagner dans votre projet",
-          "button": "Consulter nos experts"
-        }
-      },
-      "quote_page": {
-        "form_sending_message": "Tentative d'envoi du formulaire :",
-        "fill_all_fields_alert": "Veuillez remplir tous les champs obligatoires.",
-        "success_message": "Votre demande de devis a été envoyée avec succès !",
-        "error_message": "Échec de l'envoi de la demande de devis.",
-        "form_send_error": "Erreur lors de l'envoi du formulaire :",
-        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
-        "hero_title": "Demande de Devis",
-        "hero_subtitle": "Décrivez-nous votre projet et obtenez une soumission gratuite et personnalisée."
-      },
-      "contact_section": {
-        "form_sending_message": "Tentative d'envoi du formulaire de contact :",
-        "email_subtitle": "Réponse sous 24h",
-        "phone_subtitle": "Lun-Ven, 8h-17h (EST)",
-        "address_subtitle": "Sur rendez-vous",
-        "square_footage_placeholder": "Nombre de pieds carrés",
-        "finish_type": "Type de finitions",
-        "finish_options": {
-          "solid_colors": "Couleurs unies",
-          "metallic_effects": "Effets métalliques",
-          "marble_effects": "Effets marbrés",
-          "spiral_checkerboard": "Spirales et damier",
-          "refined_raw_concrete": "Béton brut raffiné",
-          "gold_mother_of_pearl_dust": "Poussière d'or et nacre",
-          "custom_logos_patterns": "Logos et motifs personnalisés",
-          "matte_finish": "Fini mat",
-          "glossy_finish": "Fini brillant"
-        },
-        "message_placeholder": "Décrivez votre projet en détail...",
-        "send_message": "Envoyer la demande",
-        "form_send_error": "Erreur lors de l'envoi du formulaire de contact :",
-        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
-        "title": "Contactez-nous",
-        "subtitle": "Prêt à transformer vos sols ?",
-        "phone": "Téléphone",
-        "email": "Email",
-        "address": "Adresse",
-        "full_name": "Nom complet",
-        "phone_number": "Numéro de téléphone",
-        "email_address": "Adresse e-mail",
-        "project_type": "Type de projet",
-        "residential": "Résidentiel",
-        "commercial": "Commercial",
-        "industrial": "Industriel",
-        "message": "Votre message",
-        "contact_info_text": "N'hésitez pas à nous contacter pour toute question ou demande de devis. Nous sommes là pour vous aider à réaliser votre projet de revêtement de sol époxy.",
-        "success_message": "Votre message a été envoyé avec succès ! Nous vous répondrons sous peu.",
-        "error_message": "Échec de l'envoi du message."
-      },
-      "floating_quote_button": {
-        "aria_label": "Demander une soumission",
-        "text": "Devis Gratuit"
-      },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
-      },
-      "why_choose_prestige": {
-        "title": "Bien plus qu’un sol – une expérience de prestige",
-        "item1_title": "Durabilité extrême",
-        "item1_description": "Résiste aux chocs, taches, produits chimiques et au temps.",
-        "item2_title": "Look unique",
-        "item2_description": "Des effets métalliques et marbrés impossibles à reproduire avec un autre matériau.",
-        "item3_title": "Entretien facile",
-        "item3_description": "Un simple coup de vadrouille, et votre sol retrouve son éclat.",
-        "item4_title": "Valeur immobilière",
-        "item4_description": "Un investissement qui rehausse instantanément la valeur de votre propriété."
-      },
-      "blog_page": {
-        "categories": {
-          "all_articles": "Tous les articles",
-          "trends": "Tendances",
-          "advice": "Conseils",
-          "projects": "Projets",
-          "technical": "Technique"
-        },
-        "articles": {
-          "article1": {
-            "title": "Les tendances 2025 en revêtements époxy",
-            "excerpt": "Découvrez les dernières innovations et tendances design pour vos sols en résine époxy.",
-            "author": "Sophie Martin",
-            "date": "15 janvier 2025",
-            "read_time": "5 min"
-          },
-          "article2": {
-            "title": "Comment choisir la finition époxy parfaite",
-            "excerpt": "Guide complet pour sélectionner la finition idéale selon votre espace et vos besoins.",
-            "author": "Marc Dubois",
-            "date": "12 janvier 2025",
-            "read_time": "8 min"
-          },
-          "article3": {
-            "title": "Transformation d'un loft montréalais",
-            "excerpt": "Découvrez la métamorphose complète d'un loft avec nos solutions époxy haut de gamme.",
-            "author": "Alex Moreau",
-            "date": "10 janvier 2025",
-            "read_time": "6 min"
-          },
-          "article4": {
-            "title": "Entretien optimal de votre sol époxy",
-            "excerpt": "Conseils d'experts pour préserver l'éclat et la durabilité de votre revêtement époxy.",
-            "author": "Julie Leroy",
-            "date": "8 janvier 2025",
-            "read_time": "4 min"
-          },
-          "article5": {
-            "title": "Résine époxy vs autres revêtements",
-            "excerpt": "Comparatif détaillé des avantages de la résine époxy face aux solutions traditionnelles.",
-            "author": "Pierre Durand",
-            "date": "5 janvier 2025",
-            "read_time": "7 min"
-          },
-          "article6": {
-            "title": "Showroom commercial moderne",
-            "excerpt": "Réalisation d'un showroom automobile avec finitions époxy métallisées.",
-            "author": "Sophie Martin",
-            "date": "3 janvier 2025",
-            "read_time": "5 min"
-          }
-        },
-        "hero": {
-          "back_to_home": "Retour à l'accueil",
-          "title": "Blog Prestige Epoxy",
-          "subtitle": "Découvrez nos conseils d'experts, tendances et réalisations exceptionnelles"
-        },
-        "filters": {
-          "search_placeholder": "Rechercher un article..."
-        },
-        "no_articles_found": "Aucun article trouvé pour votre recherche."
-      },
-      "advice_page": {
-        "categories": {
-          "residential": "Résidentiel",
-          "commercial": "Commercial",
-          "industrial": "Industriel"
-        },
-        "residential": {
-          "tip1_title": "Choisir la bonne finition pour votre cuisine",
-          "tip1_content": "Pour une cuisine, privilégiez une finition satinée qui résiste aux taches et facilite le nettoyage. Évitez les finitions trop brillantes qui montrent les traces.",
-          "tip1_tip1": "Finition satinée recommandée",
-          "tip1_tip2": "Résistance aux taches alimentaires",
-          "tip1_tip3": "Facilité de nettoyage",
-          "tip2_title": "Garage : optez pour l'antidérapant",
-          "tip2_content": "Dans un garage, la sécurité prime. Choisissez une finition antidérapante pour éviter les glissades, surtout par temps humide.",
-          "tip2_tip1": "Finition antidérapante obligatoire",
-          "tip2_tip2": "Résistance aux hydrocarbures",
-          "tip2_tip3": "Drainage optimal",
-          "tip3_title": "Salon : élégance et confort",
-          "tip3_content": "Pour un salon, misez sur l'esthétique avec une finition brillante qui reflète la lumière et agrandit visuellement l'espace.",
-          "tip3_tip1": "Finition brillante pour l'éclat",
-          "tip3_tip2": "Couleurs neutres conseillées",
-          "tip3_tip3": "Chauffage au sol compatible"
-        },
-        "commercial": {
-          "tip1_title": "Showroom : impression garantie",
-          "tip1_content": "Un showroom demande une finition impeccable. Optez pour un époxy métallisé qui impressionne vos clients dès leur entrée.",
-          "tip1_tip1": "Finition métallisée premium",
-          "tip1_tip2": "Résistance au trafic intense",
-          "tip1_tip3": "Effet miroir saisissant",
-          "tip2_title": "Restaurant : hygiène et style",
-          "tip2_content": "En restauration, l'hygiène est cruciale. Choisissez une finition lisse, non poreuse et facile à désinfecter.",
-          "tip2_tip1": "Surface non poreuse",
-          "tip2_tip2": "Résistance aux produits chimiques",
-          "tip2_tip3": "Nettoyage simplifié",
-          "tip3_title": "Bureau : productivité et bien-être",
-          "tip3_content": "Pour des bureaux, privilégiez des couleurs apaisantes et une finition mate qui réduit la fatigue visuelle.",
-          "tip3_tip1": "Finition mate recommandée",
-          "tip3_tip2": "Couleurs neutres et apaisantes",
-          "tip3_tip3": "Acoustique améliorée"
-        },
-        "industrial": {
-          "tip1_title": "Entrepôt : robustesse maximale",
-          "tip1_content": "En milieu industriel, la résistance prime. Optez pour un époxy renforcé capable de supporter charges lourdes et chocs.",
-          "tip1_tip1": "Époxy renforcé fibres",
-          "tip1_tip2": "Résistance aux charges lourdes",
-          "tip1_tip3": "Marquage au sol intégré",
-          "tip2_title": "Laboratoire : pureté et sécurité",
-          "tip2_content": "Les laboratoires exigent des sols parfaitement lisses, non poreux et résistants aux produits chimiques agressifs.",
-          "tip2_tip1": "Surface ultra-lisse",
-          "tip2_tip2": "Résistance chimique maximale",
-          "tip2_tip3": "Joints étanches",
-          "tip3_title": "Atelier : praticité et durabilité",
-          "tip3_content": "Pour un atelier, combinez résistance aux chocs, facilité d'entretien et marquage au sol pour optimiser l'organisation.",
-          "tip3_tip1": "Résistance aux chocs",
-          "tip3_tip2": "Marquage intégré",
-          "tip3_tip3": "Entretien minimal"
-        },
-        "hero": {
-          "back_to_home": "Retour à l'accueil",
-          "title": "Conseils d'experts",
-          "subtitle": "Recommandations personnalisées pour chaque type de projet"
-        },
-        "key_points_title": "Points clés :",
-        "learn_more_button": "En savoir plus",
-        "cta": {
-          "title_part1": "Besoin de conseils",
-          "title_part2": "personnalisés",
-          "subtitle": "Nos experts sont à votre disposition pour vous accompagner dans votre projet",
-          "button": "Consulter nos experts"
-        }
-      },
-      "quote_page": {
-        "form_sending_message": "Tentative d'envoi du formulaire :",
-        "fill_all_fields_alert": "Veuillez remplir tous les champs obligatoires.",
-        "success_message": "Votre demande de devis a été envoyée avec succès !",
-        "error_message": "Échec de l'envoi de la demande de devis.",
-        "form_send_error": "Erreur lors de l'envoi du formulaire :",
-        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
-        "hero_title": "Demande de Devis",
-        "hero_subtitle": "Décrivez-nous votre projet et obtenez une soumission gratuite et personnalisée."
-      },
-      "contact_section": {
-        "form_sending_message": "Tentative d'envoi du formulaire de contact :",
-        "email_subtitle": "Réponse sous 24h",
-        "phone_subtitle": "Lun-Ven, 8h-17h (EST)",
-        "address_subtitle": "Sur rendez-vous",
-        "square_footage_placeholder": "Nombre de pieds carrés",
-        "finish_type": "Type de finitions",
-        "finish_options": {
-          "solid_colors": "Couleurs unies",
-          "metallic_effects": "Effets métalliques",
-          "marble_effects": "Effets marbrés",
-          "spiral_checkerboard": "Spirales et damier",
-          "refined_raw_concrete": "Béton brut raffiné",
-          "gold_mother_of_pearl_dust": "Poussière d'or et nacre",
-          "custom_logos_patterns": "Logos et motifs personnalisés",
-          "matte_finish": "Fini mat",
-          "glossy_finish": "Fini brillant"
-        },
-        "message_placeholder": "Décrivez votre projet en détail...",
-        "send_message": "Envoyer la demande",
-        "form_send_error": "Erreur lors de l'envoi du formulaire de contact :",
-        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
-        "title": "Contactez-nous",
-        "subtitle": "Prêt à transformer vos sols ?",
-        "phone": "Téléphone",
-        "email": "Email",
-        "address": "Adresse",
-        "full_name": "Nom complet",
-        "phone_number": "Numéro de téléphone",
-        "email_address": "Adresse e-mail",
-        "project_type": "Type de projet",
-        "residential": "Résidentiel",
-        "commercial": "Commercial",
-        "industrial": "Industriel",
-        "message": "Votre message",
-        "contact_info_text": "N'hésitez pas à nous contacter pour toute question ou demande de devis. Nous sommes là pour vous aider à réaliser votre projet de revêtement de sol époxy.",
-        "success_message": "Votre message a été envoyé avec succès ! Nous vous répondrons sous peu.",
-        "error_message": "Échec de l'envoi du message."
-      },
-      "floating_quote_button": {
-        "aria_label": "Demander une soumission",
-        "text": "Devis Gratuit"
-      },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
-      },
-      "why_choose_prestige": {
-        "title": "Bien plus qu’un sol – une expérience de prestige",
-        "item1_title": "Durabilité extrême",
-        "item1_description": "Résiste aux chocs, taches, produits chimiques et au temps.",
-        "item2_title": "Look unique",
-        "item2_description": "Des effets métalliques et marbrés impossibles à reproduire avec un autre matériau.",
-        "item3_title": "Entretien facile",
-        "item3_description": "Un simple coup de vadrouille, et votre sol retrouve son éclat.",
-        "item4_title": "Valeur immobilière",
-        "item4_description": "Un investissement qui rehausse instantanément la valeur de votre propriété."
-      },
-      "blog_page": {
-        "categories": {
-          "all_articles": "Tous les articles",
-          "trends": "Tendances",
-          "advice": "Conseils",
-          "projects": "Projets",
-          "technical": "Technique"
-        },
-        "articles": {
-          "article1": {
-            "title": "Les tendances 2025 en revêtements époxy",
-            "excerpt": "Découvrez les dernières innovations et tendances design pour vos sols en résine époxy.",
-            "author": "Sophie Martin",
-            "date": "15 janvier 2025",
-            "read_time": "5 min"
-          },
-          "article2": {
-            "title": "Comment choisir la finition époxy parfaite",
-            "excerpt": "Guide complet pour sélectionner la finition idéale selon votre espace et vos besoins.",
-            "author": "Marc Dubois",
-            "date": "12 janvier 2025",
-            "read_time": "8 min"
-          },
-          "article3": {
-            "title": "Transformation d'un loft montréalais",
-            "excerpt": "Découvrez la métamorphose complète d'un loft avec nos solutions époxy haut de gamme.",
-            "author": "Alex Moreau",
-            "date": "10 janvier 2025",
-            "read_time": "6 min"
-          },
-          "article4": {
-            "title": "Entretien optimal de votre sol époxy",
-            "excerpt": "Conseils d'experts pour préserver l'éclat et la durabilité de votre revêtement époxy.",
-            "author": "Julie Leroy",
-            "date": "8 janvier 2025",
-            "read_time": "4 min"
-          },
-          "article5": {
-            "title": "Résine époxy vs autres revêtements",
-            "excerpt": "Comparatif détaillé des avantages de la résine époxy face aux solutions traditionnelles.",
-            "author": "Pierre Durand",
-            "date": "5 janvier 2025",
-            "read_time": "7 min"
-          },
-          "article6": {
-            "title": "Showroom commercial moderne",
-            "excerpt": "Réalisation d'un showroom automobile avec finitions époxy métallisées.",
-            "author": "Sophie Martin",
-            "date": "3 janvier 2025",
-            "read_time": "5 min"
-          }
-        },
-        "hero": {
-          "back_to_home": "Retour à l'accueil",
-          "title": "Blog Prestige Epoxy",
-          "subtitle": "Découvrez nos conseils d'experts, tendances et réalisations exceptionnelles"
-        },
-        "filters": {
-          "search_placeholder": "Rechercher un article..."
-        },
-        "no_articles_found": "Aucun article trouvé pour votre recherche."
-      },
-      "advice_page": {
-        "categories": {
-          "residential": "Résidentiel",
-          "commercial": "Commercial",
-          "industrial": "Industriel"
-        },
-        "residential": {
-          "tip1_title": "Choisir la bonne finition pour votre cuisine",
-          "tip1_content": "Pour une cuisine, privilégiez une finition satinée qui résiste aux taches et facilite le nettoyage. Évitez les finitions trop brillantes qui montrent les traces.",
-          "tip1_tip1": "Finition satinée recommandée",
-          "tip1_tip2": "Résistance aux taches alimentaires",
-          "tip1_tip3": "Facilité de nettoyage",
-          "tip2_title": "Garage : optez pour l'antidérapant",
-          "tip2_content": "Dans un garage, la sécurité prime. Choisissez une finition antidérapante pour éviter les glissades, surtout par temps humide.",
-          "tip2_tip1": "Finition antidérapante obligatoire",
-          "tip2_tip2": "Résistance aux hydrocarbures",
-          "tip2_tip3": "Drainage optimal",
-          "tip3_title": "Salon : élégance et confort",
-          "tip3_content": "Pour un salon, misez sur l'esthétique avec une finition brillante qui reflète la lumière et agrandit visuellement l'espace.",
-          "tip3_tip1": "Finition brillante pour l'éclat",
-          "tip3_tip2": "Couleurs neutres conseillées",
-          "tip3_tip3": "Chauffage au sol compatible"
-        },
-        "commercial": {
-          "tip1_title": "Showroom : impression garantie",
-          "tip1_content": "Un showroom demande une finition impeccable. Optez pour un époxy métallisé qui impressionne vos clients dès leur entrée.",
-          "tip1_tip1": "Finition métallisée premium",
-          "tip1_tip2": "Résistance au trafic intense",
-          "tip1_tip3": "Effet miroir saisissant",
-          "tip2_title": "Restaurant : hygiène et style",
-          "tip2_content": "En restauration, l'hygiène est cruciale. Choisissez une finition lisse, non poreuse et facile à désinfecter.",
-          "tip2_tip1": "Surface non poreuse",
-          "tip2_tip2": "Résistance aux produits chimiques",
-          "tip2_tip3": "Nettoyage simplifié",
-          "tip3_title": "Bureau : productivité et bien-être",
-          "tip3_content": "Pour des bureaux, privilégiez des couleurs apaisantes et une finition mate qui réduit la fatigue visuelle.",
-          "tip3_tip1": "Finition mate recommandée",
-          "tip3_tip2": "Couleurs neutres et apaisantes",
-          "tip3_tip3": "Acoustique améliorée"
-        },
-        "industrial": {
-          "tip1_title": "Entrepôt : robustesse maximale",
-          "tip1_content": "En milieu industriel, la résistance prime. Optez pour un époxy renforcé capable de supporter charges lourdes et chocs.",
-          "tip1_tip1": "Époxy renforcé fibres",
-          "tip1_tip2": "Résistance aux charges lourdes",
-          "tip1_tip3": "Marquage au sol intégré",
-          "tip2_title": "Laboratoire : pureté et sécurité",
-          "tip2_content": "Les laboratoires exigent des sols parfaitement lisses, non poreux et résistants aux produits chimiques agressifs.",
-          "tip2_tip1": "Surface ultra-lisse",
-          "tip2_tip2": "Résistance chimique maximale",
-          "tip2_tip3": "Joints étanches",
-          "tip3_title": "Atelier : praticité et durabilité",
-          "tip3_content": "Pour un atelier, combinez résistance aux chocs, facilité d'entretien et marquage au sol pour optimiser l'organisation.",
-          "tip3_tip1": "Résistance aux chocs",
-          "tip3_tip2": "Marquage intégré",
-          "tip3_tip3": "Entretien minimal"
-        },
-        "hero": {
-          "back_to_home": "Retour à l'accueil",
-          "title": "Conseils d'experts",
-          "subtitle": "Recommandations personnalisées pour chaque type de projet"
-        },
-        "key_points_title": "Points clés :",
-        "learn_more_button": "En savoir plus",
-        "cta": {
-          "title_part1": "Besoin de conseils",
-          "title_part2": "personnalisés",
-          "subtitle": "Nos experts sont à votre disposition pour vous accompagner dans votre projet",
-          "button": "Consulter nos experts"
-        }
-      },
-      "quote_page": {
-        "form_sending_message": "Tentative d'envoi du formulaire :",
-        "fill_all_fields_alert": "Veuillez remplir tous les champs obligatoires.",
-        "success_message": "Votre demande de devis a été envoyée avec succès !",
-        "error_message": "Échec de l'envoi de la demande de devis.",
-        "form_send_error": "Erreur lors de l'envoi du formulaire :",
-        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
-        "hero_title": "Demande de Devis",
-        "hero_subtitle": "Décrivez-nous votre projet et obtenez une soumission gratuite et personnalisée."
-      },
-      "contact_section": {
-        "form_sending_message": "Tentative d'envoi du formulaire de contact :",
-        "email_subtitle": "Réponse sous 24h",
-        "phone_subtitle": "Lun-Ven, 8h-17h (EST)",
-        "address_subtitle": "Sur rendez-vous",
-        "square_footage_placeholder": "Nombre de pieds carrés",
-        "finish_type": "Type de finitions",
-        "finish_options": {
-          "solid_colors": "Couleurs unies",
-          "metallic_effects": "Effets métalliques",
-          "marble_effects": "Effets marbrés",
-          "spiral_checkerboard": "Spirales et damier",
-          "refined_raw_concrete": "Béton brut raffiné",
-          "gold_mother_of_pearl_dust": "Poussière d'or et nacre",
-          "custom_logos_patterns": "Logos et motifs personnalisés",
-          "matte_finish": "Fini mat",
-          "glossy_finish": "Fini brillant"
-        },
-        "message_placeholder": "Décrivez votre projet en détail...",
-        "send_message": "Envoyer la demande",
-        "form_send_error": "Erreur lors de l'envoi du formulaire de contact :",
-        "alert_error_message": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
-        "title": "Contactez-nous",
-        "subtitle": "Prêt à transformer vos sols ?",
-        "phone": "Téléphone",
-        "email": "Email",
-        "address": "Adresse",
-        "full_name": "Nom complet",
-        "phone_number": "Numéro de téléphone",
-        "email_address": "Adresse e-mail",
-        "project_type": "Type de projet",
-        "residential": "Résidentiel",
-        "commercial": "Commercial",
-        "industrial": "Industriel",
-        "message": "Votre message",
-        "contact_info_text": "N'hésitez pas à nous contacter pour toute question ou demande de devis. Nous sommes là pour vous aider à réaliser votre projet de revêtement de sol époxy.",
-        "success_message": "Votre message a été envoyé avec succès ! Nous vous répondrons sous peu.",
-        "error_message": "Échec de l'envoi du message."
-      },
-      "floating_quote_button": {
-        "aria_label": "Demander une soumission",
-        "text": "Devis Gratuit"
-      },
-      "footer": {
-        "slogan": "L'excellence du revêtement époxy à votre service.",
-        "links": "Liens rapides",
-        "services": "Services",
-        "realizations": "Réalisations",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "resources": "Ressources",
-        "legal_mentions": "Mentions Légales",
-        "copyright": "© 2025 Prestige Epoxy. Tous droits réservés.",
-        "social_media": "Suivez-nous",
-        "prestations_title": "Prestations",
-        "residential_link": "Résidentiel",
-        "commercial_link": "Commercial",
-        "industrial_link": "Industriel",
-        "finishes_link": "Finitions",
-        "informations_title": "Informations",
-        "support_link": "Support",
-        "legal_mentions_link": "Mentions légales",
-        "security_link": "Sécurité",
-        "resources_title": "Ressources",
-        "blog_link": "Blog",
-        "guides_link": "Guides",
-        "advice_link": "Conseils",
-        "maintenance_link": "Entretien"
       },
       "why_choose_prestige": {
         "title": "Bien plus qu’un sol – une expérience de prestige",
@@ -4810,6 +4421,12 @@
         "filters": {
             "search_placeholder": "Rechercher un article..."
         }
+    },
+    "cookie_consent": {
+        "message": "Nous utilisons des cookies pour améliorer votre expérience. En continuant, vous acceptez notre utilisation des cookies.",
+        "learn_more": "En savoir plus",
+        "accept_button": "Accepter",
+        "decline_button": "Refuser"
     },
     "admin_login": {
         "title": "Connexion Administrateur",

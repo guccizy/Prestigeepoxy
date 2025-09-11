@@ -25,6 +25,7 @@ import HeaderSwitcher from './components/HeaderSwitcher';
 import HiddenAdminBlog from './pages/HiddenAdminBlog';
 import BlogDetails from './pages/BlogDetails';
 import AdminLogin from './pages/AdminLogin'; // Import AdminLogin component
+import CookieConsent from './components/CookieConsent'; // Import CookieConsent component
 
 const HomePage = () => (
   <div className="font-manrope">
@@ -113,6 +114,7 @@ function App() {
       </Routes>
       <Footer />
       <FloatingQuoteButton />
+      <CookieConsent /> {/* Add CookieConsent component here */}
     </Router>
   );
 }

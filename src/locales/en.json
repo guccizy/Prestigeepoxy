@@ -960,7 +960,8 @@
         "blog_link": "Blog",
         "guides_link": "Guides",
         "advice_link": "Advice",
-        "maintenance_link": "Maintenance"
+        "maintenance_link": "Maintenance",
+         "designed_by": "Developed by"
       },
       "blog_page": {
         "categories": {
@@ -1532,6 +1533,12 @@
           "search_placeholder": "Search an article..."
       }
   },
+  "cookie_consent": {
+    "message": "We use cookies to enhance your experience. By continuing, you agree to our use of cookies.",
+    "learn_more": "Learn More",
+    "accept_button": "Accept",
+    "decline_button": "Decline"
+},
   "admin_login": {
       "title": "Administrator Login",
         "username_label": "Username",
