@@ -68,6 +68,12 @@ const HiddenAdminBlog = () => {
     }
   };
 
+  const handleLogout = () => {
+    localStorage.removeItem('isAuthenticated'); // Clear isAuthenticated
+    localStorage.removeItem('loginTime');      // Clear loginTime
+    navigate('/admin/login', { replace: true }); // Redirect to admin login
+  };
+
   const handleContentChange = (e: React.SyntheticEvent) => {
     const target = e.target as HTMLDivElement;
     setContent(target.innerHTML);
@@ -81,13 +87,19 @@ const HiddenAdminBlog = () => {
     <div className="font-manrope">
       <main className="pt-20 min-h-screen bg-off-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="mb-8">
+          <div className="mb-8 flex justify-between items-center">
             <button
               onClick={() => navigate(-1)}
               className="flex items-center gap-2 text-anthracite hover:text-elegant-gold transition-colors font-manrope"
             >
               <ArrowLeft className="w-4 h-4" />
               {t('hidden_admin_blog.back')}
+            </button>
+            <button
+              onClick={handleLogout}
+              className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors"
+            >
+              {t('admin_login.logout_button')}
             </button>
           </div>
 

@@ -4812,7 +4812,9 @@
         "username_label": "Nom d'utilisateur",
         "password_label": "Mot de passe",
         "login_button": "Se connecter",
-        "invalid_credentials": "Nom d'utilisateur ou mot de passe incorrect."
+        "logout_button": "Déconnexion",
+        "invalid_credentials": "Nom d'utilisateur ou mot de passe incorrect.",
+        "session_expired": "Votre session a expiré. Veuillez vous reconnecter."
     }
     }
   }

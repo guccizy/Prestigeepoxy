@@ -1530,10 +1530,12 @@
   },
   "admin_login": {
       "title": "Administrator Login",
-      "username_label": "Username",
-      "password_label": "Password",
-      "login_button": "Log In",
-      "invalid_credentials": "Invalid username or password."
-  }
+        "username_label": "Username",
+        "password_label": "Password",
+        "login_button": "Log In",
+        "logout_button": "Logout",
+        "invalid_credentials": "Invalid username or password.",
+        "session_expired": "Your session has expired. Please log in again."
+    }
     }   
   }

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate, Outlet } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, Outlet, useNavigate } from 'react-router-dom';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import WhyEpoxySection from './components/WhyEpoxySection';
@@ -42,8 +42,37 @@ const HomePage = () => (
 
 // ProtectedRoute component to check authentication status
 const ProtectedRoute = () => {
-  const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
-  return isAuthenticated ? <Outlet /> : <Navigate to="/admin/login" replace />;
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const checkSession = () => {
+      const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
+      const loginTime = localStorage.getItem('loginTime');
+
+      if (isAuthenticated && loginTime) {
+        const currentTime = Date.now();
+        const oneHour = 60 * 60 * 1000; // 1 hour in milliseconds
+
+        if (currentTime - parseInt(loginTime) > oneHour) {
+          // Session expired, log out
+          localStorage.removeItem('isAuthenticated');
+          localStorage.removeItem('loginTime');
+          alert('Your session has expired. Please log in again.'); // TODO: Use translation key
+          navigate('/admin/login', { replace: true });
+        }
+      } else if (!isAuthenticated) {
+        // Not authenticated, redirect to login
+        navigate('/admin/login', { replace: true });
+      }
+    };
+
+    checkSession(); // Check immediately on component mount
+    const interval = setInterval(checkSession, 60 * 1000); // Check every minute
+
+    return () => clearInterval(interval); // Clear interval on unmount
+  }, [navigate]);
+
+  return localStorage.getItem('isAuthenticated') === 'true' ? <Outlet /> : null; // Render Outlet if authenticated, otherwise null (redirect handled by useEffect)
 };
 
 function App() {

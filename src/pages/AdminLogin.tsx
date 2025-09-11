@@ -16,6 +16,7 @@ const AdminLogin = () => {
     e.preventDefault();
     if (username === ADMIN_USERNAME && password === ADMIN_PASSWORD) {
       localStorage.setItem('isAuthenticated', 'true');
+      localStorage.setItem('loginTime', Date.now().toString()); // Store current timestamp
       navigate('/admin/blog-import');
     } else {
       setError(t('admin_login.invalid_credentials'));
