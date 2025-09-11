@@ -200,6 +200,7 @@ const HiddenAdminBlog = () => {
                   contentEditable={true}
                   onInput={handleContentChange}
                   className="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md p-2 min-h-[200px] bg-white focus:ring-elegant-gold focus:border-elegant-gold overflow-y-auto text-left"
+                  style={{ direction: 'ltr' }}
                   dangerouslySetInnerHTML={{ __html: content }}
                   placeholder={t('hidden_admin_blog.content_placeholder')}
                   required
