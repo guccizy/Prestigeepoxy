@@ -1,11 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css'; // Import Quill styles
+import Quill from 'quill'; // Import Quill
+import { ArrowLeft } from 'lucide-react'; // Re-import ArrowLeft
+
+const Font = Quill.import('formats/font'); // Import Font module from Quill
 
 const HiddenAdminBlog = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const quillRef = useRef<ReactQuill>(null); // Ref for Quill editor instance
 
   const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || ''; // Fallback to empty string for relative paths
   const [category, setCategory] = useState('');
@@ -74,14 +80,49 @@ const HiddenAdminBlog = () => {
     navigate('/admin/login', { replace: true }); // Redirect to admin login
   };
 
-  const handleContentChange = (e: React.SyntheticEvent) => {
-    const target = e.target as HTMLDivElement;
-    setContent(target.innerHTML);
+  const handleContentChange = (value: string) => {
+    setContent(value);
   };
 
-  const applyFormat = (command: string, value: string | null = null) => {
-    document.execCommand(command, false, value);
+  // Custom Color Picker Handler
+  const handleColorChange = (value: string) => {
+    if (quillRef.current) {
+      const editor = quillRef.current.getEditor();
+      const range = editor.getSelection();
+      if (range) {
+        editor.formatText(range.index, range.length, 'color', value);
+      }
+    }
   };
+
+  const modules = {
+    toolbar: {
+      container: [
+        [{ 'font': Font.whitelist }], // Add font dropdown
+        [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+        ['bold', 'italic', 'underline', 'strike', 'blockquote'],
+        [{ 'list': 'ordered' }, { 'list': 'bullet' }, { 'indent': '-1' }, { 'indent': '+1' }],
+        ['link', 'image'],
+        [{ 'align': [] }],
+        // Custom color picker button
+        [{ 'color': [] }, { 'background': [] }],
+        ['clean']
+      ],
+      handlers: {
+        // No custom handlers needed for default color pickers, they work out of the box
+      },
+    },
+  };
+
+  const formats = [
+    'header',
+    'font',
+    'bold', 'italic', 'underline', 'strike', 'blockquote',
+    'list', 'bullet', 'indent',
+    'link', 'image',
+    'align',
+    'color', 'background',
+  ];
 
   return (
     <div className="font-manrope">
@@ -188,22 +229,31 @@ const HiddenAdminBlog = () => {
                   {t('hidden_admin_blog.content_label')}
                 </label>
                 <div className="flex flex-wrap gap-2 mb-2">
-                  <button type="button" onClick={() => applyFormat('bold')} className="px-3 py-1 bg-gray-200 rounded-md text-sm font-semibold hover:bg-gray-300"><b>B</b></button>
-                  <button type="button" onClick={() => applyFormat('italic')} className="px-3 py-1 bg-gray-200 rounded-md text-sm font-semibold hover:bg-gray-300"><i>I</i></button>
-                  <button type="button" onClick={() => applyFormat('underline')} className="px-3 py-1 bg-gray-200 rounded-md text-sm font-semibold hover:bg-gray-300"><u>U</u></button>
-                  <button type="button" onClick={() => applyFormat('insertOrderedList')} className="px-3 py-1 bg-gray-200 rounded-md text-sm font-semibold hover:bg-gray-300">OL</button>
-                  <button type="button" onClick={() => applyFormat('insertUnorderedList')} className="px-3 py-1 bg-gray-200 rounded-md text-sm font-semibold hover:bg-gray-300">UL</button>
-                  <button type="button" onClick={() => applyFormat('createLink', prompt('Enter URL'))} className="px-3 py-1 bg-gray-200 rounded-md text-sm font-semibold hover:bg-gray-300">Link</button>
+                  {/* All manual formatting buttons are removed as ReactQuill handles them */}
                 </div>
-                <div
-                  id="content-editor"
-                  contentEditable={true}
-                  onInput={handleContentChange}
+                <ReactQuill
+                  theme="snow"
+                  value={content}
+                  onChange={handleContentChange}
+                  modules={modules}
+                  formats={formats}
                   className="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md p-2 min-h-[200px] bg-white focus:ring-elegant-gold focus:border-elegant-gold overflow-y-auto text-left"
-                  style={{ direction: 'ltr' }}
-                  dangerouslySetInnerHTML={{ __html: content }}
                   placeholder={t('hidden_admin_blog.content_placeholder')}
-                  required
+                  ref={quillRef} // Attach the ref to the ReactQuill component
+                />
+              </div>
+
+              {/* Custom Color Input for more precise selection */}
+              <div className="mt-4">
+                <label htmlFor="custom-color" className="block text-sm font-medium text-gray-700 mb-2">
+                  {t('hidden_admin_blog.custom_color_label')}
+                </label>
+                <input
+                  type="color"
+                  id="custom-color"
+                  onChange={(e) => handleColorChange(e.target.value)}
+                  className="w-12 h-12 border-0 cursor-pointer"
+                  title={t('hidden_admin_blog.select_custom_color')}
                 />
               </div>
 
