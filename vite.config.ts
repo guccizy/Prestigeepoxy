@@ -6,6 +6,11 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  build: {
+    rollupOptions: {
+      external: ['react-icons/si'],
+    },
+  },
   server: {
     host: true, // écoute sur toutes les IP
     port: 5173,
