@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next'; // Import useTranslation
 
@@ -10,7 +10,7 @@ const TestimonialsSection = () => {
     {
       id: 1,
       quote: t('testimonials_section.testimonial_1.quote'), // Use translation key
-      image: "https://images.pexels.com/photos/1571461/pexels-photo-1571461.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: '/images/testimonial/commerceluxe.jpg',
       company: t('testimonials_section.testimonial_1.company'), // Use translation key
       companyLogo: "360", // This could also be a translation key if logos change
       author: t('testimonials_section.testimonial_1.author'), // Use translation key
@@ -19,7 +19,7 @@ const TestimonialsSection = () => {
     {
       id: 2,
       quote: t('testimonials_section.testimonial_2.quote'),
-      image: "https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: '/images/testimonial/concess_metal.jpg',
       company: t('testimonials_section.testimonial_2.company'),
       companyLogo: "PA",
       author: t('testimonials_section.testimonial_2.author'),
@@ -28,7 +28,7 @@ const TestimonialsSection = () => {
     {
       id: 3,
       quote: t('testimonials_section.testimonial_3.quote'),
-      image: "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: '/images/testimonial/restaurant_oldmontreal.jpg',
       company: t('testimonials_section.testimonial_3.company'),
       companyLogo: "LG",
       author: t('testimonials_section.testimonial_3.author'),
@@ -37,7 +37,7 @@ const TestimonialsSection = () => {
     {
       id: 4,
       quote: t('testimonials_section.testimonial_4.quote'),
-      image: "https://images.pexels.com/photos/1571449/pexels-photo-1571449.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: '/images/testimonial/laboratory.jpg',
       company: t('testimonials_section.testimonial_4.company'),
       companyLogo: "BL",
       author: t('testimonials_section.testimonial_4.author'),
@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
     {
       id: 5,
       quote: t('testimonials_section.testimonial_5.quote'),
-      image: "https://images.pexels.com/photos/1571462/pexels-photo-1571462.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: '/images/testimonial/garagebrossard.jpg',
       company: t('testimonials_section.testimonial_5.company'),
       companyLogo: "VM",
       author: t('testimonials_section.testimonial_5.author'),

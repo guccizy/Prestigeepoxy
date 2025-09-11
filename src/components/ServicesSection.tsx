@@ -1,22 +1,16 @@
 import { useState } from 'react';
-import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next'; // Import useTranslation
 
 const ServicesSection = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
   const { t } = useTranslation(); // Initialize useTranslation
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    element?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   const services = [
     {
       title: t('services_section.residential.title'),
       subtitle: t('services_section.residential.subtitle'),
       description: t('services_section.residential.description'),
-      image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: '/images/resientiel_HG.jpg',
       // Supprimer cette ligne si vous ne voulez plus de CTA:
       // cta: t('services_section.residential.cta') 
     },
@@ -24,7 +18,7 @@ const ServicesSection = () => {
       title: t('services_section.commercial.title'),
       subtitle: t('services_section.commercial.subtitle'),
       description: t('services_section.commercial.description'),
-      image: 'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      image: '/images/Showroom_bg.jpg',
       // Supprimer cette ligne si vous ne voulez plus de CTA:
       // cta: t('services_section.commercial.cta') 
     }

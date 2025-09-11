@@ -4297,7 +4297,7 @@
           "liability_p1": "Les informations contenues sur ce site sont aussi précises que possible et le site est périodiquement remis à jour, mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes. Si vous constatez une lacune, erreur ou ce qui paraît être un dysfonctionnement, merci de bien vouloir le signaler par courriel.",
           "website_realization_title": "Réalisation du site",
           "website_realization_content": "Ce site web a été conçu et développé par "
-        },
+      },
       "securite_page": {
           "back_to_home": "Retour à l'accueil",
           "title_part1": "Sécurité",
@@ -4373,17 +4373,17 @@
           "contact_security_team_button": "Contacter notre équipe sécurité"
       },
       "hidden_admin_blog": {
-        "back": "Retour",
+          "back": "Retour",
         "title_part1": "Gestion de blog",
         "title_part2": "Administrateur",
         "create_new_blog_post": "Créer un nouvel article de blog",
-        "title_label": "Titre",
+          "title_label": "Titre",
         "title_placeholder": "Entrez le titre de l'article",
-        "subtitle_label": "Sous-titre",
+          "subtitle_label": "Sous-titre",
         "subtitle_placeholder": "Entrez le sous-titre de l'article",
-        "author_label": "Auteur",
-        "author_placeholder": "Entrez le nom de l'auteur",
-        "content_label": "Contenu du blog",
+          "author_label": "Auteur",
+          "author_placeholder": "Entrez le nom de l'auteur",
+          "content_label": "Contenu du blog",
         "content_placeholder": "Commencez à écrire votre article ici...",
         "image_upload_label": "Télécharger l'image de couverture",
         "submit_button": "Créer l'article",
@@ -4392,7 +4392,7 @@
         "select_category_placeholder": "Choisissez une catégorie",
         "custom_color_label": "Couleur personnalisée",
         "select_custom_color": "Sélectionner une couleur personnalisée"
-    },
+      },
       "blog_details_page": {
         "not_found": "Article de blog non trouvé.",
         "fetch_error": "Erreur lors de la récupération de l'article de blog.",
