@@ -144,10 +144,10 @@ const Header = () => {
           <div className="hidden md:flex items-center gap-4">
             <button
               onClick={() => scrollToSection('contact')}
-              className="bg-gradient-to-r from-elegant-gold to-luxury-gold text-deep-black px-8 py-3 rounded-full font-manrope font-semibold hover:shadow-gold transition-all duration-300 hover:scale-105 relative overflow-hidden group"
+              className="bg-gradient-to-r from-elegant-gold to-luxury-gold text-deep-black px-8 py-3 rounded-full font-manrope font-semibold hover:shadow-subtle-gold-glow transition-all duration-300 hover:scale-105 relative overflow-hidden group"
             >
-              <span className="absolute inset-0 bg-gradient-to-r from-luxury-gold to-elegant-gold opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-              <span className="relative">{t('header.free_quote')}</span>
+              <span className="absolute inset-0 bg-gradient-to-r from-luxury-gold to-elegant-gold opacity-0 group-hover:opacity-25 transition-opacity duration-300"></span>
+              <span className="relative transform-gpu">{t('header.free_quote')}</span>
             </button>
             <div className="relative">
               <button
