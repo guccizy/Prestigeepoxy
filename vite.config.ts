@@ -15,7 +15,7 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [
-        postcssImport()
+        postcssImport({ addModulesDirectories: ['node_modules'] })
       ],
     },
   },
