@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
-import ReactQuill from 'react-quill'; // Import ReactQuill
 
 const HiddenAdminBlog = () => {
   const { t } = useTranslation();
@@ -45,12 +44,12 @@ const HiddenAdminBlog = () => {
       if (image) {
         formData.append('image', image);
       }
-      const response = await fetch(`${API_BASE_URL}/api/blog-import`, {
+      const response = await fetch(`${API_BASE_URL}/api/blog-import`, { // Assurez-vous que cette URL correspond à votre backend
         method: 'POST',
         body: formData,
       });
       if (response.ok) {
-        alert('Blog post imported successfully!');
+        alert('Blog post imported successfully!'); // Message de succès
         // Clear form fields after successful submission
         setCategory('');
         setTitle('');
@@ -60,40 +59,29 @@ const HiddenAdminBlog = () => {
         setContent('');
       } else {
         const errorData = await response.json();
-        alert(`Failed to import blog post: ${errorData.message || response.statusText}`);
+        alert(`Failed to import blog post: ${errorData.message || response.statusText}`); // Message d'erreur
         console.error('Failed to import blog post', errorData);
       }
     } catch (error: any) {
-      alert(`Error importing blog post: ${error.message}`);
+      alert(`Error importing blog post: ${error.message}`); // Message d'erreur réseau
       console.error('Error importing blog post:', error);
     }
   };
 
   const handleLogout = () => {
-    localStorage.removeItem('isAuthenticated');
-    localStorage.removeItem('loginTime');
-    navigate('/admin/login', { replace: true });
+    localStorage.removeItem('isAuthenticated'); // Clear isAuthenticated
+    localStorage.removeItem('loginTime');      // Clear loginTime
+    navigate('/admin/login', { replace: true }); // Redirect to admin login
   };
 
-  // Remove handleContentChange and applyFormat as ReactQuill handles content and formatting internally.
-
-  const modules = {
-    toolbar: [
-      [{ 'header': '1' }, { 'header': '2' }, { 'font': [] }],
-      [{ size: [] }],
-      ['bold', 'italic', 'underline', 'strike', 'blockquote'],
-      [{ 'list': 'ordered' }, { 'list': 'bullet' }, { 'indent': '-1' }, { 'indent': '+1' }],
-      ['link', 'image', 'video'],
-      ['clean']
-    ],
+  const handleContentChange = (e: React.SyntheticEvent) => {
+    const target = e.target as HTMLDivElement;
+    setContent(target.innerHTML);
   };
 
-  const formats = [
-    'header', 'font', 'size',
-    'bold', 'italic', 'underline', 'strike', 'blockquote',
-    'list', 'bullet', 'indent',
-    'link', 'image', 'video'
-  ];
+  const applyFormat = (command: string, value: string | null = null) => {
+    document.execCommand(command, false, value);
+  };
 
   return (
     <div className="font-manrope">
@@ -194,19 +182,27 @@ const HiddenAdminBlog = () => {
                 />
               </div>
 
-              {/* Blog Content Editor (ReactQuill) */}
+              {/* Blog Content Editor */}
               <div>
                 <label htmlFor="content" className="block text-sm font-medium text-gray-700 mb-2">
                   {t('hidden_admin_blog.content_label')}
                 </label>
-                <ReactQuill
-                  theme="snow"
-                  value={content}
-                  onChange={setContent}
-                  modules={modules}
-                  formats={formats}
+                <div className="flex flex-wrap gap-2 mb-2">
+                  <button type="button" onClick={() => applyFormat('bold')} className="px-3 py-1 bg-gray-200 rounded-md text-sm font-semibold hover:bg-gray-300"><b>B</b></button>
+                  <button type="button" onClick={() => applyFormat('italic')} className="px-3 py-1 bg-gray-200 rounded-md text-sm font-semibold hover:bg-gray-300"><i>I</i></button>
+                  <button type="button" onClick={() => applyFormat('underline')} className="px-3 py-1 bg-gray-200 rounded-md text-sm font-semibold hover:bg-gray-300"><u>U</u></button>
+                  <button type="button" onClick={() => applyFormat('insertOrderedList')} className="px-3 py-1 bg-gray-200 rounded-md text-sm font-semibold hover:bg-gray-300">OL</button>
+                  <button type="button" onClick={() => applyFormat('insertUnorderedList')} className="px-3 py-1 bg-gray-200 rounded-md text-sm font-semibold hover:bg-gray-300">UL</button>
+                  <button type="button" onClick={() => applyFormat('createLink', prompt('Enter URL'))} className="px-3 py-1 bg-gray-200 rounded-md text-sm font-semibold hover:bg-gray-300">Link</button>
+                </div>
+                <div
+                  id="content-editor"
+                  contentEditable={true}
+                  onInput={handleContentChange}
+                  className="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md p-2 min-h-[200px] bg-white focus:ring-elegant-gold focus:border-elegant-gold overflow-y-auto text-left"
+                  dangerouslySetInnerHTML={{ __html: content }}
                   placeholder={t('hidden_admin_blog.content_placeholder')}
-                  className="bg-white rounded-md shadow-sm"
+                  required
                 />
               </div>
 
