@@ -11,6 +11,13 @@ export default defineConfig({
       external: ['react-quill'],
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        includePaths: ['./node_modules']
+      }
+    }
+  },
   server: {
     host: true, // écoute sur toutes les IP
     port: 5173,
