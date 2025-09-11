@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import postcssImport from 'postcss-import';
+import path from 'path'; // Import path module
 
 export default defineConfig({
   plugins: [react()],
@@ -12,11 +12,9 @@ export default defineConfig({
       external: ['react-quill'],
     },
   },
-  css: {
-    postcss: {
-      plugins: [
-        postcssImport({ addModulesDirectories: ['node_modules'] })
-      ],
+  resolve: {
+    alias: {
+      '~react-quill': path.resolve(__dirname, 'node_modules/react-quill'),
     },
   },
   server: {
