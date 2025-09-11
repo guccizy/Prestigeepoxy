@@ -90,7 +90,7 @@ const NotreHistoire: React.FC = () => {
             {/* Slogan final */}
             <section className="text-center mt-12">
               <p className="font-unbounded text-3xl font-bold text-deep-black mb-4">
-                <span className="text-elegant-gold">{t('notre_histoire_page.final_slogan_part1')}</span>{t('notre_histoire_page.final_slogan_part2')}
+                <span className="text-elegant-gold">{t('notre_histoire_page.final_slogan_part1')}</span><br />{t('notre_histoire_page.final_slogan_part2')}
               </p>
               <p className="font-manrope text-xl text-anthracite">
                 {t('notre_histoire_page.elevate_your_space')}
