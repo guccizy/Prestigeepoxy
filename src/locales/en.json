@@ -3,6 +3,7 @@
       "header": {
         "home": "Home",
         "about": "About",
+        "our_story": "Our Story",
         "services": "Services",
         "realizations": "Achievements",
         "faq": "FAQ",
@@ -96,7 +97,6 @@
         "scroll_debug_endPinningScroll": "End Pinning Scroll:",
         "scroll_debug_scrollProgress": "Scroll Progress:",
         "scroll_debug_currentFrame": "Current Frame:",
-        "main_title": "Custom floors, exceptional finishes",
         "process_title": "A rigorous process, a perfect result",
         "process_subtitle": "Discover how we transform your floor, step by step, for an impeccable and durable result.",
         "steps": {
@@ -1549,6 +1549,34 @@
         "logout_button": "Logout",
         "invalid_credentials": "Invalid username or password.",
         "session_expired": "Your session has expired. Please log in again."
+    },
+    "notre_histoire_page": {
+        "back": "Back",
+        "title_part1": "Our",
+        "title_part2": "Story",
+        "about_us_title": "About Us",
+        "about_us_p1": "Prestige Epoxy was born from an indestructible friendship and limitless ambition. We have always shared the same vision: to succeed together, building something great. We are not just partners — we are three best friends, bound by iron discipline, boundless creativity, and an attention to detail that leaves no room for approximation.",
+        "about_us_p2": "Three friends. One vision. A dream come true.",
+        "our_dna_title": "Our DNA",
+        "dna_ambitious_disciplined_title": "Ambitious and disciplined:",
+        "dna_ambitious_disciplined_description": "we move forward relentlessly, guided by the desire to push our limits.",
+        "dna_meticulous_perfectionist_title": "Meticulous and perfectionist:",
+        "dna_meticulous_perfectionist_description": "every project is worked with surgical precision.",
+        "dna_creative_passionate_title": "Creative and passionate:",
+        "dna_creative_passionate_description": "transforming a floor into a unique work of art is our true driving force.",
+        "dna_attentive_human_title": "Attentive and human:",
+        "dna_attentive_human_description": "we believe that our clients' satisfaction is the only true victory.",
+        "why_prestige_epoxy_title": "Why Prestige Epoxy?",
+        "why_prestige_epoxy_p1": "We wanted to create a company that reflects who we are: demanding, passionate, and determined to offer the best. Prestige Epoxy is the union of our strengths, our complementarity, and our taste for a job well done. Our mission is simple: to create floors that combine elegance, durability, and prestige, and that transform every space into a unique place.",
+        "why_prestige_epoxy_p2": "",
+        "team_perfectly_complements_title": "A perfectly complementary team",
+        "team_perfectly_complements_content": "Each of us brings something essential to this adventure. Where one excels in organization, another shines with creativity, and the third with relentless work. Together, we form a cohesive team, driven by a single goal: to offer the ultimate in flooring.",
+        "more_than_company_story_title": "More than a company, a story",
+        "more_than_company_story_p1": "We explored several projects before finding the one that would truly allow us to flourish. The answer was obvious: Prestige Epoxy. Create, innovate, transform… but above all, succeed together.",
+        "more_than_company_story_p2": "Because, deep down, what could be better than building your future with your best friends?",
+        "final_slogan_part1": "Strength. Elegance. Prestige.",
+        "final_slogan_part2": " Elevate your space to the next level",
+        "elevate_your_space": "Elevate your space to the next level"
     }
     }   
   }

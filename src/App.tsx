@@ -26,6 +26,7 @@ import HiddenAdminBlog from './pages/HiddenAdminBlog';
 import BlogDetails from './pages/BlogDetails';
 import AdminLogin from './pages/AdminLogin'; // Import AdminLogin component
 import CookieConsent from './components/CookieConsent'; // Import CookieConsent component
+import NotreHistoire from './pages/NotreHistoire'; // Import NotreHistoire component
 
 const HomePage = () => (
   <div className="font-manrope">
@@ -99,6 +100,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/mentions-legales" element={<MentionsLegales />} />
+        <Route path="/notre-histoire" element={<NotreHistoire />} /> {/* New route for NotreHistoire */}
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetails />} />
         <Route path="/guides" element={<Guides />} />

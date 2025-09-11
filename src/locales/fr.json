@@ -3,6 +3,7 @@
       "header": {
         "home": "Accueil",
         "about": "À propos",
+        "our_story": "Notre Histoire",
         "services": "Services",
         "realizations": "Réalisations",
         "faq": "FAQ",
@@ -77,7 +78,6 @@
         "scroll_debug_endPinningScroll": "Fin de l'épinglage :",
         "scroll_debug_scrollProgress": "Progression du défilement :",
         "scroll_debug_currentFrame": "Cadre actuel :",
-        "main_title": "Planchers sur mesure, finitions exceptionnelles",
         "process_title": "Un processus rigoureux, un résultat parfait",
         "process_subtitle": "Découvrez comment nous transformons votre sol, étape par étape, pour un résultat impeccable et durable.",
         "steps": {
@@ -4438,6 +4438,34 @@
         "logout_button": "Déconnexion",
         "invalid_credentials": "Nom d'utilisateur ou mot de passe incorrect.",
         "session_expired": "Votre session a expiré. Veuillez vous reconnecter."
+    },
+    "notre_histoire_page": {
+        "back": "Retour",
+        "title_part1": "Notre",
+        "title_part2": "Histoire",
+        "about_us_title": "À propos de nous",
+        "about_us_p1": "Prestige Epoxy est né d’une amitié indestructible et d’une ambition sans limite. Depuis toujours, nous partageons la même vision : réussir ensemble, en bâtissant quelque chose de grand. Nous ne sommes pas simplement des associés — nous sommes trois meilleurs amis, liés par une discipline de fer, une créativité débordante et un souci du détail qui ne laisse aucune place à l’approximation.",
+        "about_us_p2": "Trois amis. Une vision. Un rêve devenu réalité.",
+        "our_dna_title": "Notre ADN",
+        "dna_ambitious_disciplined_title": "Ambitieux et disciplinés :",
+        "dna_ambitious_disciplined_description": "nous avançons sans relâche, guidés par le désir de repousser nos limites.",
+        "dna_meticulous_perfectionist_title": "Méticuleux et perfectionnistes :",
+        "dna_meticulous_perfectionist_description": "chaque projet est travaillé avec une précision chirurgicale.",
+        "dna_creative_passionate_title": "Créatifs et passionnés :",
+        "dna_creative_passionate_description": "transformer un sol en une œuvre d’art unique est notre véritable moteur.",
+        "dna_attentive_human_title": "À l’écoute et humains :",
+        "dna_attentive_human_description": "nous croyons que la satisfaction de nos clients est la seule vraie victoire.",
+        "why_prestige_epoxy_title": "Pourquoi Prestige Epoxy ?",
+        "why_prestige_epoxy_p1": "Nous avons voulu créer une entreprise qui reflète qui nous sommes : exigeants, passionnés et déterminés à offrir le meilleur. Prestige Epoxy, c’est l’union de nos forces, notre complémentarité et notre goût du travail bien fait. Notre mission est simple : réaliser des planchers qui allient élégance, durabilité et prestige, et qui transforment chaque espace en un lieu unique.",
+        "why_prestige_epoxy_p2": "",
+        "team_perfectly_complements_title": "Une équipe qui se complète à la perfection",
+        "team_perfectly_complements_content": "Chacun de nous apporte quelque chose d’essentiel à cette aventure. Là où l’un excelle en organisation, l’autre brille par sa créativité, et le troisième par son acharnement au travail. Ensemble, nous formons une équipe soudée, animée par un seul objectif : offrir le summum du revêtement de sol.",
+        "more_than_company_story_title": "Plus qu’une entreprise, une histoire",
+        "more_than_company_story_p1": "Nous avons exploré plusieurs projets avant de trouver celui qui nous permettrait vraiment de nous épanouir. La réponse était évidente : Prestige Epoxy. Créer, innover, transformer… mais surtout réussir ensemble.",
+        "more_than_company_story_p2": "Parce qu’au fond, quoi de mieux que de bâtir son avenir avec ses meilleurs amis ?",
+        "final_slogan_part1": "Force. Élégance. Prestige.",
+        "final_slogan_part2": " Élevez votre espace au niveau supérieur",
+        "elevate_your_space": "Élevez votre espace au niveau supérieur"
     }
     }
   }

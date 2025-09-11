@@ -58,16 +58,12 @@ const FinitionsSection = () => {
       const viewportHeight = window.innerHeight;
       const stickyImageContainer = sectionRef.current.querySelector('.sticky') as HTMLElement;
       if (!stickyImageContainer) return;
-      const stickyElementHeight = stickyImageContainer.offsetHeight; // This should be 100vh now
+      
       const sectionOffsetTop = sectionRef.current.offsetTop;
-      const animationWrapperHeight = sectionRef.current.offsetHeight; // This is 200vh
 
-      // Animation starts when the top of the sectionRef (200vh container) hits the top of the viewport.
-      // Since the sticky element is now h-screen and top-0, it will be centered by flex when this happens.
-      const startPinningScroll = sectionOffsetTop; 
-
-      // The animation ends when the bottom of the sectionRef (200vh container) leaves the viewport.
-      const endPinningScroll = sectionOffsetTop + animationWrapperHeight - viewportHeight;
+      // The animation now takes up exactly one viewport height when sticky
+      const startPinningScroll = sectionOffsetTop;
+      const endPinningScroll = sectionOffsetTop; // Animation is contained within the h-screen sticky
       
       const currentScrollY = window.scrollY;
 
@@ -78,7 +74,7 @@ const FinitionsSection = () => {
       } else if (currentScrollY >= endPinningScroll) {
         scrollProgress = 1;
       } else {
-        scrollProgress = (currentScrollY - startPinningScroll) / (endPinningScroll - startPinningScroll);
+        scrollProgress = (currentScrollY - startPinningScroll) / (endPinningScroll - startPinningScroll + viewportHeight); // Adjusted for a single viewport height animation
       }
 
       let newFrame = Math.min(Math.floor(scrollProgress * totalFrames), totalFrames - 1);
@@ -87,8 +83,8 @@ const FinitionsSection = () => {
       console.log(t('finitions_section.scroll_debug_message'));
       console.log(t('finitions_section.scroll_debug_scrollY'), currentScrollY);
       console.log(t('finitions_section.scroll_debug_sectionOffsetTop'), sectionOffsetTop);
-      console.log(t('finitions_section.scroll_debug_stickyElementHeight'), stickyElementHeight);
-      console.log(t('finitions_section.scroll_debug_animationWrapperHeight'), animationWrapperHeight);
+      console.log(t('finitions_section.scroll_debug_stickyElementHeight'), stickyImageContainer.offsetHeight); // This should be 100vh now
+      console.log(t('finitions_section.scroll_debug_animationWrapperHeight'), sectionRef.current.offsetHeight); // This is 200vh
       console.log(t('finitions_section.scroll_debug_startPinningScroll'), startPinningScroll);
       console.log(t('finitions_section.scroll_debug_endPinningScroll'), endPinningScroll);
       console.log(t('finitions_section.scroll_debug_scrollProgress'), scrollProgress);
@@ -105,61 +101,58 @@ const FinitionsSection = () => {
   };
 
   return (
-    <section id="finitions" className="py-20 bg-deep-black">
+    <section id="finitions" className="py-12 bg-deep-black">
       {/* Main Title */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10 md:mb-12">
-          <h2 className="font-unbounded text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight px-4">
-            {t('finitions_section.main_title')}
-          </h2>
         </div>
       </div>
 
       {/* Types de finitions - This will now be pushed down correctly */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="border-t border-white/10 pt-20 mt-20">
-          <div className="text-center mb-12">
+        <div className="border-t border-white/10 pt-8 mt-8">
+          <div className="text-center mb-8">
             <h3 className="font-unbounded text-2xl md:text-3xl font-light text-white mb-4">
               {t('finitions_section.process_title')}
             </h3>
-            <p className="font-unbounded text-lg text-white/70 max-w-2xl mx-auto mb-12">
+            <p className="font-unbounded text-lg text-white/70 max-w-2xl mx-auto mb-10">
               {t('finitions_section.process_subtitle')}
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-deep-black/20 p-8 rounded-2xl text-center">
-              <div className="w-16 h-16 bg-elegant-gold/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <HardHat className="w-8 h-8 text-elegant-gold" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-deep-black/20 p-6 rounded-2xl text-center">
+              <div className="w-14 h-14 bg-elegant-gold/10 rounded-full flex items-center justify-center mx-auto mb-5">
+                <HardHat className="w-7 h-7 text-elegant-gold" />
               </div>
-              <h4 className="font-unbounded text-xl font-light text-white mb-3">{t('finitions_section.steps.step1_title')}</h4>
-              <p className="font-unbounded text-base text-white/70">
+              <h4 className="font-unbounded text-lg font-light text-white mb-2">{t('finitions_section.steps.step1_title')}</h4>
+              <p className="font-unbounded text-sm text-white/70">
                 {t('finitions_section.steps.step1_description')}
               </p>
             </div>
-            <div className="bg-deep-black/20 p-8 rounded-2xl text-center">
-              <div className="w-16 h-16 bg-elegant-gold/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <PaintRoller className="w-8 h-8 text-elegant-gold" />
+            <div className="bg-deep-black/20 p-6 rounded-2xl text-center">
+              <div className="w-14 h-14 bg-elegant-gold/10 rounded-full flex items-center justify-center mx-auto mb-5">
+                <PaintRoller className="w-7 h-7 text-elegant-gold" />
               </div>
-              <h4 className="font-unbounded text-xl font-light text-white mb-3">{t('finitions_section.steps.step2_title')}</h4>
-              <p className="font-unbounded text-base text-white/70">
+              <h4 className="font-unbounded text-lg font-light text-white mb-2">{t('finitions_section.steps.step2_title')}</h4>
+              <p className="font-unbounded text-sm text-white/70">
                 {t('finitions_section.steps.step2_description')}
               </p>
             </div>
-            <div className="bg-deep-black/20 p-8 rounded-2xl text-center">
-              <div className="w-16 h-16 bg-elegant-gold/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Sparkles className="w-8 h-8 text-elegant-gold" />
+            <div className="bg-deep-black/20 p-6 rounded-2xl text-center">
+              <div className="w-14 h-14 bg-elegant-gold/10 rounded-full flex items-center justify-center mx-auto mb-5">
+                <Sparkles className="w-7 h-7 text-elegant-gold" />
               </div>
-              <h4 className="font-unbounded text-xl font-light text-white mb-3">{t('finitions_section.steps.step3_title')}</h4>
-              <p className="font-unbounded text-base text-white/70">
+              <h4 className="font-unbounded text-lg font-light text-white mb-2">{t('finitions_section.steps.step3_title')}</h4>
+              <p className="font-unbounded text-sm text-white/70">
                 {t('finitions_section.steps.step3_description')}
               </p>
             </div>
-            <div className="bg-deep-black/20 p-8 rounded-2xl text-center">
-              <div className="w-16 h-16 bg-elegant-gold/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <ShieldCheck className="w-8 h-8 text-elegant-gold" />
+            <div className="bg-deep-black/20 p-6 rounded-2xl text-center">
+              <div className="w-14 h-14 bg-elegant-gold/10 rounded-full flex items-center justify-center mx-auto mb-5">
+                <ShieldCheck className="w-7 h-7 text-elegant-gold" />
               </div>
-              <h4 className="font-unbounded text-xl font-light text-white mb-3">{t('finitions_section.steps.step4_title')}</h4>
-              <p className="font-unbounded text-base text-white/70">
+              <h4 className="font-unbounded text-lg font-light text-white mb-2">{t('finitions_section.steps.step4_title')}</h4>
+              <p className="font-unbounded text-sm text-white/70">
                 {t('finitions_section.steps.step4_description')}
               </p>
             </div>
@@ -168,7 +161,7 @@ const FinitionsSection = () => {
       </div>
 
       {/* Sticky Animation Wrapper */}
-      <div ref={sectionRef} className="relative h-[200vh]"> {/* This defines the total scrollable animation space */} 
+      <div ref={sectionRef} className="relative h-screen"> {/* Simplified height to h-screen */}
         {/* The actual sticky image container */} 
         <div className="sticky top-0 h-screen w-full max-w-4xl mx-auto aspect-video rounded-2xl md:rounded-3xl overflow-hidden flex items-center justify-center">
           {imagesLoaded ? (
@@ -187,8 +180,7 @@ const FinitionsSection = () => {
           {/* Overlay to darken the image slightly for text readability */}
           <div className="absolute inset-0 bg-deep-black/20 z-10"></div>
         </div>
-        {/* Invisible spacer to push content below, creating scrollable animation duration */}
-        <div className="h-[100vh]"></div>
+        {/* Invisible spacer removed as animation is now contained within h-screen */}
       </div>
 
       {/* Text after sticky animation */}

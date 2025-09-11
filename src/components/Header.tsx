@@ -45,13 +45,13 @@ const Header = () => {
         ? 'bg-deep-black/95 backdrop-blur-xl shadow-luxury border-b border-elegant-gold/30'
         : 'bg-gradient-to-b from-deep-black/80 via-deep-black/60 to-transparent backdrop-blur-sm border-b border-elegant-gold/20'
     }`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-elegant-gold/50 to-transparent"></div>
         <div className="flex items-center justify-between h-20">
 
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="flex items-center gap-0" reloadDocument>
+            <Link to="/" className="flex items-center gap-2" reloadDocument>
               <img
                 src="/logo/logo.png"
                 alt="Prestige Epoxy Logo"
@@ -64,17 +64,28 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-10">
+          <nav className="hidden md:flex space-x-10 flex-grow justify-center">
             <button
               onClick={() => scrollToSection('about')}
-              className="font-manrope text-white hover:text-elegant-gold transition-all duration-300 relative group py-2"
+              className="font-manrope text-sm text-white hover:text-elegant-gold transition-all duration-300 relative group py-2"
             >
               {t('header.about')}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-elegant-gold transition-all duration-300 group-hover:w-full"></span>
             </button>
+            <Link
+              to="/notre-histoire"
+              onClick={() => {
+                setIsMenuOpen(false);
+                setIsRessourcesMenuOpen(false);
+              }}
+              className="font-manrope text-sm text-white hover:text-elegant-gold transition-all duration-300 relative group py-2 inline-flex items-center"
+            >
+              {t('header.our_story')}
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-elegant-gold transition-all duration-300 group-hover:w-full"></span>
+            </Link>
             <button
               onClick={() => scrollToSection('services')}
-              className="font-manrope text-white hover:text-elegant-gold transition-all duration-300 relative group py-2"
+              className="font-manrope text-sm text-white hover:text-elegant-gold transition-all duration-300 relative group py-2"
             >
               {t('header.services')}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-elegant-gold transition-all duration-300 group-hover:w-full"></span>
@@ -141,7 +152,7 @@ const Header = () => {
           </nav>
 
           {/* CTA & Language Switcher */}
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden md:flex items-center gap-2">
             <button
               onClick={() => scrollToSection('contact')}
               className="bg-gradient-to-r from-elegant-gold to-luxury-gold text-deep-black px-8 py-3 rounded-full font-manrope font-semibold hover:shadow-subtle-gold-glow transition-all duration-300 hover:scale-105 relative overflow-hidden group"
@@ -192,6 +203,16 @@ const Header = () => {
           <div className="md:hidden bg-deep-black/95 backdrop-blur-sm border-t border-elegant-gold/20">
             <div className="px-2 pt-2 pb-3 space-y-1">
               <button onClick={() => scrollToSection('about')} className="block w-full text-left px-3 py-2 text-white hover:text-elegant-gold transition-colors font-manrope">{t('header.about')}</button>
+              <Link
+                to="/notre-histoire"
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  setIsRessourcesMenuOpen(false);
+                }}
+                className="block w-full text-left px-3 py-2 text-white hover:text-elegant-gold transition-colors font-manrope"
+              >
+                {t('header.our_story')}
+              </Link>
               <button onClick={() => scrollToSection('services')} className="block w-full text-left px-3 py-2 text-white hover:text-elegant-gold transition-colors font-manrope">{t('header.services')}</button>
               <button onClick={() => scrollToSection('testimonials')} className="block w-full text-left px-3 py-2 text-white hover:text-elegant-gold transition-colors font-manrope">{t('header.realizations')}</button>
               <button onClick={() => scrollToSection('faq')} className="block w-full text-left px-3 py-2 text-white hover:text-elegant-gold transition-colors font-manrope">{t('header.faq')}</button>
