@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import ReactQuill from 'react-quill';
@@ -20,6 +20,7 @@ const HiddenAdminBlog = () => {
   const [author, setAuthor] = useState('');
   const [image, setImage] = useState<File | null>(null);
   const [content, setContent] = useState(''); // New state for blog content
+  const [customColor, setCustomColor] = useState('#000000'); // New state for custom color picker
 
   const categories = [
     { value: 'trends', label: t('blog_page.categories.trends') },
@@ -84,13 +85,48 @@ const HiddenAdminBlog = () => {
     setContent(value);
   };
 
+  useEffect(() => {
+    if (quillRef.current) {
+      const editor = quillRef.current.getEditor();
+
+      const handleSelectionChange = () => {
+        const range = editor.getSelection();
+        if (range) {
+          if (range.length === 0) {
+            // If cursor is at a position, get format at that position
+            const format = editor.getFormat(range.index);
+            setCustomColor(format.color || '#000000'); // Default to black if no color
+          } else {
+            // If text is selected, get format of the selection
+            const format = editor.getFormat(range.index, range.length);
+            setCustomColor(format.color || '#000000'); // Default to black if no color
+          }
+        } else {
+          setCustomColor('#000000'); // Reset to black if no selection
+        }
+      };
+
+      editor.on('selection-change', handleSelectionChange);
+
+      // Cleanup on component unmount
+      return () => {
+        editor.off('selection-change', handleSelectionChange);
+      };
+    }
+  }, []);
+
   // Custom Color Picker Handler
   const handleColorChange = (value: string) => {
+    setCustomColor(value); // Update local state immediately
     if (quillRef.current) {
       const editor = quillRef.current.getEditor();
       const range = editor.getSelection();
       if (range) {
-        editor.formatText(range.index, range.length, 'color', value);
+        // Apply color to the current selection or at the cursor position
+        editor.formatText(range.index, range.length || 0, 'color', value);
+      } else {
+        // If no selection, apply to future text (not ideal for simple color input, but good fallback)
+        editor.format('color', value);
       }
     }
   };
@@ -98,7 +134,6 @@ const HiddenAdminBlog = () => {
   const modules = {
     toolbar: {
       container: [
-        [{ 'font': Font.whitelist }], // Add font dropdown
         [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
         ['bold', 'italic', 'underline', 'strike', 'blockquote'],
         [{ 'list': 'ordered' }, { 'list': 'bullet' }, { 'indent': '-1' }, { 'indent': '+1' }],
@@ -116,7 +151,6 @@ const HiddenAdminBlog = () => {
 
   const formats = [
     'header',
-    'font',
     'bold', 'italic', 'underline', 'strike', 'blockquote',
     'list', 'bullet', 'indent',
     'link', 'image',
@@ -251,6 +285,7 @@ const HiddenAdminBlog = () => {
                 <input
                   type="color"
                   id="custom-color"
+                  value={customColor} // Bind value to state
                   onChange={(e) => handleColorChange(e.target.value)}
                   className="w-12 h-12 border-0 cursor-pointer"
                   title={t('hidden_admin_blog.select_custom_color')}
