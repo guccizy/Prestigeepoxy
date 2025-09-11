@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, Outlet } from 'react-router-dom';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import WhyEpoxySection from './components/WhyEpoxySection';
@@ -24,6 +24,7 @@ import ScrollToHash from './components/ScrollToHash'; // Import the new componen
 import HeaderSwitcher from './components/HeaderSwitcher';
 import HiddenAdminBlog from './pages/HiddenAdminBlog';
 import BlogDetails from './pages/BlogDetails';
+import AdminLogin from './pages/AdminLogin'; // Import AdminLogin component
 
 const HomePage = () => (
   <div className="font-manrope">
@@ -38,6 +39,12 @@ const HomePage = () => (
     <ContactSection />
   </div>
 );
+
+// ProtectedRoute component to check authentication status
+const ProtectedRoute = () => {
+  const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
+  return isAuthenticated ? <Outlet /> : <Navigate to="/admin/login" replace />;
+};
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -70,7 +77,10 @@ function App() {
         <Route path="/securite" element={<Securite />} />
         <Route path="/support" element={<Support />} />
         <Route path="/devis" element={<DevisPage />} />
-        <Route path="/admin/blog-import" element={<HiddenAdminBlog />} />
+        <Route path="/admin/login" element={<AdminLogin />} /> {/* Admin Login Route */}
+        <Route element={<ProtectedRoute />}> {/* Protected Route Wrapper */}
+          <Route path="/admin/blog-import" element={<HiddenAdminBlog />} />
+        </Route>
       </Routes>
       <Footer />
       <FloatingQuoteButton />

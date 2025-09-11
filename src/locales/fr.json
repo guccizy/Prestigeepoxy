@@ -4806,6 +4806,13 @@
         "filters": {
             "search_placeholder": "Rechercher un article..."
         }
+    },
+    "admin_login": {
+        "title": "Connexion Administrateur",
+        "username_label": "Nom d'utilisateur",
+        "password_label": "Mot de passe",
+        "login_button": "Se connecter",
+        "invalid_credentials": "Nom d'utilisateur ou mot de passe incorrect."
     }
     }
   }

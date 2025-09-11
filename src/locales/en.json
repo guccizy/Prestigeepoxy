@@ -1527,6 +1527,13 @@
       "filters": {
           "search_placeholder": "Search an article..."
       }
+  },
+  "admin_login": {
+      "title": "Administrator Login",
+      "username_label": "Username",
+      "password_label": "Password",
+      "login_button": "Log In",
+      "invalid_credentials": "Invalid username or password."
   }
     }   
   }
