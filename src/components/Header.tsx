@@ -110,30 +110,30 @@ const Header = () => {
                 <svg className={`w-4 h-4 ml-1 transform transition-transform duration-300 ${isRessourcesMenuOpen ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
               </button>
               {isRessourcesMenuOpen && (
-                <div className="absolute left-1/2 -translate-x-1/2 mt-2 w-48 bg-deep-black shadow-lg rounded-md overflow-hidden border border-elegant-gold/20">
+                <div className="absolute left-1/2 -translate-x-1/2 mt-[21.6px] w-48 bg-deep-black/70 shadow-lg overflow-hidden border-b border-elegant-gold/40">
                   <Link to="/blog" onClick={() => {
                     setIsRessourcesMenuOpen(false);
                     setIsMenuOpen(false);
-                  }} className="block px-4 py-2 text-sm text-white hover:bg-elegant-gold/20 hover:text-elegant-gold transition-colors duration-200">
-                    <Book size={16} className="inline mr-2" />{t('header.blog')}
+                  }} className="block px-4 py-2 text-sm text-white hover:text-elegant-gold transition-colors duration-200 relative group border-b border-white/10">
+                    <Book size={16} className="inline mr-2" /><span className="relative pr-0.5">{t('header.blog')}<span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-elegant-gold transition-all duration-300 group-hover:w-full"></span></span>
                   </Link>
                   <Link to="/guides" onClick={() => {
                     setIsRessourcesMenuOpen(false);
                     setIsMenuOpen(false);
-                  }} className="block px-4 py-2 text-sm text-white hover:bg-elegant-gold/20 hover:text-elegant-gold transition-colors duration-200">
-                    <Compass size={16} className="inline mr-2" />{t('header.guides')}
+                  }} className="block px-4 py-2 text-sm text-white hover:text-elegant-gold transition-colors duration-200 relative group border-b border-white/10">
+                    <Compass size={16} className="inline mr-2" /><span className="relative pr-0.5">{t('header.guides')}<span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-elegant-gold transition-all duration-300 group-hover:w-full"></span></span>
                   </Link>
                   <Link to="/conseils" onClick={() => {
                     setIsRessourcesMenuOpen(false);
                     setIsMenuOpen(false);
-                  }} className="block px-4 py-2 text-sm text-white hover:bg-elegant-gold/20 hover:text-elegant-gold transition-colors duration-200">
-                    <Lightbulb size={16} className="inline mr-2" />{t('header.advice')}
+                  }} className="block px-4 py-2 text-sm text-white hover:text-elegant-gold transition-colors duration-200 relative group border-b border-white/10">
+                    <Lightbulb size={16} className="inline mr-2" /><span className="relative pr-0.5">{t('header.advice')}<span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-elegant-gold transition-all duration-300 group-hover:w-full"></span></span>
                   </Link>
                   <Link to="/entretien" onClick={() => {
                     setIsRessourcesMenuOpen(false);
                     setIsMenuOpen(false);
-                  }} className="block px-4 py-2 text-sm text-white hover:bg-elegant-gold/20 hover:text-elegant-gold transition-colors duration-200">
-                    <Wrench size={16} className="inline mr-2" />{t('header.maintenance')}
+                  }} className="block px-4 py-2 text-sm text-white hover:text-elegant-gold transition-colors duration-200 relative group">
+                    <Wrench size={16} className="inline mr-2" /><span className="relative pr-0.5">{t('header.maintenance')}<span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-elegant-gold transition-all duration-300 group-hover:w-full"></span></span>
                   </Link>
                 </div>
               )}
@@ -209,25 +209,25 @@ const Header = () => {
                     <Link to="/blog" onClick={() => {
                       setIsRessourcesMenuOpen(false);
                       setIsMenuOpen(false);
-                    }} className="block px-4 py-2 text-sm text-white hover:bg-elegant-gold/20 hover:text-elegant-gold transition-colors duration-200">
+                    }} className="block px-4 py-2 text-sm text-white hover:text-elegant-gold transition-colors duration-200">
                       <Book size={16} className="inline mr-2" />{t('header.blog')}
                     </Link>
                     <Link to="/guides" onClick={() => {
                       setIsRessourcesMenuOpen(false);
                       setIsMenuOpen(false);
-                    }} className="block px-4 py-2 text-sm text-white hover:bg-elegant-gold/20 hover:text-elegant-gold transition-colors duration-200">
+                    }} className="block px-4 py-2 text-sm text-white hover:text-elegant-gold transition-colors duration-200">
                       <Compass size={16} className="inline mr-2" />{t('header.guides')}
                     </Link>
                     <Link to="/conseils" onClick={() => {
                       setIsRessourcesMenuOpen(false);
                       setIsMenuOpen(false);
-                    }} className="block px-4 py-2 text-sm text-white hover:bg-elegant-gold/20 hover:text-elegant-gold transition-colors duration-200">
+                    }} className="block px-4 py-2 text-sm text-white hover:text-elegant-gold transition-colors duration-200">
                       <Lightbulb size={16} className="inline mr-2" />{t('header.advice')}
                     </Link>
                     <Link to="/entretien" onClick={() => {
                       setIsRessourcesMenuOpen(false);
                       setIsMenuOpen(false);
-                    }} className="block px-4 py-2 text-sm text-white hover:bg-elegant-gold/20 hover:text-elegant-gold transition-colors duration-200">
+                    }} className="block px-4 py-2 text-sm text-white hover:text-elegant-gold transition-colors duration-200">
                       <Wrench size={16} className="inline mr-2" />{t('header.maintenance')}
                     </Link>
                   </div>

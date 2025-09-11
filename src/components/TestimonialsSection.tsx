@@ -69,7 +69,7 @@ const TestimonialsSection = () => {
   const current = testimonials[currentTestimonial];
 
   return (
-    <section id="temoignages" className="py-20 bg-deep-black">
+    <section id="testimonials" className="py-20 bg-deep-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">

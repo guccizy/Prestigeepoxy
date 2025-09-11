@@ -89,6 +89,9 @@ const Footer = () => {
                 </a>
               ))}
             </div>
+            <p className="font-manrope text-cream/70 text-sm leading-relaxed mt-4">
+              {t('footer.social_media')}
+            </p>
           </div>
 
           {/* Footer Links */}
@@ -128,7 +131,7 @@ const Footer = () => {
             {t('footer.copyright')}
           </div>
           <div className="flex items-center gap-6 text-sm">
-            {t('footer.social_media')}
+            
           </div>
         </div>
       </div>

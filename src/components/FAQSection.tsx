@@ -1419,7 +1419,7 @@ const FAQSection = () => {
   const currentFAQs = getFAQsForPath();
 
   return (
-    <section id="faq-section" className="py-20 bg-deep-black">
+    <section id="faq" className="py-20 bg-deep-black">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
