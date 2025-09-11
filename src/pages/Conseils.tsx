@@ -183,12 +183,7 @@ const Conseils = () => {
                     </ul>
                   </div>
 
-                  <div className="mt-6 pt-6 border-t border-gray-100">
-                    <button className="text-elegant-gold hover:text-elegant-gold/80 transition-colors flex items-center gap-2 font-semibold">
-                      {t('advice_page.learn_more_button')}
-                      <ArrowRight className="w-4 h-4" />
-                    </button>
-                  </div>
+                  
                 </div>
               ))}
             </div>
