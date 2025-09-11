@@ -16,6 +16,7 @@
     "lucide-react": "^0.344.0",
     "multer": "^2.0.2",
     "mysql2": "^3.14.5",
+    "postcss-import": "^16.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-i18next": "^15.7.3",
