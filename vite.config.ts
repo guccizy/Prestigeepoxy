@@ -5,7 +5,11 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
-    include: ['react-quill']
+  },
+  build: {
+    rollupOptions: {
+      external: ['react-quill'],
+    },
   },
   server: {
     host: true, // écoute sur toutes les IP
