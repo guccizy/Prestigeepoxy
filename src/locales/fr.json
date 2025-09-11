@@ -4294,8 +4294,10 @@
           "cookies_section_title": "Témoins (Cookies)",
           "cookies_p1": "Ce site utilise des témoins pour améliorer votre expérience de navigation et réaliser des statistiques de visite. En continuant votre navigation, vous acceptez l'utilisation de ces témoins.",
           "liability_section_title": "Limitation de responsabilité",
-          "liability_p1": "Les informations contenues sur ce site sont aussi précises que possible et le site est périodiquement remis à jour, mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes. Si vous constatez une lacune, erreur ou ce qui paraît être un dysfonctionnement, merci de bien vouloir le signaler par courriel."
-      },
+          "liability_p1": "Les informations contenues sur ce site sont aussi précises que possible et le site est périodiquement remis à jour, mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes. Si vous constatez une lacune, erreur ou ce qui paraît être un dysfonctionnement, merci de bien vouloir le signaler par courriel.",
+          "website_realization_title": "Réalisation du site",
+          "website_realization_content": "Ce site web a été conçu et développé par "
+        },
       "securite_page": {
           "back_to_home": "Retour à l'accueil",
           "title_part1": "Sécurité",

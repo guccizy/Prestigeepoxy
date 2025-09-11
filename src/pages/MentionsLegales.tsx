@@ -99,6 +99,24 @@ const MentionsLegales = () => {
                   {t('mentions_legales_page.liability_p1')}
                 </p>
               </section>
+
+              {/* Réalisation du site */}
+              <section>
+                <h2 className="font-unbounded text-2xl font-semibold text-deep-black mb-4">
+                  {t('mentions_legales_page.website_realization_title')}
+                </h2>
+                <p className="leading-relaxed">
+                  {t('mentions_legales_page.website_realization_content')}
+                  <a
+                    href="https://www.whybee.agency"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-elegant-gold hover:underline font-medium"
+                  >
+                    Whybee Agency
+                  </a>
+                </p>
+              </section>
             </div>
           </div>
         </div>

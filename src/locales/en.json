@@ -1405,7 +1405,9 @@
         "cookies_section_title": "Cookies",
         "cookies_p1": "This site uses cookies to improve your browsing experience and to collect visitor statistics. By continuing your navigation, you accept the use of these cookies.",
         "liability_section_title": "Limitation of Liability",
-        "liability_p1": "The information contained on this site is as accurate as possible and the site is periodically updated, but may nevertheless contain inaccuracies, omissions, or deficiencies. If you notice a deficiency, error, or what appears to be a malfunction, please report it by email."
+        "liability_p1": "The information contained on this site is as accurate as possible and the site is periodically updated, but may nevertheless contain inaccuracies, omissions, or deficiencies. If you notice a deficiency, error, or what appears to be a malfunction, please report it by email.",
+        "website_realization_title": "Website Realization",
+        "website_realization_content": "This website was designed and developed by "
     },
     "securite_page": {
         "back_to_home": "Back to home",
