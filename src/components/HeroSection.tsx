@@ -87,16 +87,9 @@ const HeroSection = () => {
 
         {/* Elegant CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center items-center mb-16 md:mb-20 px-4">
-          <button 
-            onClick={() => scrollToSection('contact')}
-            className="group bg-elegant-gold text-deep-black px-8 md:px-10 py-3 md:py-4 rounded-full font-manrope font-semibold text-base md:text-lg transition-all duration-500 hover:bg-elegant-gold/90 flex items-center gap-3 w-full sm:w-auto justify-center"
-          >
-            {t('hero_section.cta_button_1')}
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-          </button>
           
           <button 
-            onClick={() => scrollToSection('temoignages')}
+            onClick={() => scrollToSection('testimonials')}
             className="group bg-transparent border border-white/30 text-white px-8 md:px-10 py-3 md:py-4 rounded-full font-manrope font-semibold text-base md:text-lg hover:border-white/50 hover:bg-white/5 transition-all duration-500 flex items-center gap-3 w-full sm:w-auto justify-center"
           >
             {t('hero_section.cta_button_2')}
