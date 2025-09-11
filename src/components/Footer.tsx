@@ -1,4 +1,5 @@
-import { Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
+import { Instagram } from 'lucide-react';
+import { SiTiktok } from 'react-icons/si';
 import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -78,11 +79,11 @@ const Footer = () => {
             
             {/* Social Media */}
             <div className="flex items-center gap-3">
-              {[Facebook, Instagram, Linkedin, Youtube].map((Icon, index) => (
+              {[SiTiktok, Instagram].map((Icon, index) => (
                 <a 
                   key={index}
-                  href="#" 
-                  className="p-2 bg-anthracite/60 rounded-lg hover:bg-elegant-gold hover:text-deep-black transition-all duration-300 hover:scale-110"
+                  href={Icon === Instagram ? "https://www.instagram.com/prestigeepoxy.ca" : "https://www.tiktok.com/@prestigeepoxy.ca"} 
+                  className="p-2 bg-anthracite/60 rounded-lg hover:bg-elegant-gold hover:text-deep-black transition-all duration-300"
                 >
                   <Icon className="w-5 h-5" />
                 </a>
